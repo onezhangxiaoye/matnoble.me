@@ -9,3 +9,5 @@ resources
 
 # ipfs-deploy
 .env
+
+CNAME
