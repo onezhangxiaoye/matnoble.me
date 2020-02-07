@@ -6,6 +6,7 @@ displayCopyright = false
 katex = true
 smallCaps = false
 comments = true
+gitinfo = true
 +++
 
 > **武汉加油**
