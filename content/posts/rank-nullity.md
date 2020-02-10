@@ -62,7 +62,7 @@ $$
 R = \begin{bmatrix} E_r & F \\\\ 0 & 0 \end{bmatrix}
 $$
 
-易知, 矩阵 $R$ 的秩为 $r, F$ 是一个 $r\times (n-r)$ 阶矩阵. 因为初等行变换不改变矩阵的秩和零空间, 所以 ${\rm rank} A = {\rm rank} R = r$, 以及 $N(A) = N(R)$.
+易知, 矩阵 $R$ 的秩为 $r, F$ 是一个 $r\times (n-r)$ 阶矩阵. 因为初等行变换不改变矩阵的秩和零空间, 所以 ${\rm rank} A = {\rm rank} R = r$, 以及 $N(A) = N( R )$.
 
 <br />
 
@@ -80,7 +80,7 @@ $$
 
 <br />
 
-接下来, 证明 **$C(P) = N(R)$**
+接下来, 证明 **$C(P) = N( R )$**
 
 显然, ${\rm rank}\, P = n-r$, 即列向量线性无关. 然后, 只需证明: $\ker (R)$ 中所有向量都可以由 $P$ 的列向量线性表出.
 
@@ -96,7 +96,7 @@ $$
 x = \begin{bmatrix} x\_1 \\\\  x\_2 \end{bmatrix} = \begin{bmatrix} -Fx\_2 \\\\  x\_2 \end{bmatrix} = \begin{bmatrix} -F \\\\  E\_{n-r} \end{bmatrix}x\_2 = Px_2
 $$
 
-所以 $C(P) = N(R)$, 即 $\dim N(A) = \dim N(R) = {\rm rank}\, P = n-r$, 也就证明了
+所以 $C(P) = N( R )$, 即 $\dim N(A) = \dim N( R ) = {\rm rank}\, P = n-r$, 也就证明了
 
 $$
 n = \dim N(A) + {\rm rank} A
@@ -123,8 +123,8 @@ $$
 使用线性变换 $T$ 作用于 $v$, 得到 $T(v)$, 称为像(image). 运用线性变换
 
 \begin{aligned}
-T(v) & =T(a\_1u\_1 + \cdots + a\_pu\_p + b\_1w\_1 + \cdots + b\_rw\_r ) \\\\
-& = a\_1(Tu\_1) + \cdots + a\_pT(u\_p) \\\\ & \quad + b\_1T(w\_1) + \cdots + b\_rT(w\_r) \\\\
+T(v) & =T(a\_1u\_1 + \cdots + a\_pu\_p + b\_1w\_1 + \cdots + b\_rw\_r ) \\\\[3pt]
+& = a\_1(Tu\_1) + \cdots + a\_pT(u\_p) + b\_1T(w\_1) + \cdots + b\_rT(w\_r) \\\\[3pt]
 & = b\_1T(w\_1) + \cdots + b\_rT(w\_r)
 \end{aligned}
 
