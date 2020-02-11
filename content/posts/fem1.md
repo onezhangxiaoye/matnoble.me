@@ -6,7 +6,6 @@ tags = ["有限元"]
 keywords = ["有限元","FEM"]
 date = "2019-12-12T00:00:00+00:00"
 toc = true
-katex = true
 mathjax = true
 +++
 
@@ -32,7 +31,7 @@ _Approximation of planar vectors_
 
 令 $\psi_0=[2, 1]$, 则有 $xy$ 平面的子空间
 
-$$V={\rm span} \\{\psi_0\\}.$$
+$$V={\rm span} \{\psi_0 \}.$$
 
 使得 $u = c_0 \psi_0 \in V$, 并且 $\psi_0$ 为 $V$ 的基.
 
@@ -50,11 +49,13 @@ _The least squares method_
 
 定义函数
 
-\begin{align\*}
+$$
+\begin{align*}
 E(c_0) &= (e, e) = (c_0\psi_0-f, c_0\psi_0-f)
-\\\\[3pt]
+\\[3pt]
 &= c_0^2(\psi_0, \psi_0) - 2c_0(\psi_0, f) + (f, f).
-\end{align\*}
+\end{align*}
+$$
 
 当 $\frac{\partial E }{\partial c_0} = 0$ 时, $E$ 取极值, 即
 
@@ -85,12 +86,14 @@ _Galerkin method_
 
 对任意 $v=s, \psi_0\in V$, 满足
 
-\begin{align\*}
-(e, s\psi_0) &=(c_0\psi_0-v, s\psi_0) \\\\[3pt]
-&= c_0s(\psi_0, \psi_0)-s(v, \psi_0) \\\\[3pt]
-&= s\frac{(v, \psi_0)}{(\psi_0, \psi_0)}(\psi_0, \psi_0)-s(v,\psi_0)\\\\[3pt]
+$$
+\begin{align*}
+(e, s\psi_0) &=(c_0\psi_0-v, s\psi_0) \\[3pt]
+&= c_0s(\psi_0, \psi_0)-s(v, \psi_0) \\[3pt]
+&= s\frac{(v, \psi_0)}{(\psi_0, \psi_0)}(\psi_0, \psi_0)-s(v,\psi_0)\\[3pt]
 &=0
-\end{align\*}
+\end{align*}
+$$
 
 更进一步地
 
@@ -128,7 +131,7 @@ $$
 假设 $f$ 是任意 $N+1$ 维向量, 我们在空间
 
 $$
-V = {\rm span}\\{ \psi_0, \cdots, \psi_N \\},
+V = {\rm span}\{ \psi_0, \cdots, \psi_N \},
 $$
 
 中寻找 $u$ 逼近 $f$. 假设 $\psi_0, \cdots, \psi_N$ 线性无关, 即 $V$ 的维数是 $N+1$. 那么, 对于任意 $u \in V$ 可以被写成以下线性组合
@@ -143,14 +146,15 @@ _The least squares method_
 
 现在确定 $u$ 的系数 $c_0, \cdots, c_N$ 使得距 $v$ 的距离(误差) $e=u-f$ 最小. 定义函数
 
+$$
 \begin{equation}
 \begin{aligned}
-E(c_0, \cdots, c\_N) &= (e, e) = ( \sum\_{j=0}^N c\_j\psi\_j-f , \sum\_{j=0}^N c\_j\psi\_j-f) \\\\
-&= \sum\_{p=0}^N\sum\_{q=0}^N c\_pc\_q(\psi\_p, \psi\_q) - 2\sum\_{j=0}^Nc_j(\psi_j, f) + (f, f).
+E(c_0, \cdots, c_N) &= (e, e) = ( \sum_{j=0}^N c_j\psi_j-f , \sum_{j=0}^N c_j\psi_j-f) \\
+&= \sum_{p=0}^N\sum_{q=0}^N c_pc_q(\psi_p, \psi_q) - 2\sum_{j=0}^Nc_j(\psi_j, f) + (f, f).
 \end{aligned}
 \label{eq:eq3}
 \end{equation}
-
+$$
 
 当系函数满足
 
@@ -166,7 +170,7 @@ E(c_0, \cdots, c\_N) &= (e, e) = ( \sum\_{j=0}^N c\_j\psi\_j-f , \sum\_{j=0}^N c
 式 (\ref{eq:eq3}) 的第 2 项对 $c_i$ 求导
 
 $$
-\frac{\partial}{\partial c\_i}(-2\sum\_{j=0}^Nc\_j(\psi\_j, f))=-2c(\psi_i, f)
+\frac{\partial}{\partial c_i}(-2\sum_{j=0}^Nc_j(\psi_j, f))=-2c(\psi_i, f)
 $$
 
 - 第二步
@@ -176,38 +180,40 @@ $$
 因为,
 
 $$
-\frac{\partial}{\partial c\_i} c\_pc\_q=
-\\begin{cases}
-0, \quad &p  \neq i \wedge q \neq i\\\\
-c_q, \quad &p = i \wedge q \neq i\\\\
-c_p, \quad &p \neq i \wedge q =i \\\\
+\frac{\partial}{\partial c_i} c_pc_q=
+\begin{cases}
+0, \quad & p  \neq i \wedge q \neq i\\
+c_q, \quad & p = i \wedge q \neq i\\
+c_p, \quad & p \neq i \wedge q =i \\
 2c_i, \quad & p=q=i.
-\\end{cases}
+\end{cases}
 $$
 
 所以,
 
-\begin{multline\*}
-\frac{\partial}{\partial c\_i}\sum\_{p=0}^N\sum\_{q=0}^Nc\_pc\_q(\psi\_p, \psi\_q) =\\\\
-\sum\_{p=0,p\neq i}^Nc\_p(\psi\_p, \psi\_i) + \sum\_{q=0,q\neq i}^Nc\_q(\psi\_q, \psi\_i) + 2c\_i(\psi\_i, \psi\_i).
-\end{multline\*}
+$$
+\begin{multline*}
+\frac{\partial}{\partial c_i}\sum_{p=0}^N\sum_{q=0}^Nc_pc_q(\psi_p, \psi_q) =\\
+\sum_{p=0,p\neq i}^Nc_p(\psi_p, \psi_i) + \sum_{q=0,q\neq i}^Nc_q(\psi_q, \psi_i) + 2c_i(\psi_i, \psi_i).
+\end{multline*}
+$$
 
 合并前两项至第三项, 即
 
 $$
-\frac{\partial}{\partial c\_i}\sum\_{p=0}^N\sum\_{q=0}^Nc\_pc\_q(\psi\_p, \psi\_q) = 2\sum_{j=0}^Nc\_i(\psi\_j, \psi\_i).
+\frac{\partial}{\partial c_i}\sum_{p=0}^N\sum_{q=0}^Nc_pc_q(\psi_p, \psi_q) = 2\sum_{j=0}^Nc_i(\psi_j, \psi_i).
 $$
 
 结合 (\ref{eq:eq4}), 得到 **_线性方程组_**:
 
 \begin{equation}
-\sum\_{j_0}^NA\_{i, j}c\_j = b\_i, \quad i = 0, \cdots, N.
+\sum_{j_0}^NA_{i, j}c_j = b_i, \quad i = 0, \cdots, N.
 \end{equation}
 
 其中
 
 $$
-A\_{i, j} = (\psi\_j, \psi\_i) = (\psi\_i, \psi\_j) = A_{j, i},
+A_{i, j} = (\psi_j, \psi_i) = (\psi_i, \psi_j) = A_{j, i},
 $$
 
 $$
@@ -229,7 +235,7 @@ $$
 上式可写成
 
 $$
-\sum_{i=0}^Nc_i(e,  \psi_i) = 0.
+\sum_{i=0}^Nc_i(e, \psi_i) = 0.
 $$
 
 上式对于任意的 $c_0, \cdots, c_N$ 都成立, 所以
@@ -243,7 +249,7 @@ $$
 对于 $i=0, \cdots, N$, 有
 
 $$
-({\\sum_{j=0}^N} c_j\psi_j - f, \\psi_i) = {\\sum\_{j=0}^N} (\psi_j, \psi_i)c_j - (f, \psi_i) = 0.
+({\sum_{j=0}^N} c_j\psi_j - f, \psi_i) = {\sum_{j=0}^N} (\psi_j, \psi_i)c_j - (f, \psi_i) = 0.
 $$
 
 即

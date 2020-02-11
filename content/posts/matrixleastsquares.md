@@ -6,7 +6,6 @@ tags = ["最小二乘法"]
 keywords = ["矩阵","线性代数","最小二乘法","matrix","linear algebra","leastsquares","MatNoble"]
 toc = true
 mathjax = true
-katex = true
 +++
 
 在[简述有限元系列](https://matnoble.me/categories/%E7%AE%80%E8%BF%B0%E6%9C%89%E9%99%90%E5%85%83/)中用到过`最小二乘法`, 矩阵的四个基本空间可以帮助我们更好的理解`最小二乘法`.
@@ -19,13 +18,13 @@ katex = true
 
 $$
 \begin{aligned}
-{\rm b} &= x\_1\alpha\_1+\cdots+x\_n\alpha\_n \\\\ &=
+{\rm b} &= x_1\alpha_1+\cdots+x_n\alpha_n \\ &=
 \begin{bmatrix}
-\alpha\_1,\cdots,\alpha\_n
+\alpha_1,\cdots,\alpha_n
 \end{bmatrix}
 \begin{bmatrix}
-x\_1 \\\\ \vdots \\\\ x_n
-\end{bmatrix} \\\\ &= A{\rm x}
+x_1 \\ \vdots \\ x_n
+\end{bmatrix} \\ &= A{\rm x}
 \end{aligned}
 $$
 
@@ -66,9 +65,9 @@ $$
 
 $$
 \begin{aligned}
-0&=({\rm x}-P{\rm x})^{\mathsf T}(P{\rm y}) \\\\[3pt]
-&= [(I-P){\rm x}]^{\mathsf T}(P{\rm y}) \\\\[3pt]
-& = {\rm x}^{\mathsf T}(I-P)^{\mathsf T}(P{\rm y}) \\\\[3pt]
+0&=({\rm x}-P{\rm x})^{\mathsf T}(P{\rm y}) \\[3pt]
+&= [(I-P){\rm x}]^{\mathsf T}(P{\rm y}) \\[3pt]
+& = {\rm x}^{\mathsf T}(I-P)^{\mathsf T}(P{\rm y}) \\[3pt]
 & = {\rm x}^{\mathsf T}(P-P^{\mathsf T}P){\rm y}
 \end{aligned}
 $$
@@ -81,7 +80,7 @@ $$
 
 $$
 \begin{cases}
-P^2 = P \\\\[3pt]
+P^2 = P \\[3pt]
 P = P^{\mathsf T}
 \end{cases}
 $$
@@ -116,19 +115,19 @@ $$
 - 根据秩-零化度定理, 成立
    $$
    \begin{cases}
-   N(P)=C(P^{\mathsf T})^{\bot} \\\\[3pt] N(A^{\mathsf T})=C(A)^{\bot}
+   N(P)=C(P^{\mathsf T})^{\bot} \\[3pt] N(A^{\mathsf T})=C(A)^{\bot}
    \end{cases}
    $$
    结合
    $$
    \begin{cases}
-   P=P^{\mathsf T} \\\\[3pt] C(P)=C(A)
+   P=P^{\mathsf T} \\[3pt] C(P)=C(A)
    \end{cases}
    $$
    得到
    $$
    \begin{aligned}
-   N(P)&=C(P^{\mathsf T})^{\bot} \\\\&= C(P)^{\bot} = C(A)^{\bot} \\\\&= N(A^{\mathsf T})
+   N(P)&=C(P^{\mathsf T})^{\bot} \\&= C(P)^{\bot} = C(A)^{\bot} \\&= N(A^{\mathsf T})
    \end{aligned}
    $$
 
@@ -180,7 +179,7 @@ $I-P$ 同样是一个正交投影矩阵, 因为
 
 $$
 \begin{aligned}
-(I-P)^2 &= I - 2P + P^2 \\\\[3pt] &= I -2P + P  \\\\[3pt] &= I - P
+(I-P)^2 &= I - 2P + P^2 \\[3pt] &= I -2P + P  \\[3pt] &= I - P
 \end{aligned}
 $$
 

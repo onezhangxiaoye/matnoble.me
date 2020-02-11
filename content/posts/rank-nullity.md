@@ -6,7 +6,6 @@ tags = ["线代基本定理"]
 keywords = ["matrix","linear algebra","Rank-Nullity Theorem","MatNoble"]
 toc = true
 mathjax = true
-katex = true
 +++
 
 在人工智能, 机器学习, 深度学习的浪潮中, ..数学.. 知识的发展与应用起着至关重要的作用.
@@ -59,7 +58,7 @@ $$
 矩阵 $A$ 经初等行变换可化简为下方`分块矩阵`形式
 
 $$
-R = \begin{bmatrix} E_r & F \\\\ 0 & 0 \end{bmatrix}
+R = \begin{bmatrix} E_r & F \\ 0 & 0 \end{bmatrix}
 $$
 
 易知, 矩阵 $R$ 的秩为 $r, F$ 是一个 $r\times (n-r)$ 阶矩阵. 因为初等行变换不改变矩阵的秩和零空间, 所以 ${\rm rank} A = {\rm rank} R = r$, 以及 $N(A) = N( R )$.
@@ -69,13 +68,13 @@ $$
 观察矩阵 $R$, 得到其 $n \times (n-r)$ 零空间矩阵(nullspace matrix)
 
 $$
-P = \begin{bmatrix} -F \\\\ E_{n-r}  \end{bmatrix}
+P = \begin{bmatrix} -F \\ E_{n-r}  \end{bmatrix}
 $$
 
 验证一下
 
 $$
-RP = \begin{bmatrix} E\_r & F \\\\ 0 & 0 \end{bmatrix}\begin{bmatrix} -F \\\\ E_{n-r}  \end{bmatrix} = \begin{bmatrix} -F + F \\\\ 0  \end{bmatrix} = 0
+RP = \begin{bmatrix} E_r & F \\ 0 & 0 \end{bmatrix}\begin{bmatrix} -F \\ E_{n-r}  \end{bmatrix} = \begin{bmatrix} -F + F \\ 0  \end{bmatrix} = 0
 $$
 
 <br />
@@ -87,13 +86,13 @@ $$
 假设 $x= [ x_1, x_2]^{\sf T}$, 其中, $x_1$ 是 $r$ 维向量, $x_2$ 是 $n-r$ 维向量. 使得 $Rx = 0$, 则
 
 $$
-Rx = \begin{bmatrix} E\_r & F \\\\ 0 & 0 \end{bmatrix}\begin{bmatrix} x\_1 \\\\ x\_2  \end{bmatrix} = \begin{bmatrix} x\_1 + Fx\_2 \\\\ 0  \end{bmatrix} =0
+Rx = \begin{bmatrix} E_r & F \\ 0 & 0 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2  \end{bmatrix} = \begin{bmatrix} x_1 + Fx_2 \\ 0  \end{bmatrix} =0
 $$
 
 所以, $x_1 = -Fx_2$, 接着有
 
 $$
-x = \begin{bmatrix} x\_1 \\\\  x\_2 \end{bmatrix} = \begin{bmatrix} -Fx\_2 \\\\  x\_2 \end{bmatrix} = \begin{bmatrix} -F \\\\  E\_{n-r} \end{bmatrix}x\_2 = Px_2
+x = \begin{bmatrix} x_1 \\  x_2 \end{bmatrix} = \begin{bmatrix} -Fx_2 \\  x_2 \end{bmatrix} = \begin{bmatrix} -F \\  E_{n-r} \end{bmatrix}x_2 = Px_2
 $$
 
 所以 $C(P) = N( R )$, 即 $\dim N(A) = \dim N( R ) = {\rm rank}\, P = n-r$, 也就证明了
@@ -122,16 +121,18 @@ $$
 
 使用线性变换 $T$ 作用于 $v$, 得到 $T(v)$, 称为像(image). 运用线性变换
 
+$$
 \begin{aligned}
-T(v) & =T(a\_1u\_1 + \cdots + a\_pu\_p + b\_1w\_1 + \cdots + b\_rw\_r ) \\\\[3pt]
-& = a\_1(Tu\_1) + \cdots + a\_pT(u\_p) + b\_1T(w\_1) + \cdots + b\_rT(w\_r) \\\\[3pt]
-& = b\_1T(w\_1) + \cdots + b\_rT(w\_r)
+T(v) & =T(a_1u_1 + \cdots + a_pu_p + b_1w_1 + \cdots + b_rw_r ) \\[3pt]
+& = a_1(Tu_1) + \cdots + a_pT(u_p) + b_1T(w_1) + \cdots + b_rT(w_r) \\[3pt]
+& = b_1T(w_1) + \cdots + b_rT(w_r)
 \end{aligned}
+$$
 
-因为 $v$ 是任意取的, 所以值域 ${\rm ran}\, T$ 可由 $T(w\_1), \dots, T(w\_r)$ 扩充得到. 接下来, 我们证明它们是线性无关的, 即 $\{T(w\_1), \dots, T(w_r)\}$ 构成 ${\rm ran}\, T$ 的一组基底. 考虑
+因为 $v$ 是任意取的, 所以值域 ${\rm ran}\, T$ 可由 $T(w_1), \dots, T(w_r)$ 扩充得到. 接下来, 我们证明它们是线性无关的, 即 $\{T(w_1), \dots, T(w_r)\}$ 构成 ${\rm ran}\, T$ 的一组基底. 考虑
 
 $$
-c\_1T(w\_1) + \cdots + c\_rT(w\_r) = 0
+c_1T(w_1) + \cdots + c_rT(w_r) = 0
 $$
 
 上式可写成
@@ -155,17 +156,19 @@ $$
 ## 推论
 
 1. 若 $\dim \mathcal{V} > \dim \mathcal{W}$, 则  
-   \begin{aligned}
-   \operatorname{dim} \operatorname{ker}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ran}(T) \\\\[3pt]
+$$
+\begin{aligned}
+   \operatorname{dim} \operatorname{ker}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ran}(T) \\[3pt]
    \geq \operatorname{dim} \mathcal{V}-\operatorname{dim} \mathcal{W}>0
    \end{aligned}
+   $$
    即存在非零向量 $\mathbf{x}\in\mathcal{V}$ 使得 $T(\mathbf{x})=\mathbf{0}$.
 
 2. 若 $\dim \mathcal{V} < \dim \mathcal{W}$, 则  
-   \begin{aligned}
-   \operatorname{dim} \operatorname{ran}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ker}(T) \\\\[3pt]
+   $$\begin{aligned}
+   \operatorname{dim} \operatorname{ran}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ker}(T) \\[3pt]
    \leq \operatorname{dim} \mathcal{V}<\operatorname{dim} \mathcal{W}
-   \end{aligned}
+   \end{aligned}$$
    即存在非零向量 $\mathbf{y}\in\mathcal{W}$ 使得 $\mathbf{y} \notin {\rm ran}(T)$, 即 $T$ 不是满射.
 
 **用`矩阵`语言阐述上述推论** 设 $A$ 是一个 $m\times n$ 阶矩阵.

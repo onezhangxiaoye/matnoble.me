@@ -111,6 +111,7 @@ $$ ... $$ #(不建议使用)
 ### 希腊字母
 
 #### 小写
+
 |                 |              |               |            |               |            |              |           |
 | :-------------: | :----------- | :-----------: | :--------- | :-----------: | :--------- | :----------: | :-------- |
 | $\alpha$        | \alpha       | $\theta$      | \theta     | o             | o          | $\upsilon$   | \upsilon  |
@@ -239,7 +240,7 @@ f(n) =
 $$
 f(n) =
   \begin{cases}
-    n/2       & \quad \text{if }\, n \, \text{ is even}\\\\
+    n/2       & \quad \text{if }\, n \, \text{ is even}\\
     -(n+1)/2  & \quad \text{if }\, n \,\text{ is odd}
   \end{cases}
 $$
@@ -295,7 +296,7 @@ a & b & c
 
 $$
 \begin{matrix}
-1 & 2 & 3\\\\
+1 & 2 & 3\\
 a & b & c
 \end{matrix}
 $$
@@ -311,7 +312,7 @@ a & b & c
 
 $$
 \begin{pmatrix}
-1 & 2 & 3\\\\
+1 & 2 & 3\\
 a & b & c
 \end{pmatrix}
 $$
@@ -327,7 +328,7 @@ a & b & c
 
 $$
 \begin{bmatrix}
-1 & 2 & 3\\\\
+1 & 2 & 3\\
 a & b & c
 \end{bmatrix}
 $$
@@ -343,7 +344,7 @@ a & b & c
 
 $$
 \begin{Bmatrix}
-1 & 2 & 3\\\\
+1 & 2 & 3\\
 a & b & c
 \end{Bmatrix}
 $$
@@ -359,7 +360,7 @@ a & b & c
 
 $$
 \begin{vmatrix}
-1 & 2 & 3\\\\
+1 & 2 & 3\\
 a & b & c
 \end{vmatrix}
 $$
@@ -373,7 +374,7 @@ a & b & c
 
 $$
 \begin{Vmatrix}
-1 & 2 & 3\\\\
+1 & 2 & 3\\
 a & b & c
 \end{Vmatrix}
 $$

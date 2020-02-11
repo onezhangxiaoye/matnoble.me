@@ -6,7 +6,7 @@ categories = ["线代拾遗"]
 tags = ["矩阵"]
 keywords = ["矩阵","线性代数","matrix","linear algebra","旋转与镜射","正交矩阵","MatNoble"]
 toc = true
-katex = true
+mathjax = true
 +++
 
 <!--more-->
@@ -24,10 +24,10 @@ $$A^{\mathsf T}A = AA^{\mathsf T} = I$$
 设 $A=[\alpha_1, \dots, \alpha_n],\ \alpha_i$ 为 $A$ 的列向量, 满足
 
 $$
-\alpha\_i \cdot \alpha\_j=
+\alpha_i \cdot \alpha_j=
 \begin{cases}
 1 \quad i = j
-\\\\[3pt]
+\\[3pt]
 0 \quad i \neq j
 \end{cases}
 $$
@@ -58,7 +58,7 @@ $$
 若 $\lVert A \rVert = 1$, 则成正交矩阵 $A$ 为`旋转矩阵`. 当 $n=2$ 时, 逆时针旋转 $\theta$ 角度的旋转矩阵为:
 
 $$
-R(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\\\ \sin(\theta) & \cos(\theta) \end{bmatrix}
+R(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix}
 $$
 
 显然, $R(\theta)^{\mathsf T}=R(-\theta)=R^{-1}(\theta)$, 且
@@ -77,7 +77,7 @@ $$P^2=P=P^T$$
 
 $$
 \begin{aligned}
-(P\mathbf{x})^{\mathsf T}(I-P)\mathbf{x} &=\mathbf{x}^{\mathsf T}P^{\mathsf T}(I-P)\mathbf{x} \\\\[3pt]
+(P\mathbf{x})^{\mathsf T}(I-P)\mathbf{x} &=\mathbf{x}^{\mathsf T}P^{\mathsf T}(I-P)\mathbf{x} \\[3pt]
 &=\mathbf{x}^{\mathsf T}(P-P^2 )\mathbf{x}=0
 \end{aligned}
 $$
@@ -105,10 +105,13 @@ $$ S=2P-I$$
 > 令 $\mathbf{v}=[\cos\phi, \, \sin\phi ]^{\mathsf T}$ 代表镜射轴 $L$ 的方向向量, 即 $L=\text{span}\\{\mathbf{v}\\}$. 写出映至直线 $L$ 的正交投影矩阵 
 > $$P_2=\frac{\mathbf{v}\mathbf{v}^{\mathsf T}}{\mathbf{v}^{\mathsf T}\mathbf{v}}=\mathbf{v}\mathbf{v}^{\mathsf T}$$ 
 > 相应的, 镜射轴 $L$ 的镜射矩阵为
-> $$ \begin{aligned}
-S_2&=2\mathbf{v}\mathbf{v}^T-I \\\\[3pt] 
-&=\begin{bmatrix} 2\cos^2\phi-1&2\cos\phi\sin\phi \\\\ 2\sin\phi\cos\phi&2\sin^2\phi-1 \end{bmatrix} \\\\[3pt]  
-&= \begin{bmatrix} \cos 2\phi&\sin 2\phi \\\\ \sin 2\phi &-\cos 2\phi \end{bmatrix}
-\end{aligned} $$
+> 
+>$$ 
+>\begin{aligned}
+>S_2&=2\mathbf{v}\mathbf{v}^{\mathsf T}-I \\[3pt] 
+>&=\begin{bmatrix} 2\cos^2\phi-1&2\cos\phi\sin\phi \\ 2\sin\phi\cos\phi&2\sin^2\phi-1 \end{bmatrix} \\[3pt]
+>&= \begin{bmatrix} \cos 2\phi&\sin 2\phi \\ \sin 2\phi &-\cos 2\phi \end{bmatrix}
+>\end{aligned} 
+>$$
 
 [^1]: https://matnoble.me/posts/matrixleastsquares/#%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E7%9F%A9%E9%98%B5

@@ -7,7 +7,6 @@ tags = ["有限元"]
 keywords = ["有限元","FEM"]
 date = "2019-12-26T00:00:00+00:00"
 toc = true
-katex = true
 +++
 
 <img src="https://imgkr.cn-bj.ufileos.com/62f007ea-3d01-45a5-8ec7-4bfe52d009ed.jpeg" title="简述有限元: 逼近函数 II"  alt="简述有限元逼近函数" />
@@ -28,33 +27,36 @@ $$
 V={\rm span}\\{1, x\\}.
 $$
 
-$\bf 解:$ 设 $\psi\_0 = 1, \psi\_1 = x$, 则
+$\bf 解:$ 设 $\psi_0 = 1, \psi_1 = x$, 则
 
 $$
-u = c\_0\psi\_0(x) + c_1\psi\_1(x) = c\_0 + c\_1x.
+u = c_0\psi_0(x) + c_1\psi_1(x) = c_0 + c_1x.
 $$
 
 所以系数矩阵
 
-\begin{align\*}
-& A\_{11} = (\psi\_0, \psi\_0) = \int\_1^2 1\cdot1{\rm d}x = 1,\\\\
-& A\_{12} = (\psi\_1, \psi\_0) = \int\_1^2 x \cdot 1 {\rm d}x = \frac{3}{2},\\\\
-& A\_{21} = A\_{12} = \frac{3}{2},\\\\
-& A\_{22} = (\psi\_1, \psi\_1) = \int_1^2 x \cdot x {\rm d}x = \frac{7}{3}.
-\end{align\*}
+$$
+\begin{align*}
+& A_{11} = (\psi_0, \psi_0) = \int_1^2 1\cdot1{\rm d}x = 1,\\
+& A_{12} = (\psi_1, \psi_0) = \int_1^2 x \cdot 1 {\rm d}x = \frac{3}{2},\\
+& A_{21} = A_{12} = \frac{3}{2},\\
+& A_{22} = (\psi_1, \psi_1) = \int_1^2 x \cdot x {\rm d}x = \frac{7}{3}.
+\end{align*}
+$$
 
-所有系数矩阵是 $$A = \begin{bmatrix} 1 & \frac{3}{2} \\\\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}$$, 右端项为:
+所有系数矩阵是 $$A = \begin{bmatrix} 1 & \frac{3}{2} \\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}$$, 右端项为:
 
-\begin{align\*}
-& b\_{1} = (\psi\_0, f) = \int\_1^2 1\cdot (10(x-1)^2-1){\rm d}x = \frac{7}{3},\\\\
-& b\_{2} = (\psi\_1, f) = \int\_1^2 x \cdot (10(x-1)^2-1) {\rm d}x =\frac{13}{3}. 
-\end{align\*}
-
+$$
+\begin{align*}
+& b_{1} = (\psi_0, f) = \int_1^2 1\cdot (10(x-1)^2-1){\rm d}x = \frac{7}{3},\\
+& b_{2} = (\psi_1, f) = \int_1^2 x \cdot (10(x-1)^2-1) {\rm d}x =\frac{13}{3}. 
+\end{align*}
+$$
 
 所以 $b = [\frac{7}{3},  \frac{13}{3}]^{\sf T}$, 解线性方程组就可以得到
 
 $$
-c = \begin{bmatrix} −38/3 \\\\ 10\end{bmatrix}.
+c = \begin{bmatrix} −38/3 \\ 10\end{bmatrix}.
 $$
 
 因此
@@ -122,7 +124,7 @@ result(A, b, c, u)
 
 ## 选取更好的基函数
 
-上一节的基函数空间为 $V ={\rm span} \\{ x^j\\} , j\in {\mathcal{I}}\_s,\, {\mathcal{I}}\_s=\\{0, 1, \dots, N \\}$, 在上一节的例子中, 函数逼近的很好, 在用此基函数逼近多项式时, 理论上可以得到原多项式. ..但是.., 当 $N$ 过大时, 形成的系数矩阵 $A$ 是奇异的, 是病态的, 即线性方程组系统不可解.
+上一节的基函数空间为 $V ={\rm span} \\{ x^j\\} , j\in {\mathcal{I}}_s,\, {\mathcal{I}}_s=\\{0, 1, \dots, N \\}$, 在上一节的例子中, 函数逼近的很好, 在用此基函数逼近多项式时, 理论上可以得到原多项式. ..但是.., 当 $N$ 过大时, 形成的系数矩阵 $A$ 是奇异的, 是病态的, 即线性方程组系统不可解.
 
 <img src="https://imgkr.cn-bj.ufileos.com/e68d6b8b-32c7-419a-8880-a6b4d91b2b54.png" title="病态缘由"  alt="简述有限元逼近函数 病态缘由" width=65% />
 
@@ -135,13 +137,13 @@ $\color{gray}{\textit{Fourier series}}$
 令
 
 $$
-V={\rm span} \\{ \sin(\pi x), \sin(2\pi x), \dots, \sin(N+1)\pi x \\}.
+V={\rm span} \{ \sin(\pi x), \sin(2\pi x), \dots, \sin(N+1)\pi x \}.
 $$
 
 那么基函数为
 
 $$
-\psi\_i(x) = \sin(i+1)\pi x, \quad i \in \cal{I}\_s.
+\psi_i(x) = \sin(i+1)\pi x, \quad i \in \cal{I}_s.
 $$
 
 将基函数带入上文的主程序中, 得到 N=3 和 N=11 时的拟合图
@@ -153,21 +155,21 @@ $$
 以上结果似乎拟合得很好, ..但是..可以发现, 无论当 $N$ 如何增大, 始终得到 $u(0)=u(1)=1$. 肯定是哪里出错了:
 
 $$
-u(x) = \sum\_{j\in \mathcal{I}\_s} c\_j \sin(j+1)\pi x.
+u(x) = \sum_{j\in \mathcal{I}_s} c_j \sin(j+1)\pi x.
 $$
 
 上式显示: $u(0) = u(1) \equiv 0$. 因此需要修正算法:
 
-令 $u(0)=f(0), u(1)=f(1)$, 以加入边界信息, 再加上 $u(x) = \sum\_{j\in \mathcal{I}\_s} c\_j \psi\_j (x)$, 可设
+令 $u(0)=f(0), u(1)=f(1)$, 以加入边界信息, 再加上 $u(x) = \sum_{j\in \mathcal{I}_s} c_j \psi_j (x)$, 可设
 
 $$
-\tilde{u}(x) = (1-x)f(0) + xf(1) + \sum\_{j\in \mathcal{I}\_s} c\_j \psi_j (x).
+\tilde{u}(x) = (1-x)f(0) + xf(1) + \sum_{j\in \mathcal{I}_s} c_j \psi_j (x).
 $$
 
 设 $B(x) = (1-x)f(0) + xf(1)$, 此时的线性方程组系统为
 
 $$
-\sum\_{j\in \mathcal{I}\_s} (\psi\_j, \psi\_i)c\_j = (f-B, \psi\_i), \quad i \in \mathcal{I}\_s.
+\sum_{j\in \mathcal{I}_s} (\psi_j, \psi_i)c_j = (f-B, \psi_i), \quad i \in \mathcal{I}_s.
 $$
 
 针对该基函数修正后的主函数为

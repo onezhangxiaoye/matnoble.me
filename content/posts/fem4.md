@@ -14,7 +14,6 @@ katex = true
 
 <!--more-->
 
-# 逼近函数 III
 
 ## 前情回顾
 
@@ -25,7 +24,7 @@ katex = true
 ### 复盘
 
 > **逼近函数问题:**  
-> 对于任意函数 $f(x)$, 设法在函数空间 $V={\rm span}\\{\psi\_0(x),\dots,\psi_N(x)\\}$ 中找到最佳逼近函数 $u(x)$.
+> 对于任意函数 $f(x)$, 设法在函数空间 $V={\rm span}\{\psi_0(x),\dots,\psi_N(x)\}$ 中找到最佳逼近函数 $u(x)$.
 
 无论是**最小二乘法**, 还是**伽辽金法**, 在面对逼近函数的问题时, 与逼近向量时的想法一样: 设法使的 $u(x)$ 和 $f(x)$ 之间的"距离"最小.
 
@@ -34,22 +33,20 @@ katex = true
 - 逼近向量  
   用向量內积表示
 
-\\[
 \begin{equation}
 \lVert u-f \rVert = (u-f, u-f).
 \label{eq:eq1}
 \end{equation}
-\\]
 
 - 逼近函数  
   用函数积分表示
 
-\\[
+$$
 \begin{equation}
 \lVert u-f \rVert = \int_{\Omega}(u-f)^2{\rm d}x .
 \label{eq:eq2}
 \end{equation}
-\\]
+$$
 
 确定"距离"这一重要概念后, 就是常规的数学操作了. $u(x)$ 可以写成基函数的线性组合,
 
@@ -77,25 +74,25 @@ $\color{gray}{\textit{The interpolation method}}$
 插值法的出发点与最小二乘法和伽辽金法都不同, 它要求逼近函数 $u(x)$ 在有限个点上与原函数 $f(x)$ 相同, 即
 
 $$
-u\left(x\_{i}\right)=\sum\_{j \in \mathcal{I}\_{s}} c\_{j} \psi\_{j}\left(x\_{i}\right)=f\left(x\_{i}\right), \quad i \in \mathcal{I}_{s}.
+u\left(x_{i}\right)=\sum_{j \in \mathcal{I}_{s}} c_{j} \psi_{j}\left(x_{i}\right)=f\left(x_{i}\right), \quad i \in \mathcal{I}_{s}.
 $$
 
 这样, 自然也形成了一个有 $N+1$ 个未知量 $c_j$ 的线性方程组
 
 \begin{equation}
-\sum\_{j \in \mathcal{I}\_{s}} A\_{i, j} c\_{j}=b\_{i}, \quad i \in \mathcal{I}_{s}.
+\sum_{j \in \mathcal{I}_{s}} A_{i, j} c_{j}=b_{i}, \quad i \in \mathcal{I}_{s}.
 \label{eq:eq4}
 \end{equation}
 
 其中
 
-\begin{align\*}
-A\_{ij} &= \psi\_j(x\_i),
-\\\\[3pt]
-b\_i &= f(x\_i).
-\end{align\*}
+\begin{align*}
+A_{ij} &= \psi_j(x_i),
+\\[3pt]
+b_i &= f(x_i).
+\end{align*}
 
-与之前方法不同的是, 系数矩阵 $A$ 不再对称, 因为 $\psi\_j(x\_i) \neq \psi\_i(x\_j)$.
+与之前方法不同的是, 系数矩阵 $A$ 不再对称, 因为 $\psi_j(x_i) \neq \psi_i(x_j)$.
 
 ### 两个例题
 
@@ -111,26 +108,26 @@ $$
 将 $n+1$ 个点的坐标 $(x_j, y_j)$ 依次代入上式, 得
 
 \begin{cases}
-a\_nx\_n^n+\cdots+a\_1x\_n + a\_0 = y\_n,\\\\[3pt]
-a\_nx\_{n-1}^n+\cdots+a\_1x\_{n-1} + a_0 = y\_{n-1}, \\\\[3pt]
-\hspace{5em} \vdots \\\\[3pt]
-a\_nx\_0^n+\cdots+a\_1x\_0 + a\_0 = y\_0.
+a_nx_n^n+\cdots+a_1x_n + a_0 = y_n,\\[3pt]
+a_nx_{n-1}^n+\cdots+a_1x_{n-1} + a_0 = y_{n-1}, \\[3pt]
+\hspace{5em} \vdots \\[3pt]
+a_nx_0^n+\cdots+a_1x_0 + a_0 = y_0.
 \end{cases}
 
 写成矩阵的形式:
 
 $$
 \begin{bmatrix}
-x\_n^n & \cdots & x\_n & 1\\\\
-x\_{n-1}^{n} & \cdots & x\_{n-1} & 1\\\\
-&\vdots&&\\\\
-x\_0^n & \cdots & x\_0 & 1
+x_n^n & \cdots & x_n & 1\\
+x_{n-1}^{n} & \cdots & x_{n-1} & 1\\
+&\vdots&&\\
+x_0^n & \cdots & x_0 & 1
 \end{bmatrix}
 \begin{bmatrix}
-a\_n\\\\ \vdots \\\\ a\_1 \\\\ a\_0
+a_n\\ \vdots \\ a_1 \\ a_0
 \end{bmatrix} =
 \begin{bmatrix}
-y\_n\\\\ y\_{n-1} \\\\ \vdots  \\\\ y\_0
+y_n\\ y_{n-1} \\ \vdots  \\ y_0
 \end{bmatrix}.
 $$
 
@@ -139,18 +136,18 @@ $$
 图示
 
 > **例题 2**  
-> 设函数 $f(x)=10(x-1)^2-1$, 在线性函数空间中找到最佳逼近函数 $u(x)$, 求解域 $\Omega = [1, 2]$, 两个真解点为: $x\_0 = 1 + \frac{1}{3}, x_1 = 1+ \frac{2}{3}$.
+> 设函数 $f(x)=10(x-1)^2-1$, 在线性函数空间中找到最佳逼近函数 $u(x)$, 求解域 $\Omega = [1, 2]$, 两个真解点为: $x_0 = 1 + \frac{1}{3}, x_1 = 1+ \frac{2}{3}$.
 
-解: 已知 $\psi\_0 = 1, \psi\_1 = x$, 因此利用式 (\ref{eq:eq4}), 得
+解: 已知 $\psi_0 = 1, \psi_1 = x$, 因此利用式 (\ref{eq:eq4}), 得
 
 $$
-A = \begin{bmatrix} 1 & \frac{4}{3}\\\\ 1& \frac{5}{3}\end{bmatrix}, \quad b = \begin{bmatrix} \frac{1}{9} \\\\ \frac{31}{9}\end{bmatrix}.
+A = \begin{bmatrix} 1 & \frac{4}{3}\\ 1& \frac{5}{3}\end{bmatrix}, \quad b = \begin{bmatrix} \frac{1}{9} \\ \frac{31}{9}\end{bmatrix}.
 $$
 
 解得
 
 $$
-c = \begin{bmatrix} -\frac{119}{9} \\\\ 10 \end{bmatrix}.
+c = \begin{bmatrix} -\frac{119}{9} \\ 10 \end{bmatrix}.
 $$
 
 所以,
@@ -168,15 +165,15 @@ $\color{gray}{\textit{Lagrange polynomials}}$
 上一次推送中, 讨论了基函数正交(傅立叶级数做基函数)的好处, 在插值法中, 拉格朗日插值多项式可以起到相同的作用
 
 $$
-\psi\_{i}(x)=\prod\_{j=0, j \neq i}^{N} \frac{x-x\_{j}}{x\_{i}-x\_{j}}=\frac{x-x\_{0}}{x\_{i}-x\_{0}} \cdots \frac{x-x\_{i-1}}{x\_{i}-x\_{i-1}} \frac{x-x\_{i+1}}{x\_{i}-x\_{i+1}} \cdots \frac{x-x\_{N}}{x\_{i}-x\_{N}}, \quad \textit{for}\ i \in\, \cal{I}_s.
+\psi_{i}(x)=\prod_{j=0, j \neq i}^{N} \frac{x-x_{j}}{x_{i}-x_{j}}=\frac{x-x_{0}}{x_{i}-x_{0}} \cdots \frac{x-x_{i-1}}{x_{i}-x_{i-1}} \frac{x-x_{i+1}}{x_{i}-x_{i+1}} \cdots \frac{x-x_{N}}{x_{i}-x_{N}}, \quad \textit{for}\ i \in\, \cal{I}_s.
 $$
 
 观察上式可知, 每一个 $\psi_i(x)$ 都是一个 $N$ 次多项式, 而且满足
 
 $$
-\psi\_{i}\left(x\_{s}\right)=\delta\_{i s}, \quad \delta_{i s}
+\psi_{i}\left(x_{s}\right)=\delta_{i s}, \quad \delta_{i s}
 =\left\\{\begin{array}{ll}
-{1,} & {i=s} \\\\
+{1,} & {i=s} \\
 {0,} & {i \neq s}
 \end{array}\right.
 $$
@@ -184,10 +181,10 @@ $$
 其中, $x_s$ 是插值点. 由以上性质可得
 
 $$
-A\_{ij}=
+A_{ij}=
 \begin{cases}
 0\quad  \textit{for} \ i \neq j,
-\\\\[3pt]
+\\[3pt]
 1\quad  \textit{for} \ i = j.
 \end{cases}
 $$
@@ -195,13 +192,13 @@ $$
 所以, 线性方程组求解变得相当简单
 
 $$
-c\_{i}=f\left(x\_{i}\right), \quad i \in \mathcal{I}\_{s}.
+c_{i}=f\left(x_{i}\right), \quad i \in \mathcal{I}_{s}.
 $$
 
 进一步地,
 
 $$
-u(x)=\sum\_{j \in I\_{s}} f\left(x\_{i}\right) \psi_{i}(x).
+u(x)=\sum_{j \in I_{s}} f\left(x_{i}\right) \psi_{i}(x).
 $$
 
 <figure class="third">
