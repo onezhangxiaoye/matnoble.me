@@ -202,6 +202,35 @@ uglyURLs = false
         pre = "internal"
         post = "user-circle"
 
+    ## 社交栏
+    [[menu.socials]]
+        url = "https://github.com/MatNoble"
+        name = "GitHub"
+        weight = 1
+        pre = "external"
+    [[menu.socials]]
+        url = "mailto:hustmatnoble@gmail.com"
+        name = "Email"
+        weight = 2
+        pre = "external"
+    [[menu.socials]]
+        url = "https://www.youtube.com/c/RossMatNoble?sub_confirmation=1"
+        name = "YouTube"
+        weight = 3
+        pre = "external"
+     [[menu.socials]]
+        url = "https://www.facebook.com/matnoble365/"
+        name = "Facebook"
+        weight = 4
+        pre = "external"
+
+    ## 链接栏
+    #[[menu.links]]
+    #   url = "/"
+    #  name = "Home"
+    # weight = 1
+    # pre = "internal"
+
 
 
 ##########################################
@@ -513,7 +542,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true
     # 说明：需要第三方支持，暂见：
     #      https://io-oi.me/tech/pwa-via-workbox/
 
@@ -698,7 +727,7 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
@@ -929,7 +958,7 @@ uglyURLs = false
     ## 大型小写（英文）
 
     # 是否开启（全局设置）
-    enableSmallCaps = false
+    enableSmallCaps = true
     # 说明：只会应用到分节标题和目录标题
     #      文章的 Front Matter 中的 `smallCaps`
     #      的优先级高于此处
@@ -1150,7 +1179,7 @@ uglyURLs = false
     # 自定义页脚（支持 Markdown）
     customFooter = "温馨提示: [本站](https://matnoble.me)在电脑端浏览更佳"
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"

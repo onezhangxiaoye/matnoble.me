@@ -42,21 +42,16 @@ gitinfo = true
 <img src="https://imgkr.cn-bj.ufileos.com/a8333970-3bc7-4d31-9686-2e7c921cab52.png" width="35%" alt="ＭatNoble的YouTube"/>
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="https://www.youtube.com/embed/MHsiF9avPww" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
-
-<i style="display:block;text-align:center;color:gray;font-size:12pt;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif">需要自备梯子</i>
+<i style="display:block;text-align:center;color:gray;font-size:12pt">需要自备梯子 </i>
 
 - [Gmail: hustmatnoble@gmail.com](mailto:hustmatnoble@gmail.com)
 
 ## 我的一些 [GitHub](https://github.com/MatNoble) 开源项目
 
 > - [中英文 $\LaTeX$ 文档模板](https://github.com/MatNoble/LaTeX-Document)
-
 > - [FEM and FDM Solve PDE](https://github.com/MatNoble/PDE_coding)
-
 > - [HUST Beamer](https://github.com/MatNoble/HUSTMatNobleBeamer)
-
 > - [Matplotlib Tutorial](https://github.com/MatNoble/Matplotlib-Tutorial)
-
 > - [My Emacs Private Configuration](https://github.com/MatNoble/.emacs.d)
 
 ## About This Site
@@ -75,6 +70,7 @@ gitinfo = true
 
 <hr />
 
+在不断的学习中, 会发现自己正在做的, 之前早就有人做过了, 于是有了丰富的借鉴素材, 下面记录下来.
 
 <div class="mytag" >
 <p style="text-align:center;font-size:25px"><b>友情链接</b></p>
