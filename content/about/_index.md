@@ -9,6 +9,17 @@ comments = true
 gitinfo = true
 +++
 
+<blockquote class="blockquote-center">
+<p>
+学最好的别人<br/>做最好的自己
+</p>
+</blockquote>
+
+<audio controls style="clear:both;display:block;margin:auto" >
+<source src="https://sharefs.yun.kugou.com/202002111709/49267925496a57c2b7fdb34394c52063/G084/M02/00/08/NJQEAFs0yCyAXXPmADRV74NJSMQ420.mp3" width="100%" >
+你的浏览器暂不支持该音频！
+</audio>
+
 > **武汉加油**
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=86583436&cid=147973477&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
 
@@ -61,3 +72,15 @@ gitinfo = true
 <img src="https://imgkr.cn-bj.ufileos.com/5294788b-cbc3-4471-b49f-0fae425a5e42.png" alt="YouTube 数系家园 matnoble.me MatNoble"/>
 
 <img src="https://imgkr.cn-bj.ufileos.com/50926e79-32fd-4a3b-9114-804429c898a1.gif" width="75%" alt="抖音 TicToc 数系家园 matnoble.me ＭatNoble"/>
+
+<hr />
+
+
+<div class="mytag" >
+<p style="text-align:center;font-size:25px"><b>友情链接</b></p>
+
+{{< friend name="mathor" url="https://www.wmathor.com" logo="https://s2.ax1x.com/2020/01/08/l2xtUO.jpg" word="wmathor.com" >}} 
+{{< friend name="热爱数学的 hoganbin" url="https://hoganbin.top/" logo="https://hoganbin.top/images/avatar.png" word="hoganbin.top" >}}
+{{< friend name="reuixiy" url="https://io-oi.me/" logo="https://io-oi.me/icons/android-chrome-512x512.png" word="io-oi.me" >}}
+
+</div>
