@@ -3,20 +3,16 @@ title = "2018年华中科技大学数学专业考研复试回忆 + 经验分享"
 date = 2018-02-20T00:00:00+00:00
 tags = ["经验分享"]
 categories =  ["回忆过去"]
-keywords = ["MatNoble","数系家园","考研复试","经验分享","华中科技大学"]
+keywords = ["MatNoble","数系家园","考研复试","经验分享","华中科技大学","HUST"]
 toc = true
-mathjax = true
 katex = true
 +++
 
-<img src="https://i.postimg.cc/PrhMjzFR/0.jpg" title="森林式校园华中大"  alt="双一流森林式校园华中大" />
+<img src="https://imgkr.cn-bj.ufileos.com/a5e5afb8-433d-47dc-8346-aff06a54a01a.jpg" title="学校正门"  alt="双一流森林式校园华中科技大学校大门" width=80% />
 
 <b>复试</b>是考研的最后一个考验, 你准备好了吗？你有没有这些问题：英语口试怎么准备？综合面试需要注意什么？需要提前联系导师吗？面对诸如此类的问题, 去年的我也是找不到头脑, 今年, 写出经验帖, 希望能帮助到你！
 
 <!--more-->
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AyuVN_5Ffuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
 
 距离我准备考研复试, 已经有一整年的时间了, 在华科学习生活一个学期之后, 再写这篇经验分享, 希望能够更好的帮助到考研的学弟学妹们! **本文经验最为适合考华科数学的同学, 其他专业、其他学校的同学, 仅供参考！**
 
@@ -54,9 +50,8 @@ katex = true
 **总结**: 老师对于本科院校是有些参考的, 但不是很大. 另外, 老师比较关心的是本科成绩和科研潜力. 一般情况, 老师会问数学分析, 高等代数等基础课的一些重要的定义定理.
 
 **面试资料**: 可以包括求学简历, 如果本科成绩拿的出手, 就复印几份成绩单放在里面. 另外, 本科参加的学科竞赛的成绩证书也可以放进去. 下面附上当时我用$ \LaTeX $做的简历, 以供参考: 
-<center>
-![image.png](https://i.postimg.cc/kMQCdypL/image.png)
-</center>
+
+<img src="https://imgkr.cn-bj.ufileos.com/ad7c3295-06f2-4485-89e2-f556384e2683.png" title="LaTeX 求学简历"  alt="LaTeX 求学简历" />
 
 **建议**
 
@@ -73,6 +68,24 @@ katex = true
 ## 联系导师
 在查到初试成绩之后, 联系意向导师也是很有必要的！对于导师的选择, 请同学们自行谷歌或百度, 也可以私下和我交流, 数学学院官网也有导师的相关信息(包括联系方式). 一般来说, 数学下的概率统计和计算数学是相对比较热门的选择, 有这些方向的同学一定要提前联系导师, 以免被调到非意向专业.
 
+## 官方宣传视频
+
+### 遇见华中大
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56170676&cid=98179520&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+
+### 遇见森林式大学
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56551950&cid=98808951&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+
+### 遇见地铁时代
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56299596&cid=98393641&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+
+### 遇见舌尖上的华中大
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56330731&cid=98444212&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+
 ## 其他
 
 ### 衣食住行
@@ -88,9 +101,9 @@ katex = true
 
 华科真的很大很大, 进校园一定要借助地图!!! 
 
-<img src="https://i.postimg.cc/kGWwyTYx/mmexport1520566095026.jpg" title="森林式校园 华中大"  alt="双一流森林式校园华中大地图" />
+<img src="https://i.postimg.cc/kGWwyTYx/mmexport1520566095026.jpg" title="华科真的很大很大, 进校园一定要借助地图!!!"  alt="双一流森林式校园华中大地图" />
 
 ### 祝福
 祝福看到本帖的考研人, 无论是否为华科考生, 是否为数学考生, 都能顺利通过复试！
 
-如果大家有相关问题, 欢迎大家关注公众号: `..数系家园..`, 和我交流！
+如果大家有相关问题, 欢迎大家关注公众号:..数系家园.., 和我交流！

@@ -11,10 +11,26 @@
     $listWidth: {{ . }}em;
 {{ end }}
 
+{{ if and .Site.Params.displayShareOnText }}
+    $displayShareOnText: true;
+{{ else }}
+    $displayShareOnText: false;
+{{ end }}
+
+{{ if and .Site.Params.shareViaQRCode }}
+    $shareViaQRCode: true;
+{{ else }}
+    $shareViaQRCode: false;
+{{ end }}
+
 {{ if .Site.Params.enableBackToTopAutoHide }}
     $enableBackToTopAutoHide: true;
 {{ else }}
     $enableBackToTopAutoHide: false;
+{{ end }}
+
+{{ with .Site.Params.tabSize | default 4 }}
+    $tabSize: {{ . }};
 {{ end }}
 
 {{ if .Site.Params.enableChinesePunctuationGlyphCorrection }}
@@ -183,6 +199,9 @@
         }
     }
 {{ end }}
+{{ if .Site.Params.enableEmphasisPoint }}
+    @import "_common/emphasis-point.scss";
+{{ end }}
 
 {{ if .Site.Params.enableParagraphIndent }}
     @import "_common/indent.scss";
@@ -198,6 +217,10 @@
 
 {{ if .Site.Params.enablePostGitInfo }}
     @import "_common/post-gitinfo.scss";
+{{ end }}
+
+{{ if .Site.Params.enablePostShare }}
+    @import "_common/post-share.scss";
 {{ end }}
 
 {{ if .Site.Params.enableRelatedPosts }}
@@ -288,8 +311,17 @@
 {{ end }}
 {{ if eq .Site.Params.homeLayout "footage" }}
     @import "_common/_page/home-footage.scss";
+
+    {{ if strings.HasPrefix .Site.Params.homePoster "." }}
+        {{ $homePoster := printf `.%s` .Site.Params.homePoster }}
+        {{ .Scratch.Set "homePoster" $homePoster }}
+    {{ else }}
+        {{ .Scratch.Set "homePoster" .Site.Params.homePoster }}
+    {{ end }}
+    {{ $homePoster := .Scratch.Get "homePoster" }}
+
     .home::before {
-        background-image: url({{ .Site.Params.homePoster }});
+        background-image: url({{ $homePoster }});
     }
 {{ end }}
 {{ if eq .Site.Params.homeLayout "posts" }}
@@ -297,11 +329,19 @@
 {{ end }}
 
 @import "_common/_page/404.scss";
+{{ if strings.HasPrefix .Site.Params.fofPoster "." }}
+    {{ $fofPoster := printf `.%s` .Site.Params.fofPoster }}
+    {{ .Scratch.Set "fofPoster" $fofPoster }}
+{{ else }}
+    {{ .Scratch.Set "fofPoster" .Site.Params.fofPoster }}
+{{ end }}
+{{ $fofPoster := .Scratch.Get "fofPoster" }}
 .fof::before {
-    background-image: url({{ .Site.Params.fofPoster }});
+    background-image: url({{ $fofPoster }});
 }
 
 {{ if .Site.Params.enableHighlight }}
+    @import "_common/highlight.scss";
     @import "_common/_highlight/light.scss";
     .chroma {
         color: var(--color-contrast-high);
@@ -314,6 +354,10 @@
             background-color: alpha(var(--color-contrast-lower), 0.5);
         }
     {{ end }}
+{{ end }}
+
+{{ if .Site.Params.enableMediumZoom }}
+    @import "_common/medium-zoom.scss";
 {{ end }}
 
 {{ if and .Site.Params.enableServiceWorker (eq hugo.Environment "production") }}

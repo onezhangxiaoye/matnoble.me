@@ -6,7 +6,6 @@ categories = ["线代拾遗"]
 tags = ["矩阵"]
 keywords = ["矩阵","线性代数","matrix","linear algebra","旋转与镜射","正交矩阵","MatNoble"]
 toc = true
-mathjax = true
 katex = true
 +++
 

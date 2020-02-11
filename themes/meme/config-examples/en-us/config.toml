@@ -41,12 +41,6 @@ enableRobotsTXT = true
 # layout in MemE)
 paginate = 5
 
-# GitHub flavoured code fences
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsOptions = "linenos=table"
-
 # URL related
 disablePathToLower = false
 relativeURLs = false
@@ -66,18 +60,36 @@ uglyURLs = false
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
 
-# v0.60.0
+# Markdown renderer
 [markup]
-    defaultMarkdownHandler = "blackfriday"
-
-# Markdown rendering engine
-[blackfriday]
-    # Enable smart punctuation substitutions?
-    smartypants = true
-    # Open external links in a new window or tab?
-    hrefTargetBlank = true
-    # Disable some Blackfriday’s Markdown extensions
-    extensionsmask = ["hardLineBreak", "backslashLineBreak"]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = true
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true
 
 # Author’s information
 [author]
@@ -570,6 +582,8 @@ uglyURLs = false
     #       `mathjax` in post’s Front Matter
     #       has a higher priority than here
 
+    disableMathJaxMenu = false
+
 
     ######################################
     # Comments
@@ -732,6 +746,16 @@ uglyURLs = false
 
 
     ######################################
+    # Markdown Related
+
+    # Open external links in a new tab?
+    hrefTargetBlank = true
+
+    # Compatibility with LaTeX?
+    compatibleWithLaTeX = false
+
+
+    ######################################
     # Table of Contents
 
     enableTOC = false
@@ -806,6 +830,9 @@ uglyURLs = false
     #       only support absolute URLs
     #       relative to root, e.g.
     #       /videos/meme.mp4
+    #
+    #       and the HTML code you add must
+    #       start with `<video src="`
 
     enableVideoHost = false
 
@@ -894,6 +921,11 @@ uglyURLs = false
     fontSize = 20
 
     ######################################
+    ## Tab Size
+
+    tabSize = 4
+
+    ######################################
     ## Line Height
 
     lineHeight = 1.618
@@ -904,6 +936,11 @@ uglyURLs = false
     ## Paragraph Indents
 
     enableParagraphIndent = true
+
+    indentFirstParagraph = false
+    # Note: *global settings*
+    #       `indentFirstParagraph` in post’s Front Matter
+    #       has a higher priority than here
 
     paragraphStyle = "margin"
     # Note: margin or indent
@@ -1017,6 +1054,30 @@ uglyURLs = false
     displayEditLink = true
     editIcon = "edit"
     editText = "Edit Me?"
+
+
+    ######################################
+    # Post Share
+
+    enablePostShare = true
+
+    displayPostShare = true
+    # Note: *global settings*
+    #       `share` in post’s Front Matter
+    #       has a higher priority than here
+
+    displayShareOnText = false
+
+    shareOnTwitter = true
+    shareOnFacebook = true
+    shareOnLinkedIn = true
+    shareOnTelegram = true
+    shareOnWeibo = true
+    shareOnDouban = true
+    shareOnQQ = true
+    shareOnQzone = true
+
+    shareViaQRCode = true
 
 
     ######################################

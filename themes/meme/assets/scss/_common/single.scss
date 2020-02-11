@@ -69,28 +69,15 @@
 
 blockquote {
     margin: 2em 0;
-    padding: 0 1em;
+    padding-left: 1em;
     color: var(--color-contrast-medium);
     border-left: 3px solid var(--color-contrast-low);
-    p {
-        text-align: left !important;
-    }
     a {
         color: var(--color-contrast-medium);
         &:hover {
             color: var(--color-primary);
         }
     }
-}
-
-.emphasis-point {
-    font-weight: normal;
-    text-emphasis: '•';
-    -webkit-text-emphasis: '•';
-    -moz-text-emphasis: '•';
-    text-emphasis-position: under;
-    -webkit-text-emphasis-position: under;
-    -moz-text-emphasis-position: under;
 }
 
 .drop-cap {
@@ -139,8 +126,8 @@ ol.toc {
         }
     }
     ol {
-        margin: ($fontSize * 1.618) 0 0;
-        padding: 0 $fontSize 0 ($fontSize * 2);
+        margin: ($fontSize * 1.618) 0 0 !important;
+        padding: 0 $fontSize 0 ($fontSize * 2) !important;
     }
 }
 
@@ -155,13 +142,14 @@ ol.toc {
 }
 
 table {
-    width: 100%;
+    display: block;
     border-collapse: collapse;
     border-spacing: 0;
-    border: 1px solid var(--color-contrast-lower);
+    border-color: var(--color-contrast-lower);
     margin: 2em 0;
+    overflow-x: auto;
 }
-thead {
+th {
     font-weight: 700;
 }
 th, td {
@@ -169,10 +157,10 @@ th, td {
     padding: 0.4em;
     border: 1px solid var(--color-contrast-lower);
 }
-table>tbody>tr:nth-of-type(odd) {
+table > tbody > tr:nth-of-type(odd) {
     background-color: alpha(var(--color-contrast-lower), 0.5);
 }
-table>tbody>tr:hover {
+table > tbody > tr:hover {
     background-color: var(--color-contrast-lower);
 }
 
@@ -181,7 +169,6 @@ dt {
 }
 dd {
     margin-left: 2em;
-    text-align: left;
 }
 
 code {
@@ -202,30 +189,6 @@ pre {
         font-size: inherit;
         padding: 0;
     }
-}
-.highlight {
-    font-size: 0.8em;
-    margin: ($fontSize * 2) 0;
-    pre {
-        margin: 0 !important;
-        overflow: auto hidden;
-        background-color: unset;
-    }
-    th, td {
-        font-size: inherit;
-    }
-    table>tbody>tr:nth-of-type(odd) {
-        background-color: inherit;
-    }
-    table>tbody>tr:hover {
-        background-color: inherit;
-    }
-}
-span.lnt {
-    user-select: none;
-    display: block;
-    margin-right: -1em !important;
-    padding: 0 !important;
 }
 
 .katex-display, mjx-container[jax="CHTML"][display="true"] {

@@ -39,12 +39,6 @@ enableRobotsTXT = false
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
 paginate = 5
 
-# 代码高亮
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsOptions = "linenos=table"
-
 # URL 相关
 disablePathToLower = false
 relativeURLs = true
@@ -64,18 +58,36 @@ uglyURLs = false
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
 
-# v0.60.0
-[markup]
-    defaultMarkdownHandler = "blackfriday"
-
 # Markdown 渲染器
-[blackfriday]
-    # 是否开启智能标点符号替换
-    smartypants = true
-    # 是否在新标签页打开外链
-    hrefTargetBlank = true
-    # 屏蔽的扩展
-    extensionsmask = ["hardLineBreak", "backslashLineBreak"]
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = false
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true
 
 # 作者信息
 [author]
@@ -137,6 +149,8 @@ uglyURLs = false
 [services.rss]
     limit = -1
 
+
+
 ##########################################
 # 菜单配置
 
@@ -164,8 +178,8 @@ uglyURLs = false
         pre = "internal"
         post = "home"
     [[menu.main]]
-        url = "/archives/"
-        name = "归档"
+        url = "/posts/"
+        name = "文章"
         weight = 2
         pre = "internal"
         post = "archive"
@@ -188,28 +202,8 @@ uglyURLs = false
         pre = "internal"
         post = "user-circle"
 
-    ## 社交栏
-    [[menu.socials]]
-        url = "https://github.com/MatNoble"
-        name = "GitHub"
-        weight = 1
-        pre = "external"
-    [[menu.socials]]
-        url = "mailto:hustmatnoble@gmail.com"
-        name = "Email"
-        weight = 2
-        pre = "external"
-    [[menu.socials]]
-        url = "https://www.youtube.com/c/RossMatNoble?sub_confirmation=1"
-        name = "YouTube"
-        weight = 3
-        pre = "external"
-     [[menu.socials]]
-        url = "https://www.facebook.com/matnoble365/"
-        name = "Facebook"
-        weight = 4
-        pre = "external"
-	
+
+
 ##########################################
 # 主题配置
 
@@ -241,9 +235,9 @@ uglyURLs = false
     siteBrandFontColor = "#fff"
 
     # 背景色
-    #siteBrandBackgroundColor = "hsl(240, 8%, 12%)"
+    # siteBrandBackgroundColor = "hsl(240, 8%, 12%)"
     # 背景图片
-    #siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
+    # siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
     siteBrandBackgroundImage = "linear-gradient(90deg, #2d85f0 0, #f4433c 34%, #ffbc32 67%, #0aa858 100%)"
     # 注意：背景色和背景图片只能二选一
 
@@ -402,7 +396,7 @@ uglyURLs = false
     # 是否翻译年份（仅对年份标题有效）
     i18nYear = true
     # 是否翻译月份（仅对月份标题有效）
-    i18nMonth = false
+    i18nMonth = true
 
 
     ######################################
@@ -519,7 +513,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = true
+    enableServiceWorker = false
     # 说明：需要第三方支持，暂见：
     #      https://io-oi.me/tech/pwa-via-workbox/
 
@@ -540,6 +534,9 @@ uglyURLs = false
     enableMathJax = false
     # 说明：文章的 Front Matter 中的 `mathjax`
     #      的优先级高于此处
+
+    # 是否禁用 MathJax 的右键菜单
+    disableMathJaxMenu = true
 
 
     ######################################
@@ -577,7 +574,7 @@ uglyURLs = false
 
     ## Utterances
     enableUtterances = false
-    utterancesRepo = "MatNoble/matnoble"
+    utterancesRepo = ""
     utterancesIssueTerm = "pathname"
     utterancesTheme = "github-light"
     utterancesThemeDark = "photon-dark"
@@ -649,7 +646,8 @@ uglyURLs = false
 
     # 是否显示
     displayPostDescription = true
-    
+
+
     ######################################
     # 文章元信息
 
@@ -700,12 +698,22 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = true
+    displayBusuanziPagePV = false
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
     #      首页暂不支持
     #      https://busuanzi.ibruce.info/
+
+
+    ######################################
+    # Markdown 相关
+
+    # 在新标签页打开外链？
+    hrefTargetBlank = true
+
+    # 与 LaTeX 的兼容性？
+    compatibleWithLaTeX = false
 
 
     ######################################
@@ -784,8 +792,11 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
     #
-    #      只支持相对于站点根目录的绝对链接
+    #      只支持相对于网站根目录的绝对链接
     #      比如：/videos/meme.mp4
+    #
+    #      且你添加的 HTML 代码必需以以下开头：
+    #      `<video src="`
 
     # 是否开启
     enableVideoHost = false
@@ -828,7 +839,7 @@ uglyURLs = false
     # 品牌栏
     fontFamilySiteBrand = ""
     # 菜单栏
-    fontFamilyMenu = "'Noto Serif SC'"
+    fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
     fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
     # 分节标题、目录标题
@@ -847,7 +858,7 @@ uglyURLs = false
     fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    #fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,700,700i|Noto+Serif+SC:400,500,700|Source+Code+Pro:400,400i,700,700i&display=swap&subset=chinese-simplified"
+    # fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,700,700i|Noto+Serif+SC:400,500,700|Source+Code+Pro:400,400i,700,700i&display=swap&subset=chinese-simplified"
     fontsLink = "https://fonts.loli.net/css?family=EB+Garamond:400,400i,500,700,700i|Noto+Serif+SC:400,500,700|Source+Code+Pro:400,400i,700,700i&display=swap&subset=chinese-simplified"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
@@ -861,6 +872,11 @@ uglyURLs = false
     fontSize = 17
 
     ######################################
+    ## 制表符的宽度
+
+    tabSize = 4
+
+    ######################################
     ## 行间距
 
     lineHeight = 2
@@ -871,6 +887,11 @@ uglyURLs = false
 
     # 是否开启
     enableParagraphIndent = true
+
+    # 是否缩进第一段（全局设置）
+    indentFirstParagraph = false
+    # 说明：文章的 Front Matter 中的 `indentFirstParagraph`
+    #      的优先级高于此处
 
     # 分段样式（全局设置）
     paragraphStyle = "margin"
@@ -884,7 +905,7 @@ uglyURLs = false
     # 是否开启（全局设置）
     enableJustify = true
     # 说明：文章的 Front Matter 中的 `align`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     ######################################
     ## 首字下沉
@@ -892,26 +913,26 @@ uglyURLs = false
     # 是否开启（全局设置）
     enableDropCap = false
     # 说明：文章的 Front Matter 中的 `dropCap`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     # 是否在每一分隔线之后首字下沉（全局设置）
     enableDropCapAfterHr = false
     # 说明：文章的 Front Matter 中的 `dropCapAfterHr`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     # 是否删除首字下沉前的分隔线（全局设置）
     deleteHrBeforeDropCap = false
     # 说明：文章的 Front Matter 中的 `deleteHrBeforeDropCap`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     ######################################
     ## 大型小写（英文）
 
     # 是否开启（全局设置）
-    enableSmallCaps = true
+    enableSmallCaps = false
     # 说明：只会应用到分节标题和目录标题
     #      文章的 Front Matter 中的 `smallCaps`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     ######################################
     ## 着重号
@@ -938,7 +959,7 @@ uglyURLs = false
     # 是否显示（全局设置）
     displayPostCopyright = true
     # 说明：文章的 Front Matter 中的 `displayCopyright`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
 
     ######################################
@@ -950,7 +971,7 @@ uglyURLs = false
     # 是否显示（全局设置）
     displayUpdatedBadge = true
     # 说明：文章的 Front Matter 中的 `badge`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     # 是否添加 `title`
     enableBadgeTitle = true
@@ -967,7 +988,7 @@ uglyURLs = false
     # 是否显示（全局设置）
     displayPostGitInfo = false
     # 说明：文章的 Front Matter 中的 `gitinfo`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     # 仓库地址
     repoURL = "https://github.com/MatNoble/matnoble.me"
@@ -992,11 +1013,36 @@ uglyURLs = false
     feedbackText = "Feedback"
 
     # 是否显示编辑链接
-    displayEditLink = false
+    displayEditLink = true
     # 编辑链接的图标
     editIcon = "edit"
     # 编辑链接的文本
     editText = "Edit Me?"
+
+
+    ######################################
+    # 文章分享
+
+    # 是否开启
+    enablePostShare = true
+
+    # 是否显示（全局设置）
+    displayPostShare = true
+    # 说明：文章的 Front Matter 中的 `share`
+    #      的优先级高于此处
+
+    displayShareOnText = false
+
+    shareOnTwitter = true
+    shareOnFacebook = true
+    shareOnLinkedIn = true
+    shareOnTelegram = true
+    shareOnWeibo = true
+    shareOnDouban = true
+    shareOnQQ = true
+    shareOnQzone = true
+
+    shareViaQRCode = true
 
 
     ######################################
@@ -1008,7 +1054,7 @@ uglyURLs = false
     # 是否显示（全局设置）
     displayRelatedPosts = true
     # 说明：文章的 Front Matter 中的 `related`
-    #      的的优先级高于此处
+    #      的优先级高于此处
 
     # 相关文章数
     relatedPostsNumber = 5
@@ -1104,7 +1150,7 @@ uglyURLs = false
     # 自定义页脚（支持 Markdown）
     customFooter = "温馨提示: [本站](https://matnoble.me)在电脑端浏览更佳"
 
-    displayBusuanziSiteUVAndPV = true
+    displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"
@@ -1131,6 +1177,10 @@ uglyURLs = false
 
     ######################################
     # 代码高亮
+    pygmentsCodefences = true
+    pygmentsUseClasses = true
+    pygmentsCodefencesGuessSyntax = true
+    pygmentsOptions = "linenos=table"
 
     # 是否开启
     enableHighlight = true

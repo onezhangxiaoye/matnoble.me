@@ -79,8 +79,9 @@ gitinfo = true
 <div class="mytag" >
 <p style="text-align:center;font-size:25px"><b>友情链接</b></p>
 
-{{< friend name="mathor" url="https://www.wmathor.com" logo="https://s2.ax1x.com/2020/01/08/l2xtUO.jpg" word="wmathor.com" >}} 
-{{< friend name="热爱数学的 hoganbin" url="https://hoganbin.top/" logo="https://hoganbin.top/images/avatar.png" word="hoganbin.top" >}}
-{{< friend name="reuixiy" url="https://io-oi.me/" logo="https://io-oi.me/icons/android-chrome-512x512.png" word="io-oi.me" >}}
+<a href="https://io-oi.me/" style="margin:10px" target="blank">reuixiy</a>
+<a href="https://hoganbin.top/" style="margin:10px" target="blank">热爱数学的 hoganbin</a>
+<a href="https://www.wmathor.com/" style="margin:10px" target="blank">mathor</a>
+<a href="https://ztygcs.github.io/" style="margin:10px" target="blank">天涯共此时</a>
 
 </div>
