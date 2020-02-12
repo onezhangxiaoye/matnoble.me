@@ -24,7 +24,7 @@ toc = true
 给定一个二次(抛物型)函数 $f(x) = 10(x-1)^2-1, x \in \Omega=[1, 2]$, 在线性函数空间 $V$ 中寻找最佳逼近向量 $u$
 
 $$
-V={\rm span}\\{1, x\\}.
+V={\rm span}\{1, x\}.
 $$
 
 $\bf 解:$ 设 $\psi_0 = 1, \psi_1 = x$, 则
@@ -44,7 +44,11 @@ $$
 \end{align*}
 $$
 
-所有系数矩阵是 $$A = \begin{bmatrix} 1 & \frac{3}{2} \\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}$$, 右端项为:
+所有系数矩阵是 
+
+$$A = \begin{bmatrix} 1 & \frac{3}{2} \\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}$$
+
+右端项为:
 
 $$
 \begin{align*}
@@ -62,7 +66,7 @@ $$
 因此
 
 $$
-u = 10x-\frac{38}{3}.
+u = 10x-38/3.
 $$
 
 ### 程序实现

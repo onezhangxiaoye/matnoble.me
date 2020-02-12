@@ -7,13 +7,9 @@ keywords = ["有限元","FEM"]
 date = "2019-12-28T00:00:00+00:00"
 toc = true
 mathjax = true
-katex = true
 +++
 
 <img src="https://imgkr.cn-bj.ufileos.com/d6b2385b-358d-42a3-9d01-5eef5d9ab76c.jpeg" title="简述有限元: 逼近函数 III"  alt="简述有限元逼近函数" />
-
-<!--more-->
-
 
 ## 前情回顾
 
@@ -33,10 +29,12 @@ katex = true
 - 逼近向量  
   用向量內积表示
 
+$$
 \begin{equation}
 \lVert u-f \rVert = (u-f, u-f).
 \label{eq:eq1}
 \end{equation}
+$$
 
 - 逼近函数  
   用函数积分表示
@@ -50,14 +48,16 @@ $$
 
 确定"距离"这一重要概念后, 就是常规的数学操作了. $u(x)$ 可以写成基函数的线性组合,
 
+$$
 \begin{equation}
 u(x) = c_0\psi_0(x) + \cdots + c_N\psi_N(x).
 \label{eq:eq3}
 \end{equation}
+$$
 
 将式 (\ref{eq:eq3}) 分别代入式 (\ref{eq:eq1})((\ref{eq:eq2})), 再分别利用分析手段(求导)和"正交性"就可以得到逼近向量(函数)的最小二乘法和伽辽金法.
 
-<img src="https://imgkr.cn-bj.ufileos.com/3553cebe-720f-4b3b-beab-f698ed5c7c4a.png" title="简述有限元: 理解正交性"  alt="简述有限元逼近函数理解正交性"　width="350" />
+<img src="https://imgkr.cn-bj.ufileos.com/3553cebe-720f-4b3b-beab-f698ed5c7c4a.png" title="简述有限元: 理解正交性"  alt="简述有限元逼近函数理解正交性" width="350" />
 
 ### 小结
 
@@ -86,11 +86,13 @@ $$
 
 其中
 
+$$
 \begin{align*}
 A_{ij} &= \psi_j(x_i),
 \\[3pt]
 b_i &= f(x_i).
 \end{align*}
+$$
 
 与之前方法不同的是, 系数矩阵 $A$ 不再对称, 因为 $\psi_j(x_i) \neq \psi_i(x_j)$.
 
@@ -107,14 +109,14 @@ $$
 
 将 $n+1$ 个点的坐标 $(x_j, y_j)$ 依次代入上式, 得
 
+$$
 \begin{cases}
 a_nx_n^n+\cdots+a_1x_n + a_0 = y_n,\\[3pt]
 a_nx_{n-1}^n+\cdots+a_1x_{n-1} + a_0 = y_{n-1}, \\[3pt]
 \hspace{5em} \vdots \\[3pt]
 a_nx_0^n+\cdots+a_1x_0 + a_0 = y_0.
 \end{cases}
-
-写成矩阵的形式:
+$$
 
 $$
 \begin{bmatrix}
@@ -132,8 +134,6 @@ y_n\\ y_{n-1} \\ \vdots  \\ y_0
 $$
 
 系数矩阵非奇异(系数矩阵是范德蒙行列式), 所以线性方程组有解. 即存在一个 $n$ 次多项式函数, 过这 $n+1$ 个点.
-
-图示
 
 > **例题 2**  
 > 设函数 $f(x)=10(x-1)^2-1$, 在线性函数空间中找到最佳逼近函数 $u(x)$, 求解域 $\Omega = [1, 2]$, 两个真解点为: $x_0 = 1 + \frac{1}{3}, x_1 = 1+ \frac{2}{3}$.
@@ -156,7 +156,7 @@ $$
 u(x) = -\frac{119}{9} + 10x.
 $$
 
-<img src="https://imgkr.cn-bj.ufileos.com/a6e33cb8-55bd-485a-818a-fae690ddcd86.png" title="简述有限元: 线性插值"  alt="简述有限元逼近函数线性插值"　width="350" />
+<img src="https://imgkr.cn-bj.ufileos.com/a6e33cb8-55bd-485a-818a-fae690ddcd86.png" title="简述有限元: 线性插值"  alt="简述有限元逼近函数线性插值" width="350" />
 
 ### 拉格朗日多项式
 
@@ -172,7 +172,7 @@ $$
 
 $$
 \psi_{i}\left(x_{s}\right)=\delta_{i s}, \quad \delta_{i s}
-=\left\\{\begin{array}{ll}
+=\left\{\begin{array}{ll}
 {1,} & {i=s} \\
 {0,} & {i \neq s}
 \end{array}\right.
@@ -201,11 +201,11 @@ $$
 u(x)=\sum_{j \in I_{s}} f\left(x_{i}\right) \psi_{i}(x).
 $$
 
-<figure class="third">
-    <img src="https://imgkr.cn-bj.ufileos.com/a2dc4d34-a878-40ff-8bac-97ebcc531caa.png" title="简述有限元: 两个节点"  alt="简述有限元逼近函数两个节点"　width="50" />
-    <img src="https://imgkr.cn-bj.ufileos.com/ae88936e-1bb5-415e-bdfd-5898c59b1739.png" title="简述有限元: 三个节点"  alt="简述有限元逼近函数三个节点"　width="50" />
-	<img src="https://imgkr.cn-bj.ufileos.com/43ec6243-a2bb-404c-a438-781b9246f603.png" title="简述有限元: 四个节点"  alt="简述有限元逼近函数四个节点"　width="50" />
-</figure>
+<img src="https://imgkr.cn-bj.ufileos.com/a2dc4d34-a878-40ff-8bac-97ebcc531caa.png" title="简述有限元: 两个节点"  alt="简述有限元逼近函数两个节点" width="75%" />
+	
+<img src="https://imgkr.cn-bj.ufileos.com/ae88936e-1bb5-415e-bdfd-5898c59b1739.png" title="简述有限元: 三个节点"  alt="简述有限元逼近函数三个节点" width="75%" />
+	
+<img src="https://imgkr.cn-bj.ufileos.com/43ec6243-a2bb-404c-a438-781b9246f603.png" title="简述有限元: 四个节点"  alt="简述有限元逼近函数四个节点" width="75%" />
 
 _拉格朗日多项式在有限元方法中依旧很重要._
 

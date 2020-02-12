@@ -152,3 +152,11 @@ p#div-default {
 	overflow: hidden;
 	white-space: nowrap;
 }
+
+// 颜色渐变
+//文件位置：\themes\meme\assets\scss\_custom\custom.scss
+.colorfulfont {
+background: linear-gradient(to right, red,#45ed63);
+-webkit-background-clip: text;
+color: transparent;
+}
