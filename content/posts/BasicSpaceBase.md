@@ -2,7 +2,7 @@
 title = "矩阵的四个基本空间的基底"
 date = "2020-01-24T00:00:00+00:00"
 description = "给空间选代表"
-categories = ["线代拾遗"]
+categories = ["MATH","线代拾遗"]
 tags = ["矩阵"]
 keywords = ["线代拾遗","矩阵","线性代数","基底","matrix","linear algebra","Space base","MatNoble"]
 toc = true

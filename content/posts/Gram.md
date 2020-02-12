@@ -2,7 +2,7 @@
 title = "Gram 矩阵"
 date = "2020-02-05T00:00:00+00:00"
 description = "Gram 矩阵及其重要性质"
-categories = ["线代拾遗"]
+categories = ["MATH","线代拾遗"]
 tags = ["矩阵"]
 keywords = ["矩阵","线性代数","Gram 矩阵","Gram matrix","matrix","linear algebra","diagonalization","MatNoble"]
 toc = true

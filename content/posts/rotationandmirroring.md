@@ -2,7 +2,7 @@
 title = "正交矩阵之旋转与镜射"
 date = "2020-02-10T00:00:00+00:00"
 description = "旋转矩阵与镜射矩阵"
-categories = ["线代拾遗"]
+categories = ["MATH","线代拾遗"]
 tags = ["矩阵"]
 keywords = ["矩阵","线性代数","matrix","linear algebra","旋转与镜射","正交矩阵","MatNoble"]
 toc = true

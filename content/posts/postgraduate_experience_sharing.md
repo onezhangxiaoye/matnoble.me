@@ -2,7 +2,7 @@
 title = "2018年华中科技大学数学专业考研复试回忆 + 经验分享"
 date = 2018-02-20T00:00:00+00:00
 tags = ["经验分享"]
-categories =  ["回忆过去"]
+categories = ["MEMORY","回忆过去"]
 keywords = ["MatNoble","数系家园","考研复试","经验分享","华中科技大学","HUST"]
 toc = true
 katex = true

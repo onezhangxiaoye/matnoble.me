@@ -1,6 +1,7 @@
 ---
 title: 多平台优秀软件推荐(长期更新)
 categories: 
+  - TECH
   - 好工具高效率
 tags:
   - 软件推荐

@@ -2,7 +2,7 @@
 title = "神的编辑器 Emacs"
 date = "2018-06-01T00:00:00+00:00"
 description = "Vim 的对手 Emacs"
-categories = ["好工具高效率"]
+categories = ["TECH","好工具高效率"]
 tags = ["Emacs"]
 keywords = ["神的编辑器 Emacs","编辑器之神 Vim","Emacs","LaTeX","org-mode","python"]
 toc = true

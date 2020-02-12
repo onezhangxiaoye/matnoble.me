@@ -1,6 +1,6 @@
 +++
 title = "Git 实用命令汇总(长期更新)"
-categories = ["好工具高效率"]
+categories = ["TECH","好工具高效率"]
 tags = ["Git"]
 keywords = ["Git 基础教程","Git 实用命令"]
 date = "2019-03-14T00:00:00+00:00"

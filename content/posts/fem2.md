@@ -1,7 +1,7 @@
 +++
 title = "逼近函数 I"
 description = "最小二乘法, 伽辽金法"
-categories = ["简述有限元"]
+categories = ["MATH","简述有限元"]
 tags = ["有限元"]
 keywords = ["有限元","FEM"]
 date = "2019-12-24T00:00:00+00:00"

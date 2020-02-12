@@ -1,6 +1,6 @@
 +++
 title = "逼近函数 III"
-categories = ["简述有限元"]
+categories = ["MATH","简述有限元"]
 description = "插值法逼近函数"
 tags = ["有限元"]
 keywords = ["有限元","FEM"]

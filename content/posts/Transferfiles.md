@@ -2,7 +2,7 @@
 title = "一行 Python 代码, 跨设备传输文件"
 date = "2020-01-28T00:00:00+00:00"
 description = "一行 Python 代码, <kbd>快速精确</kbd>传输文件"
-categories = ["喜欢编程"]
+categories = ["TECH","喜欢编程"]
 tags = ["Python"]
 keywords = ["Python","http服务器","传输文件","好工具高效率","MatNoble"]
 +++

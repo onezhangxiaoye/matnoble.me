@@ -2,6 +2,7 @@
 title = "About"
 date = "2020-01-03T16:29:06+08:00"
 keywords = ["about","关于此博客","MatNoble","数系家园","matnoble.me"]
+images = ["https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg"]
 displayCopyright = false
 katex = true
 smallCaps = false

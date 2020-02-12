@@ -1,6 +1,6 @@
 +++
 title = "逼近函数 IV"
-categories = ["简述有限元"]
+categories = ["MATH","简述有限元"]
 tags = ["有限元"]
 keywords = ["有限元","FEM"]
 date = "2019-12-30T00:00:00+00:00"

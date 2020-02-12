@@ -2,7 +2,7 @@
 title = "矩阵对角化那些事"
 date = "2020-01-01T00:00:00+00:00"
 description = "矩阵都可以对角化吗？"
-categories = ["线代拾遗"]
+categories = ["MATH","线代拾遗"]
 tags = ["矩阵"]
 keywords = ["矩阵","线性代数","matrix","linear algebra","diagonalization","MatNoble"]
 toc = true

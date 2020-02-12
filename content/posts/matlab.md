@@ -1,6 +1,6 @@
 +++
 title = "Matlab 实用总结"
-categories = ["喜欢编程"]
+categories = ["TECH","喜欢编程"]
 tags = ["Matlab"]
 keywords = ["Matlab","经验分享"]
 date = "2019-10-16T00:00:00+00:00"
