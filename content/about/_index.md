@@ -15,8 +15,7 @@ gitinfo = true
 </p>
 </blockquote>
 
-<audio controls style="clear:both;display:block;margin:auto" >
-<source src="https://sharefs.yun.kugou.com/202002111709/49267925496a57c2b7fdb34394c52063/G084/M02/00/08/NJQEAFs0yCyAXXPmADRV74NJSMQ420.mp3" width="100%" >
+<audio controls preload loop style="clear:both;display:block;margin:auto" src="https://sharefs.yun.kugou.com/202002111709/49267925496a57c2b7fdb34394c52063/G084/M02/00/08/NJQEAFs0yCyAXXPmADRV74NJSMQ420.mp3" width=100%>
 你的浏览器暂不支持该音频！
 </audio>
 
