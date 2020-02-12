@@ -7,6 +7,7 @@ displayCopyright = false
 katex = true
 smallCaps = false
 comments = true
+meta = false
 +++
 
 <blockquote class="blockquote-center">
@@ -30,7 +31,7 @@ comments = true
 陌生人您好🤝, 欢迎在我的博客留下👣, 不知道您是从何处来到的这里, 但这并不重要. 因为相遇即是缘分, 世界上的人总会通过各种方式产生千丝万缕的联系, 所以, 即使我们素为谋面, 您来到这里, 我们就是朋友💖
 
 <img src="https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg" width="80%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
-<span class="caption">◎ Fridens</span>
+<span class="caption">◎ Friends</span>
 
 ## About Me
 
@@ -38,7 +39,7 @@ comments = true
 <span class="caption">◎ 云 真好吃</span>
 
 <br />
-<audio controls preload loop style="clear:both;display:block;margin:auto" src="https://sharefs.yun.kugou.com/202002111709/49267925496a57c2b7fdb34394c52063/G084/M02/00/08/NJQEAFs0yCyAXXPmADRV74NJSMQ420.mp3" width=100%>
+<audio controls preload loop style="clear:both;display:block;margin:auto" src="/audios/dongde.mp3" width=100%>
 你的浏览器暂不支持该音频！
 </audio>
 

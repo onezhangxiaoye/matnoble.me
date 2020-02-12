@@ -199,6 +199,13 @@ uglyURLs = false
         weight = 5
         pre = "internal"
         post = "user-circle"
+     [[menu.main]]
+        url = "/search/"
+	name = "站内搜寻"
+	weight = 6
+	pre = "internal"
+        post = "search"
+		
 
     ## 社交栏
     [[menu.socials]]
