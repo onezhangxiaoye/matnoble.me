@@ -39,7 +39,7 @@ meta = false
 <span class="caption">◎ 云 真好吃</span>
 
 <br />
-<audio controls preload loop style="clear:both;display:block;margin:auto" src="/audios/dongde.mp3" width=100%>
+<audio controls loop style="clear:both;display:block;margin:auto" src="http://m10.music.126.net/20200213201816/8c0cbc9f5f67412f49aa0478d888434f/ymusic/c2b6/f280/2822/b7258822ec747f1489b5123f701a70d1.mp3" width=100%>
 你的浏览器暂不支持该音频！
 </audio>
 
