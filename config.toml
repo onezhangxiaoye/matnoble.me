@@ -1197,7 +1197,7 @@ uglyURLs = false
     # 自定义页脚（支持 Markdown）
     customFooter = "温馨提示: [本站](https://matnoble.me)在电脑端浏览更佳"
 
-    displayBusuanziSiteUVAndPV = true
+    displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"
