@@ -30,14 +30,14 @@ meta = false
 
 陌生人您好🤝, 欢迎在我的博客留下👣, 不知道您是从何处来到的这里, 但这并不重要. 因为相遇即是缘分, 世界上的人总会通过各种方式产生千丝万缕的联系, 所以, 即使我们素为谋面, 您来到这里, 我们就是朋友💖
 
-<img src="https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg" width="80%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
+<img src="https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg" width="95%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
 <span class="caption">◎ Friends</span>
 
 ## About Me
 
 我是一个 95 前的 90 后, 数学系在读研究生, 喜欢数学, 喜欢计算机. 不会吸烟, 但偶尔会小酌一杯. 喜欢旅游, 却没有去过太多地方, 期待以后可以和我的她去更多好玩儿的地方. 最重要的是: 做自己喜欢做的事!
 
-<img src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" width="80%" alt="数系家园微信公众号"/>
+<img src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" width="95%" alt="数系家园微信公众号"/>
 <span class="caption">◎ 云 真好吃</span>
 
 ### 联系方式 🤙
