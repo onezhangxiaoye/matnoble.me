@@ -1,14 +1,14 @@
 +++
 title = "2018年华中科技大学数学专业考研复试回忆 + 经验分享"
-date = 2018-02-20T00:00:00+00:00
+date = 2019-02-20T00:00:00+00:00
 tags = ["经验分享"]
-categories = ["MEMORY","回忆过去"]
+categories = ["LIFE","华中大"]
 keywords = ["MatNoble","数系家园","考研复试","经验分享","华中科技大学","HUST"]
 toc = true
 katex = true
 +++
 
-<img src="https://imgkr.cn-bj.ufileos.com/a5e5afb8-433d-47dc-8346-aff06a54a01a.jpg" title="学校正门"  alt="双一流森林式校园华中科技大学校大门" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/a5e5afb8-433d-47dc-8346-aff06a54a01a.jpg" title="学校正门"  alt="双一流森林式校园华中科技大学校大门" width=95% />
 
 <b>复试</b>是考研的最后一个考验, 你准备好了吗？你有没有这些问题：英语口试怎么准备？综合面试需要注意什么？需要提前联系导师吗？面对诸如此类的问题, 去年的我也是找不到头脑, 今年, 写出经验帖, 希望能帮助到你！
 
@@ -101,9 +101,12 @@ katex = true
 
 华科真的很大很大, 进校园一定要借助地图!!! 
 
-<img src="https://i.postimg.cc/kGWwyTYx/mmexport1520566095026.jpg" title="华科真的很大很大, 进校园一定要借助地图!!!"  alt="双一流森林式校园华中大地图" />
+<img src="https://i.postimg.cc/kGWwyTYx/mmexport1520566095026.jpg" title="华科真的很大很大, 进校园一定要借助地图!!!"  alt="双一流森林式校园华中大地图" width=95%/>
 
 ### 祝福
+
 祝福看到本帖的考研人, 无论是否为华科考生, 是否为数学考生, 都能顺利通过复试！
 
-如果大家有相关问题, 欢迎大家关注公众号:..数系家园.., 和我交流！
+如果大家有相关问题, 可以在下方留言和我交流！
+
+同时, 欢迎大家关注公众号: ..数系家园..

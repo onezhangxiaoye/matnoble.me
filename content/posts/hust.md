@@ -2,7 +2,7 @@
 title = "华中科技大学本科生招生宣传"
 date = 2020-01-30T00:00:00+00:00
 tags = ["经验分享"]
-categories = ["MEMORY","回忆过去"]
+categories = ["LIFE","华中大"]
 keywords = ["高考","华中科技大学","HUST","华中科技大学数学与统计学院","MatNoble","数系家园"]
 toc = true
 description = "明德　厚学　求是　创新"

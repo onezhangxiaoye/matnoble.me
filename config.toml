@@ -269,10 +269,11 @@ uglyURLs = false
     siteBrandFontColor = "#fff"
 
     # 背景色
-    # siteBrandBackgroundColor = "hsl(240, 8%, 12%)"
+    siteBrandBackgroundColor = "hsl(206, 53%, 31%)"
     # 背景图片
     # siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
-    siteBrandBackgroundImage = "linear-gradient(90deg, #2d85f0 0, #f4433c 34%, #ffbc32 67%, #0aa858 100%)"
+    #siteBrandBackgroundImage = "linear-gradient(90deg, #f4433c 0, #ffbc32 19%, #0aa858 89%, #2d85f0 100%)"
+    #siteBrandBackgroundImage = "linear-gradient(90deg, #f4433c 0, #ffbc32 19%, #2d85f0 89%, #0aa858 100%)"
     # 注意：背景色和背景图片只能二选一
 
 
