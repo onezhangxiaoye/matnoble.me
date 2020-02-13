@@ -17,7 +17,6 @@ meta = false
 </b></i></p>
 </blockquote>
 
-
 <!--more-->
 
 > **武汉加油**
@@ -35,19 +34,12 @@ meta = false
 
 ## About Me
 
+我是一个 95 前的 90 后, 数学系在读研究生, 喜欢数学, 喜欢计算机. 不会吸烟, 但偶尔会小酌一杯. 喜欢旅游, 却没有去过太多地方, 期待以后可以和我的她去更多好玩儿的地方. 最重要的是: 做自己喜欢做的事!
+
 <img src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" width="80%" alt="数系家园微信公众号"/>
 <span class="caption">◎ 云 真好吃</span>
 
-<br />
-<audio controls loop style="clear:both;display:block;margin:auto" src="http://m10.music.126.net/20200213201816/8c0cbc9f5f67412f49aa0478d888434f/ymusic/c2b6/f280/2822/b7258822ec747f1489b5123f701a70d1.mp3" width=100%>
-你的浏览器暂不支持该音频！
-</audio>
-
-<br />
-
-我是一个 95 前的 90 后, 数学系在读研究生, 喜欢数学, 喜欢计算机. 不会吸烟, 但偶尔会小酌一杯. 喜欢旅游, 却没有去过太多地方, 期待以后可以和我的她去更多好玩儿的地方. 最重要的是: 做自己喜欢做的事!
-
-### 联系方式
+### 联系方式 🤙
 - 微信公众号: [数系家园](https://mp.weixin.qq.com/s?__biz=MzI0NDcwMzE0NQ==&mid=100000467&idx=1&sn=bdb37d8e5b8b38e862fe3ce5261fa797&chksm=695888155e2f0103c6a2b96c2e85a6ff875a42c09f55d3d6cf23e7c54fef9ac51e7d1c911935#rd)(ID:MatNoble)
 
 <img src="https://i.postimg.cc/3NQDpV9v/small.png" width="40%" alt="数系家园微信公众号"/>
@@ -59,7 +51,7 @@ meta = false
 - [Twitter](https://twitter.com/mat_noble)
 - 邮箱: [hustmatnoble@gmail.com](mailto:hustmatnoble@gmail.com)
 
-### 我的一些 [GitHub](https://github.com/MatNoble) 开源项目
+### 我的一些 [GitHub](https://github.com/MatNoble) 开源项目 ✍
 
 > - [中英文 $\LaTeX$ 文档模板](https://github.com/MatNoble/LaTeX-Document)
 > - [FEM and FDM Solve PDE](https://github.com/MatNoble/PDE_coding)
