@@ -1,0 +1,41 @@
+[[blogroll]]
+  name = "reuixiy"
+  url = "https://io-oi.me/"
+  avatar = "https://io-oi.me/icons/android-chrome-512x512.png"
+  description = "生活与技术博客"
+  weight = 1
+
+[[blogroll]]
+  name = "热爱数学的 hoganbin"
+  url = "https://hoganbin.top/"
+  avatar = "https://hoganbin.top/images/avatar.png"
+  description = "喜欢数学，热爱编程"
+  weight = 6
+
+[[blogroll]]
+  name = "mathor"
+  url = "https://www.wmathor.com/"
+  avatar = "https://s2.ax1x.com/2020/01/08/l2xtUO.jpg"
+  description = "数学与科技"
+  weight = 3
+
+[[blogroll]]
+  name = "天涯共此时"
+  url = "https://ztygcs.github.io/"
+  avatar = "https://guanqr.com/images/friends/ztygcs.png"
+  description = "科技与生活"
+  weight = 4
+
+[[blogroll]]
+  name = "方寸间"
+  url = "https://10101.io/"
+  avatar = "https://cdn.jsdelivr.net/gh/WithdewHua/static@withdewhua-hugo/img/avatar.jpg"
+  description = "拖延症患者的瞎折腾"
+  weight = 5
+
+[[blogroll]]
+  name = "荷戟独彷徨"
+  url = "https://blog.guanqr.com"
+  avatar = "https://blog.guanqr.com/icons/android-chrome-512x512.png"
+  description = "The Sound of Silence"
+  weight = 2

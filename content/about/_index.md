@@ -1,6 +1,7 @@
 +++
 title = "About"
 date = "2020-01-03T16:29:06+08:00"
+description = "数学＆计算机 我都爱"
 keywords = ["about","关于此博客","MatNoble","数系家园","matnoble.me"]
 images = ["https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg"]
 displayCopyright = false
@@ -84,20 +85,3 @@ meta = false
 > Valine 诞生于2017年8月7日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统。
 
 另外, 评论系统已支持邮件通知, 借鉴于[此](http://www.zhaojun.im/hexo-valine-modify/), 欢迎在下方留言, 我的朋友!
-
-<br />
-
-### 友情链接
-在不断的学习中, 会发现自己正在做的, 之前早就有人做过了, 在这些丰富的借鉴素材的基础上, 我得以不断学习进步.
-
-<div class="mytag" style="background: linear-gradient(to right, #f79d00, #64f38c)" >
-
-<p style="text-align:center;font-size:25px"><b>友情链接</b></p>
-
-<a href="https://io-oi.me/" style="margin:10px" target="blank">reuixiy</a>
-<a href="https://hoganbin.top/" style="margin:10px" target="blank">热爱数学的 hoganbin</a>
-<a href="https://www.wmathor.com/" style="margin:10px" target="blank">mathor</a>
-<a href="https://ztygcs.github.io/" style="margin:10px" target="blank">天涯共此时</a>
-<a href="https://10101.io/" style="margin:10px" target="blank">方寸间</a>
-
-</div>
