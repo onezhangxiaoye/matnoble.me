@@ -39,3 +39,10 @@
   avatar = "https://guanqr.com/icons/android-chrome-512x512.png"
   description = "The Sound of Silence"
   weight = 2
+
+[[blogroll]]
+  name = "林深时见璐"
+  url = "https://linwhitehat.github.io/"
+  avatar = "https://linwhitehat.github.io/icons/rabbit512.png"
+  description = "Wonderful U - AGA"
+  weight = 7

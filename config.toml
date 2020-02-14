@@ -259,7 +259,7 @@ uglyURLs = false
     siteBrandSVG = true
     # 如果是，请将你的 SVG 放到 `SVG.toml` 文
     # 件内，并配置以下项。单位：px。
-    siteBrandSVGWidth = 250
+    siteBrandSVGWidth = 300
     siteBrandSVGHeight = 100
     siteBrandSVGFill = "#fff"
     # 如果否，则会使用你的站点标题作为默认值，并
@@ -270,6 +270,8 @@ uglyURLs = false
 
     # 背景色
     siteBrandBackgroundColor = "hsl(206, 53%, 31%)"
+    #siteBrandBackgroundColor = "hsl(2, 63%, 47%)"
+    
     # 背景图片
     # siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
     #siteBrandBackgroundImage = "linear-gradient(90deg, #f4433c 0, #ffbc32 19%, #0aa858 89%, #2d85f0 100%)"
@@ -306,7 +308,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["花开花谢   白天黑夜","一切自然   又不尽然","春夏秋冬   经过才懂","世间冷暖   无非自然","<i>　   －－李健《懂得》</i>"]
+    homePoetry = ["花开花谢 白天黑夜","一切自然 又不尽然","春夏秋冬 经过才懂","世间冷暖 无非自然","<i>　　－－李健《懂得》</i>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -384,7 +386,7 @@ uglyURLs = false
     # `sections`，则无法关闭树状布局
 
     # 是否显示文章标题
-    displayPosts = false
+    displayPosts = true
 
     # 是否显示每一分类下的文章数
     displayPostsCount = true
@@ -660,8 +662,11 @@ uglyURLs = false
 
     # 浅色模式的主色
     primaryColorLight = "220, 90%, 56%"
+    #primaryColorLight = "2, 63%, 47%"
+    
     # 深色模式的主色
     primaryColorDark = "201, 65%, 62%"
+    #primaryColorDark = "2, 63%, 47%"
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
