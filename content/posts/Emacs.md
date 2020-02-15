@@ -7,6 +7,7 @@ tags = ["Emacs"]
 keywords = ["神的编辑器 Emacs","编辑器之神 Vim","Emacs","LaTeX","org-mode","python"]
 toc = true
 katex = true
+images = ["https://imgkr.cn-bj.ufileos.com/1cef4c32-2ea9-4ed5-be57-b20b8fa8d789.jpeg"]
 +++
 
 <img src="https://imgkr.cn-bj.ufileos.com/1cef4c32-2ea9-4ed5-be57-b20b8fa8d789.jpeg" title="Emacs vs vim vs text" alt="Emacs vs vim vs text" width=80% />

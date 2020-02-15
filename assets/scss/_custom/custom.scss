@@ -117,3 +117,18 @@ background: linear-gradient(to right, red,#45ed63);
 -webkit-background-clip: text;
 color: transparent;
 }
+
+// table
+/* 指定列宽度 */
+table th:nth-of-type(2) {
+    width: 33%;
+    white-space: nowrap;
+}
+table th:nth-of-type(4) {
+    width: 33%;
+    white-space: nowrap;
+}
+table th:nth-of-type(6) {
+    width: 33%;
+    white-space: nowrap;
+}

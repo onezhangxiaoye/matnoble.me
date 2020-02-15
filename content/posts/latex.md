@@ -15,7 +15,9 @@ toc = true
 
 <img src="https://imgkr.cn-bj.ufileos.com/3b558a96-8f4a-4a45-9980-c48489db0b24.jpg" title="LaTex 命令图书馆"  alt="LaTex 命令图书馆"/>
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=80723849&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=80723849&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
+
+$\LaTeX$ 模板 GitHub 地址: [github.com/MatNoble/LaTeX-Document](https://github.com/MatNoble/LaTeX-Document)
 
 ## 前言
 
@@ -25,7 +27,6 @@ toc = true
 + $\TeX$ 系统是公认的数学公式排得最好的系统  
 + 大部分的 $\TeX$ 系统都是免费的  
 + 除了文学作品以外，Word 很少有能超越 $\TeX$ 的地方
-
 
 <hr />
 
@@ -262,26 +263,19 @@ $$
 
 ### 箭头
 
-|                      |                     |                       |                     |
-|:--------------------:|:--------------------|:---------------------:|:--------------------|
-| $\gets$              | \leftarrow or \gets | $\longleftarrow$      | \longleftarrow      |
-| $\to$                | \rightarrow or \to  | $\longrightarrow$     | \longrightarrow     |
-| $\leftrightarrow$    | \leftrightarrow     | $\longleftrightarrow$ | \longleftrightarrow |
-| $\Leftarrow$         | \Leftarrow          | $\Longleftarrow$      | \Longleftarrow      |
-| $\Rightarrow$        | \Rightarrow         | $\Longrightarrow$     | \Longrightarrow     |
-| $\Leftrightarrow$    | \Leftrightarrow     | $\Longleftrightarrow$ | \Longleftrightarrow |
-| $\mapsto$            | \mapsto             | $\longmapsto$         | \longmapsto         |
-| $\hookleftarrow$     | \hookleftarrow      | $\hookrightarrow$     | \hookrightarrow     |
-| $\leftharpoonup$     | \leftharpoonup      | $\rightharpoonup$     | \rightharpoonup     |
-| $\leftharpoondown$   | \leftharpoondown    | $\rightharpoondown$   | \rightharpoondown   |
-| $\rightleftharpoons$ | \rightleftharpoons  | $\iff$                | \iff                |
-| $\uparrow$           | \uparrow            | $\nearrow$            | \nearrow            |
-| $\downarrow$         | \downarrow          | $\searrow$            | \searrow            |
-| $\updownarrow$       | \updownarrow        | $\swarrow$            | \swarrow            |
-| $\Uparrow$           | \Uparrow            | $\nwarrow$            | \nwarrow            |
-| $\Downarrow$         | \Downarrow          | $\leadsto$            | \leadsto            |
-| $\Updownarrow$       | \Updownarrow        |                       |                     |
-
+|                      |                     |                       |                     |                      |              |
+|:--------------------:|:--------------------|:---------------------:|:--------------------|:--------------------:|:-------------|
+| $\gets$              | \leftarrow or \gets | $\longleftarrow$      | \longleftarrow      | $\nearrow$           | \nearrow     |
+| $\to$                | \rightarrow or \to  | $\longrightarrow$     | \longrightarrow     | $\searrow$           | \searrow     |
+| $\leftrightarrow$    | \leftrightarrow     | $\longleftrightarrow$ | \longleftrightarrow | $\swarrow$           | \swarrow     |
+| $\Leftarrow$         | \Leftarrow          | $\Longleftarrow$      | \Longleftarrow      | $\nwarrow$           | \nwarrow     |
+| $\Rightarrow$        | \Rightarrow         | $\Longrightarrow$     | \Longrightarrow     | $\leadsto$           | \leadsto     |
+| $\Leftrightarrow$    | \Leftrightarrow     | $\Longleftrightarrow$ | \Longleftrightarrow | $\rightleftharpoons$ | \uparrow     |
+| $\mapsto$            | \mapsto             | $\longmapsto$         | \longmapsto         | $\uparrow$           | \downarrow   |
+| $\hookleftarrow$     | \hookleftarrow      | $\hookrightarrow$     | \hookrightarrow     | $\downarrow$         | \updownarrow |
+| $\leftharpoonup$     | \leftharpoonup      | $\rightharpoonup$     | \rightharpoonup     | $\updownarrow$       | \Uparrow     |
+| $\leftharpoondown$   | \leftharpoondown    | $\rightharpoondown$   | \rightharpoondown   | $\Uparrow$           | \Downarrow   |
+| $\rightleftharpoons$ | \rightleftharpoons  | $\iff$                | \iff                | $\Downarrow$         | \Updownarrow |
 
 ### 矩阵
  

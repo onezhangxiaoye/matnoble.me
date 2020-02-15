@@ -24,7 +24,8 @@ images = ["https://imgkr.cn-bj.ufileos.com/1bc5d4b3-414f-49f9-84e9-254be8586dfa.
 
 ### 地理位置
 
-<img src="https://imgkr.cn-bj.ufileos.com/7a925d4a-fe38-4933-ab38-5aa8ae17d3cc.png" title="武汉市" alt="九省通衢武汉" width=75% />
+<img src="https://imgkr.cn-bj.ufileos.com/7a925d4a-fe38-4933-ab38-5aa8ae17d3cc.png" title="武汉市 九省通衢" alt="九省通衢武汉" width=75% />
+<span class="caption">◎ 九省通衢 武汉</span>
 
 > - 武汉位居国家“八横八纵”高铁网络中心
 > - 从武汉坐高铁可直达全国25个省（市、自治区）
@@ -41,9 +42,7 @@ images = ["https://imgkr.cn-bj.ufileos.com/1bc5d4b3-414f-49f9-84e9-254be8586dfa.
 
 > 近日，华中科技大学一名大二的学生拍摄的97秒视频《我在武汉》走红网络，97秒23种特技，画面中武汉各地标建筑无缝对接，短短几天就获30万点击量。[^1]
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=40129588&cid=70476902&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
-
-<hr />
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=40129588&cid=70476902&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
 ## 硬核华中大
 
@@ -95,7 +94,8 @@ images = ["https://imgkr.cn-bj.ufileos.com/1bc5d4b3-414f-49f9-84e9-254be8586dfa.
 
 ### 默克尔访华[^5]
 
-<img src="https://imgkr.cn-bj.ufileos.com/0e801cd2-2e4d-4716-a564-fe4865d1f63e.jpg" title="默克尔华中科技大学演讲"  alt="2019年德国总理默克尔在华中科技大学演讲" />
+<img src="https://imgkr.cn-bj.ufileos.com/0e801cd2-2e4d-4716-a564-fe4865d1f63e.jpg" title="默克尔华中科技大学演讲"  alt="2019年德国总理默克尔在华中科技大学演讲" width=95% />
+
 
 <hr />
 
@@ -133,43 +133,50 @@ images = ["https://imgkr.cn-bj.ufileos.com/1bc5d4b3-414f-49f9-84e9-254be8586dfa.
 
 ### 遇见华中大
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56170676&cid=98179520&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56170676&cid=98179520&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
 ### 遇见森林式大学
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56551950&cid=98808951&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56551950&cid=98808951&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
 ### 遇见地铁时代
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56299596&cid=98393641&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56299596&cid=98393641&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
 ### 遇见舌尖上的华中大
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56330731&cid=98444212&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56330731&cid=98444212&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
 ## 最美华中大
-<img src="https://imgkr.cn-bj.ufileos.com/a5e5afb8-433d-47dc-8346-aff06a54a01a.jpg" title="校大门"  alt="双一流森林式校园华中科技大学校大门" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/a5e5afb8-433d-47dc-8346-aff06a54a01a.jpg" title="华科南一门(正门)"  alt="双一流森林式校园华中科技大学校大门" width=95% />
+<span class="caption">◎ 南一门(正门)</span>
 
-<img src="https://imgkr.cn-bj.ufileos.com/29f21dba-5312-4c14-9342-2709c17f3a52.jpg" title="机械大楼"  alt="双一流森林式校园华中科技大学机械大楼" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/29f21dba-5312-4c14-9342-2709c17f3a52.jpg" title="机械大楼"  alt="双一流森林式校园华中科技大学机械大楼" width=95% />
+<span class="caption">◎ 机械大楼</span>
 
-<img src="https://imgkr.cn-bj.ufileos.com/2cd1f62d-f55e-4824-a3c5-d12ea050b077.jpg" title="东九教学楼"  alt="双一流森林式校园华中科技大学图书馆" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/2cd1f62d-f55e-4824-a3c5-d12ea050b077.jpg" title="东九教学楼"  alt="双一流森林式校园华中科技大学图书馆" width=95% />
+<span class="caption">◎ 东九教学楼</span>
 
-<img src="https://imgkr.cn-bj.ufileos.com/046cb913-0471-4c87-aefa-ebf74b235f52.jpg" title="图书馆"  alt="双一流森林式校园华中科技大学" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/046cb913-0471-4c87-aefa-ebf74b235f52.jpg" title="图书馆"  alt="双一流森林式校园华中科技大学" width=95% />
+<span class="caption">◎ 图书馆</span>
 
-<img src="https://imgkr.cn-bj.ufileos.com/f43494d9-57cc-4a2a-8183-80d433d694b3.jpg" title="校史馆"  alt="双一流森林式校园华中科技大学校史馆" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/f43494d9-57cc-4a2a-8183-80d433d694b3.jpg" title="校史馆"  alt="双一流森林式校园华中科技大学校史馆" width=95% />
+<span class="caption">◎ 校史馆</span>
 
-<img src="https://imgkr.cn-bj.ufileos.com/94a9ae90-0af1-429a-82c9-17d630d385f9.jpg" title="醉翁庭"  alt="双一流森林式校园华中科技大学醉翁庭" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/94a9ae90-0af1-429a-82c9-17d630d385f9.jpg" title="醉晚庭"  alt="双一流森林式校园华中科技大学醉翁庭" width=95% />
+<span class="caption">◎ 醉晚庭</span>
 
-<img src="https://imgkr.cn-bj.ufileos.com/5b7d5c30-6bed-4efb-9fe8-98ba0fadda99.jpg" title="落日余晖"  alt="双一流森林式校园华中科技大学落日余晖" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/5b7d5c30-6bed-4efb-9fe8-98ba0fadda99.jpg" title="落日余晖"  alt="双一流森林式校园华中科技大学落日余晖" width=95% />
+<span class="caption">◎ 夕阳西下</span>
 
-<img src="https://imgkr.cn-bj.ufileos.com/374a2994-c881-4df9-9515-738289594589.jpg" title="华中大森林"  alt="双一流森林式校园华中科技大学" width=80% />
-
+<img src="https://imgkr.cn-bj.ufileos.com/374a2994-c881-4df9-9515-738289594589.jpg" title="华中大森林"  alt="双一流森林式校园华中科技大学" width=95% />
+<span class="caption">◎ 森林式大学</span>
 
 华科真的很大很大, 进校园一定要借助地图!!! (无论６月份是否选择华科，都欢迎来华科转一转)
 
-<img src="https://i.postimg.cc/kGWwyTYx/mmexport1520566095026.jpg" title="华科真的很大很大, 进校园一定要借助地图!!!"  alt="双一流森林式校园华中大地图" />
+<img src="https://imgkr.cn-bj.ufileos.com/121ca44f-2e9f-4e56-a5a6-4e809eab7f36.webp" title="华科真的很大很大, 进校园一定要借助地图!!!"  alt="双一流森林式校园华中大地图" width=95% />
 
-注: 上图不包含同济校区
+*注: 上图不包含同济校区*
 
 <hr />
 
@@ -178,7 +185,7 @@ images = ["https://imgkr.cn-bj.ufileos.com/1bc5d4b3-414f-49f9-84e9-254be8586dfa.
 > 但行好事, 莫问前程  
 > 念念不忘, 必有回响
 
-如果大家有相关问题, 欢迎大家在下方评论, 还可以关注我的公众号: `..数系家园..`, 和我交流！
+如果大家有相关问题, 欢迎大家在下方评论, 还可以关注我的公众号:..数系家园.., 和我交流！
 
 <img src="https://imgkr.cn-bj.ufileos.com/3a790fe7-9d04-42d6-8f21-89171fb4b4bb.gif" title="公众号: 数系家园" alt="公众号: 数系家园" width=45% />
 

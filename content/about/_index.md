@@ -22,12 +22,11 @@ meta = false
 
 > **武汉加油**
 
-2020 新年前夕, 武汉病了, 全国都受到了影响, 作为在武汉求学的学生, 更加关注着疫情的发展动态. 但愿这场灾难能够早日过去, 各位奋战在一线的医务工作者, 您们辛苦啦! 武汉加油! 中国加油!
+2020 新年前夕, 武汉病了, 全国都受到了影响, 作为在武汉求学的学生, 更加关注着疫情的发展动态. 但愿这场灾难能够早日过去, 各位奋战在一线的医务工作者, 您们辛苦啦! 武汉加油! 中国加油! Stay Strong Wuhan!
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=86583436&cid=147973477&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=86583436&cid=147973477&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
 <hr />
-
 陌生人您好🤝, 欢迎在我的博客留下👣, 不知道您是从何处来到的这里, 但这并不重要. 因为相遇即是缘分, 世界上的人总会通过各种方式产生千丝万缕的联系, 所以, 即使我们素为谋面, 您来到这里, 我们就是朋友💖
 
 <img src="https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg" width="95%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
@@ -77,8 +76,6 @@ meta = false
 此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>. 当然, 你也可以经常访问本博客, 以及时获取到最新文章.
 
 *为防止忘记本站, 可快捷键 `Ctrl + D` 将本站添加至书签*
-
-
 
 <br />
 
