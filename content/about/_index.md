@@ -9,16 +9,8 @@ katex = true
 smallCaps = false
 comments = true
 meta = false
+aplayer = true
 +++
-
-<blockquote class="blockquote-center">
-<p style="text-align:center;font-size:20px" class="colorfulfont">
-<i><b>
-学最好的别人<br/>做最好的自己
-</b></i></p>
-</blockquote>
-
-<!--more-->
 
 > **武汉加油**
 
@@ -26,13 +18,15 @@ meta = false
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=86583436&cid=147973477&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
+<!--more-->
+
 <hr />
 陌生人您好🤝, 欢迎在我的博客留下👣, 不知道您是从何处来到的这里, 但这并不重要. 因为相遇即是缘分, 世界上的人总会通过各种方式产生千丝万缕的联系, 所以, 即使我们素为谋面, 您来到这里, 我们就是朋友💖
 
-<img src="https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg" width="95%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
+<img src="https://ttfou.com/images/2020/02/16/27b0abfdb3b2a0b15d5f406f6b8a4828.jpg" width="95%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
 <span class="caption">◎ Friends</span>
 
-## About Me				
+## About Me	
 
 我是一个 95 前的 90 后, 数学系在读研究生, 喜欢数学, 喜欢计算机. 不会吸烟, 但偶尔会小酌一杯. 喜欢旅游, 却没有去过太多地方, 期待以后可以和我的她去更多好玩儿的地方. 最重要的是: 做自己喜欢做的事!
 
