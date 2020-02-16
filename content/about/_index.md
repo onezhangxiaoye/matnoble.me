@@ -32,7 +32,7 @@ meta = false
 <img src="https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg" width="95%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
 <span class="caption">◎ Friends</span>
 
-## About Me
+## About Me				
 
 我是一个 95 前的 90 后, 数学系在读研究生, 喜欢数学, 喜欢计算机. 不会吸烟, 但偶尔会小酌一杯. 喜欢旅游, 却没有去过太多地方, 期待以后可以和我的她去更多好玩儿的地方. 最重要的是: 做自己喜欢做的事!
 
