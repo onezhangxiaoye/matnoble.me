@@ -89,16 +89,3 @@ toc = true
 ```
 
 {{< friend name="数学小兵儿" url="https://matnoble.me/" logo="/icons/android-chrome-512x512.png" word="数学＆计算机 我都爱" >}}
-
-
-## 地图
-
-{{< map h="320px" pos="30.5109,114.4078" zoom="16" alt="这里是华中科技大学" >}}
-
-### Google Maps
-```
-{{ < google-maps-location height="300" location="华中科技大学" > }}
-```
-{{< google-maps-location height="300" location="华中科技大学" >}}
-
-{{< google-maps-view height="450" center="-33.8569,151.2152" zoom="18" maptype="satellite" >}}
