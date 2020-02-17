@@ -37,22 +37,22 @@ $$
 
 $$
 \begin{align*}
-& A_{11} = (\psi_0, \psi_0) = \int_1^2 1\cdot1{\rm d}x = 1,\\
-& A_{12} = (\psi_1, \psi_0) = \int_1^2 x \cdot 1 {\rm d}x = \frac{3}{2},\\
-& A_{21} = A_{12} = \frac{3}{2},\\
+& A_{11} = (\psi_0, \psi_0) = \int_1^2 1\cdot1{\rm d}x = 1,\\\\
+& A_{12} = (\psi_1, \psi_0) = \int_1^2 x \cdot 1 {\rm d}x = \frac{3}{2},\\\\
+& A_{21} = A_{12} = \frac{3}{2},\\\\
 & A_{22} = (\psi_1, \psi_1) = \int_1^2 x \cdot x {\rm d}x = \frac{7}{3}.
 \end{align*}
 $$
 
 所有系数矩阵是 
 
-$$A = \begin{bmatrix} 1 & \frac{3}{2} \\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}$$
+$$A = \begin{bmatrix} 1 & \frac{3}{2} \\\\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}$$
 
 右端项为:
 
 $$
 \begin{align*}
-& b_{1} = (\psi_0, f) = \int_1^2 1\cdot (10(x-1)^2-1){\rm d}x = \frac{7}{3},\\
+& b_{1} = (\psi_0, f) = \int_1^2 1\cdot (10(x-1)^2-1){\rm d}x = \frac{7}{3},\\\\
 & b_{2} = (\psi_1, f) = \int_1^2 x \cdot (10(x-1)^2-1) {\rm d}x =\frac{13}{3}. 
 \end{align*}
 $$
@@ -60,7 +60,7 @@ $$
 所以 $b = [\frac{7}{3},  \frac{13}{3}]^{\sf T}$, 解线性方程组就可以得到
 
 $$
-c = \begin{bmatrix} −38/3 \\ 10\end{bmatrix}.
+c = \begin{bmatrix} −38/3 \\\\ 10\end{bmatrix}.
 $$
 
 因此
@@ -116,7 +116,7 @@ result(A, b, c, u)
 
 程序计算结果与手算的是一样的.
 
-当 $V = {\rm span}\\{1, x, x^2 \\}$ 时, 逼近解等于真解, 如下图所示
+当 $V = {\rm span}\\\\{1, x, x^2 \\\\}$ 时, 逼近解等于真解, 如下图所示
 
 <img src="https://imgkr.cn-bj.ufileos.com/bf3d7a3a-6520-4fd7-9a43-af6b2496bf6b.png" title="V = {1, x}"  alt="简述有限元逼近函数" width="400" />
 
@@ -245,7 +245,7 @@ $$
 
 ## 程序实例(II)
 
-通过正弦函数逼近 $f(x) = \tanh(s(x-\pi)), s=20$, 即在空间 $V={\rm span}\\{\sin(2i+1)x\\}\ i\in [0, 1, \dots, N]$ 中找到 $u(x)$ 最佳逼近于 $f(x)$.
+通过正弦函数逼近 $f(x) = \tanh(s(x-\pi)), s=20$, 即在空间 $V={\rm span}\\{\sin(2i+1)x\\}\ , i\in [0, 1, \dots, N]$ 中找到 $u(x)$ 最佳逼近于 $f(x)$.
 
 ![N=1](https://imgkr.cn-bj.ufileos.com/6686289b-3010-426d-9431-00948025bff0.png)
 

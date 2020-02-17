@@ -29,7 +29,7 @@ _Approximation of planar vectors_
 
 令 $\psi_0=[2, 1]$, 则有 $xy$ 平面的子空间
 
-$$V={\rm span} \{\psi_0 \}.$$
+$$V={\rm span} \\{\psi_0 \\}.$$
 
 使得 $u = c_0 \psi_0 \in V$, 并且 $\psi_0$ 为 $V$ 的基.
 
@@ -50,7 +50,7 @@ _The least squares method_
 $$
 \begin{align*}
 E(c_0) &= (e, e) = (c_0\psi_0-f, c_0\psi_0-f)
-\\[3pt]
+\\\\[3pt]
 &= c_0^2(\psi_0, \psi_0) - 2c_0(\psi_0, f) + (f, f).
 \end{align*}
 $$
@@ -86,9 +86,9 @@ _Galerkin method_
 
 $$
 \begin{align*}
-(e, s\psi_0) &=(c_0\psi_0-v, s\psi_0) \\[3pt]
-&= c_0s(\psi_0, \psi_0)-s(v, \psi_0) \\[3pt]
-&= s\frac{(v, \psi_0)}{(\psi_0, \psi_0)}(\psi_0, \psi_0)-s(v,\psi_0)\\[3pt]
+(e, s\psi_0) &=(c_0\psi_0-v, s\psi_0) \\\\[3pt]
+&= c_0s(\psi_0, \psi_0)-s(v, \psi_0) \\\\[3pt]
+&= s\frac{(v, \psi_0)}{(\psi_0, \psi_0)}(\psi_0, \psi_0)-s(v,\psi_0)\\\\[3pt]
 &=0
 \end{align*}
 $$
@@ -129,7 +129,7 @@ $$
 假设 $f$ 是任意 $N+1$ 维向量, 我们在空间
 
 $$
-V = {\rm span}\{ \psi_0, \cdots, \psi_N \},
+V = {\rm span}\\{ \psi_0, \cdots, \psi_N \\},
 $$
 
 中寻找 $u$ 逼近 $f$. 假设 $\psi_0, \cdots, \psi_N$ 线性无关, 即 $V$ 的维数是 $N+1$. 那么, 对于任意 $u \in V$ 可以被写成以下线性组合
@@ -147,7 +147,7 @@ _The least squares method_
 $$
 \begin{equation}
 \begin{aligned}
-E(c_0, \cdots, c_N) &= (e, e) = ( \sum_{j=0}^N c_j\psi_j-f , \sum_{j=0}^N c_j\psi_j-f) \\
+E(c_0, \cdots, c_N) &= (e, e) = ( \sum_{j=0}^N c_j\psi_j-f , \sum_{j=0}^N c_j\psi_j-f) \\\\
 &= \sum_{p=0}^N\sum_{q=0}^N c_pc_q(\psi_p, \psi_q) - 2\sum_{j=0}^Nc_j(\psi_j, f) + (f, f).
 \end{aligned}
 \label{eq:eq3}
@@ -180,9 +180,9 @@ $$
 $$
 \frac{\partial}{\partial c_i} c_pc_q=
 \begin{cases}
-0, \quad & p  \neq i \wedge q \neq i\\
-c_q, \quad & p = i \wedge q \neq i\\
-c_p, \quad & p \neq i \wedge q =i \\
+0, \quad & p  \neq i \wedge q \neq i\\\\
+c_q, \quad & p = i \wedge q \neq i\\\\
+c_p, \quad & p \neq i \wedge q =i \\\\
 2c_i, \quad & p=q=i.
 \end{cases}
 $$
@@ -191,7 +191,7 @@ $$
 
 $$
 \begin{multline*}
-\frac{\partial}{\partial c_i}\sum_{p=0}^N\sum_{q=0}^Nc_pc_q(\psi_p, \psi_q) =\\
+\frac{\partial}{\partial c_i}\sum_{p=0}^N\sum_{q=0}^Nc_pc_q(\psi_p, \psi_q) =\\\\
 \sum_{p=0,p\neq i}^Nc_p(\psi_p, \psi_i) + \sum_{q=0,q\neq i}^Nc_q(\psi_q, \psi_i) + 2c_i(\psi_i, \psi_i).
 \end{multline*}
 $$

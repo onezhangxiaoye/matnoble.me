@@ -18,7 +18,7 @@ mathjax = true
 $$
 A =
 \begin{bmatrix}
-1 & 1 \\
+1 & 1 \\\\
 0 & 1
 \end{bmatrix}.
 $$
@@ -35,7 +35,7 @@ $$
 - 求对应的特征向量
 
 $$
-{\rm x}_1 = {\rm x}_2 = k\begin{bmatrix} 1 \\ 0 \end{bmatrix}.
+{\rm x}_1 = {\rm x}_2 = k\begin{bmatrix} 1 \\\\ 0 \end{bmatrix}.
 $$
 
 其特征向量线性相关, 即 $A$ 不可对角化, 所以 ..并不是所有的矩阵都可以对角化..
@@ -53,7 +53,7 @@ $$
 记 $n$ 阶方阵 $A$ 的特征值为(可能存在相同的特征指)
 
 $$
-{\rm \lambda }= \\{\lambda_1, \dots, \lambda_n \\}.
+{\rm \lambda }= \\\\{\lambda_1, \dots, \lambda_n \\\\}.
 $$
 
 以及**线性无关**的特征向量
@@ -66,14 +66,14 @@ $$
 
 $$
 \begin{align*}
-A S &= [ A{\rm x}_1, \dots, A{\rm x}_n ]  \\[3pt]
-& =  [\lambda_1{\rm x}_1, \dots, \lambda_n{\rm x}_n] \\[3pt]
+A S &= [ A{\rm x}_1, \dots, A{\rm x}_n ]  \\\\[3pt]
+& =  [\lambda_1{\rm x}_1, \dots, \lambda_n{\rm x}_n] \\\\[3pt]
 & = [ {\rm x}_1, \dots, {\rm x}_n ] \left[ \begin{array}{cccc}
-{\lambda_{1}} & {0} & {\cdots} & {0} \\
-{0} & {\lambda_{2}} & {\cdots} & {0} \\
-{\vdots} & {\vdots} & {\ddots} & {\vdots} \\
+{\lambda_{1}} & {0} & {\cdots} & {0} \\\\
+{0} & {\lambda_{2}} & {\cdots} & {0} \\\\
+{\vdots} & {\vdots} & {\ddots} & {\vdots} \\\\
 {0} & {0} & {\cdots} & {\lambda_{n}}
-\end{array}  \right] \\[3pt]
+\end{array}  \right] \\\\[3pt]
 & = S\Lambda.
 \end{align*}
 $$
@@ -124,9 +124,9 @@ $$
 $$
 \Lambda^{n} =
 \left[ \begin{array}{cccc}
-{\lambda_{1}^n} & {0} & {\cdots} & {0} \\
-{0} & {\lambda_{2}^n} & {\cdots} & {0} \\
-{\vdots} & {\vdots} & {\ddots} & {\vdots} \\
+{\lambda_{1}^n} & {0} & {\cdots} & {0} \\\\
+{0} & {\lambda_{2}^n} & {\cdots} & {0} \\\\
+{\vdots} & {\vdots} & {\ddots} & {\vdots} \\\\
 {0} & {0} & {\cdots} & {\lambda_{n}^n}
 \end{array}  \right]
 $$
@@ -147,12 +147,12 @@ $$
 
 假设 $u_2 = Au_1$, 由递推 $u_{k+1} = Au_k$ 可得 $u_{k+1} = A^ku_1$, 那么, **已知 $n$ 阶方阵 $A, u_1$, 如何计算 $u_{k+1}$ ?**
 
-因为已知 $A$ 可对角化, 所以矩阵 $A$ 的特征向量线性无关, $S=\\{{\rm x}_1, \dots, {\rm x}_n\\}$ 可构成全空间 $V$ 的一组基, 则 $u_1$ 可表示为:
+因为已知 $A$ 可对角化, 所以矩阵 $A$ 的特征向量线性无关, $S=\\\\{{\rm x}_1, \dots, {\rm x}_n\\\\}$ 可构成全空间 $V$ 的一组基, 则 $u_1$ 可表示为:
 
 $$
 \begin{align*}
-u_1 &= c_1{\rm x}_1 + c_2{\rm x}_2 + \cdots + c_n{\rm x}_n \\
-&= S \begin{bmatrix} c_1 \\ c_2 \\ \vdots \\
+u_1 &= c_1{\rm x}_1 + c_2{\rm x}_2 + \cdots + c_n{\rm x}_n \\\\
+&= S \begin{bmatrix} c_1 \\\\ c_2 \\\\ \vdots \\\\
 c_n\end{bmatrix} = Sc.
 \end{align*}
 $$
@@ -161,15 +161,15 @@ $$
 
 $$
 \begin{align*}
-u_2 &= Au_1 = c_1A{\rm x}_1 + c_2A{\rm x}_2 + \cdots + c_nA{\rm x}_n \\
-& = c_1\lambda_1{\rm x}_1 + c_2\lambda_2{\rm x}_2 + \cdots + c_n\lambda_n{\rm x}_n \\[3pt]
+u_2 &= Au_1 = c_1A{\rm x}_1 + c_2A{\rm x}_2 + \cdots + c_nA{\rm x}_n \\\\
+& = c_1\lambda_1{\rm x}_1 + c_2\lambda_2{\rm x}_2 + \cdots + c_n\lambda_n{\rm x}_n \\\\[3pt]
 & = [ {\rm x}_1, \dots, {\rm x}_n ] \left[ \begin{array}{cccc}
-{\lambda_{1}} & {0} & {\cdots} & {0} \\
-{0} & {\lambda_{2}} & {\cdots} & {0} \\
-{\vdots} & {\vdots} & {\ddots} & {\vdots} \\
+{\lambda_{1}} & {0} & {\cdots} & {0} \\\\
+{0} & {\lambda_{2}} & {\cdots} & {0} \\\\
+{\vdots} & {\vdots} & {\ddots} & {\vdots} \\\\
 {0} & {0} & {\cdots} & {\lambda_{n}}
-\end{array}  \right] \begin{bmatrix} c_1 \\ c_2 \\  \vdots \\
-c_n\end{bmatrix}\\
+\end{array}  \right] \begin{bmatrix} c_1 \\\\ c_2 \\\\  \vdots \\\\
+c_n\end{bmatrix}\\\\
 & = S\Lambda c.
 \end{align*}
 $$
@@ -193,17 +193,17 @@ $$
 数列 $F = \{ 0, 1, 1,  2, 3, 5, \dots \}$, 即满足如下递推式 $$F_n = F_{n-1} + F_{n-2}.$$
 试求 $F_n$ 的表达式.
 
-设 $ u_1 = \begin{bmatrix} F_2 \\ F_1 \end{bmatrix} $, 则
+设 $ u_1 = \begin{bmatrix} F_2 \\\\ F_1 \end{bmatrix} $, 则
 
 $$
-u_2 = \begin{bmatrix} F_3 \\ F_2 \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}\begin{bmatrix} F_2 \\ F_1 \end{bmatrix} = Au_1.
+u_2 = \begin{bmatrix} F_3 \\\\ F_2 \end{bmatrix} = \begin{bmatrix} 1 & 1 \\\\ 1 & 0 \end{bmatrix}\begin{bmatrix} F_2 \\\\ F_1 \end{bmatrix} = Au_1.
 $$
 
 计算矩阵 $A$ 的特征值和特征向量:  
 特征多项式
 
 $$
-\left| \lambda I - A \right| = \begin{vmatrix} \lambda -1 & -1 \\ -1 & \lambda \end{vmatrix} = \lambda^2 - \lambda - 1.
+\left| \lambda I - A \right| = \begin{vmatrix} \lambda -1 & -1 \\\\ -1 & \lambda \end{vmatrix} = \lambda^2 - \lambda - 1.
 $$
 
 从而得到
@@ -223,7 +223,7 @@ $$
 > 计算特征向量可由观察得到:
 >
 > $$
-> \lambda I - A  = \begin{bmatrix} \lambda -1 & -1 \\ -1 & \lambda \end{bmatrix}\begin{bmatrix} a \\ b \end{bmatrix}  = 0
+> \lambda I - A  = \begin{bmatrix} \lambda -1 & -1 \\\\ -1 & \lambda \end{bmatrix}\begin{bmatrix} a \\\\ b \end{bmatrix}  = 0
 > $$
 >
 > 因为 $\lambda^2 - \lambda - 1 = 0$, 所以
@@ -231,22 +231,22 @@ $$
 > $$
 > \begin{cases}
 > a = \lambda,
-> \\[3pt]
+> \\\\[3pt]
 > b = 1.
 > \end{cases}
 > $$
 >
 > 所以 
 >$$
->S = [{\rm x}_1, {\rm x}_2] = \begin{bmatrix} \lambda_1 & \lambda_2 \\ 1 & 1 \end{bmatrix}
+>S = [{\rm x}_1, {\rm x}_2] = \begin{bmatrix} \lambda_1 & \lambda_2 \\\\ 1 & 1 \end{bmatrix}
 >$$.
 
 继而,
 
 $$
 \begin{align*}
-u_1 = \begin{bmatrix} 1 \\ 0 \end{bmatrix} &= c_1{\rm x}_1 + c_2{\rm x}_2 \\
-& = c_1\begin{bmatrix} \lambda_1 \\ 1 \end{bmatrix}+ c_2\begin{bmatrix} \lambda_2 \\ 1 \end{bmatrix}.
+u_1 = \begin{bmatrix} 1 \\\\ 0 \end{bmatrix} &= c_1{\rm x}_1 + c_2{\rm x}_2 \\\\
+& = c_1\begin{bmatrix} \lambda_1 \\\\ 1 \end{bmatrix}+ c_2\begin{bmatrix} \lambda_2 \\\\ 1 \end{bmatrix}.
 \end{align*}
 $$
 
@@ -255,7 +255,7 @@ $$
 $$
 \begin{cases}
 c_1 = \frac{1}{\lambda_1 - \lambda_2},
-\\[3pt]
+\\\\[3pt]
 c_2 = -c_1.
 \end{cases}
 $$
@@ -264,8 +264,8 @@ $$
 
 $$
 \begin{align*}
-u_n = S\Lambda ^{n-1}c &=\begin{bmatrix} \lambda_1 & \lambda_2 \\ 1 & 1 \end{bmatrix}\begin{bmatrix} \lambda_1^{n-1} & 0 \\ 0 & \lambda_2^{n-1} \end{bmatrix} \begin{bmatrix} \frac{1}{\lambda_1 - \lambda_2} \\ -\frac{1}{\lambda_1 - \lambda_2} \end{bmatrix} \\[3pt]
-& = \frac{1}{\lambda_1 - \lambda_2} \begin{bmatrix} \lambda_1^n - \lambda_2^n  \\ \lambda_1^{n-1} - \lambda_2^{n-1} \end{bmatrix}
+u_n = S\Lambda ^{n-1}c &=\begin{bmatrix} \lambda_1 & \lambda_2 \\\\ 1 & 1 \end{bmatrix}\begin{bmatrix} \lambda_1^{n-1} & 0 \\\\ 0 & \lambda_2^{n-1} \end{bmatrix} \begin{bmatrix} \frac{1}{\lambda_1 - \lambda_2} \\\\ -\frac{1}{\lambda_1 - \lambda_2} \end{bmatrix} \\\\[3pt]
+& = \frac{1}{\lambda_1 - \lambda_2} \begin{bmatrix} \lambda_1^n - \lambda_2^n  \\\\ \lambda_1^{n-1} - \lambda_2^{n-1} \end{bmatrix}
 \end{align*}
 $$
 
@@ -283,9 +283,9 @@ $$
 > $$
 > e^{\Lambda t} =
 > \left[\begin{array}{cccc}
-> {\mathrm{e}^{\lambda_{1} \mathrm{t}}} & {0} & {\cdots} & {0} \\
-> {0} & {\mathrm{e}^{\lambda_{2} \mathrm{t}}} & {\cdots} & {0} \\
-> {\vdots} & {\vdots} & {\ddots} & {\vdots} \\
+> {\mathrm{e}^{\lambda_{1} \mathrm{t}}} & {0} & {\cdots} & {0} \\\\
+> {0} & {\mathrm{e}^{\lambda_{2} \mathrm{t}}} & {\cdots} & {0} \\\\
+> {\vdots} & {\vdots} & {\ddots} & {\vdots} \\\\
 > {0} & {0} & {\cdots} & {\mathrm{e}^{\lambda_{n} \mathrm{t}}}
 > \end{array}\right]
 > $$

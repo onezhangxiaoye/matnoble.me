@@ -62,7 +62,7 @@ $$
 $$
 \begin{cases}
 Ax = 0 & \forall \, x \in N(A)
-\\[3pt]
+\\\\[3pt]
 A^{\mathsf T}y = x & \exists\, y \in C(A^{\mathsf T})
 \end{cases}
 $$
@@ -123,7 +123,7 @@ $$
      x = y + z
      $$
      其中, $y\in\, C(A^{\mathsf T}), z \in N(A)$, 那么
-     $$\begin{align*} Ax &=  A(y+z) \\[3pt]&= Ay + Az \\[3pt]&= Ay = b \end{align*}$$
+     $$\begin{align*} Ax &=  A(y+z) \\\\[3pt]&= Ay + Az \\\\[3pt]&= Ay = b \end{align*}$$
      成立.
 	 
 - 唯一性  
@@ -137,7 +137,7 @@ $$
 
 联系问 1, 解 $x = y + z$, 其中 $y\in\, C(A^{\mathsf T}), z \in N(A)$. 因为二者`正交`, 所以
 
-   $$\begin{align*} \lVert x \rVert^2 &= (y+z)^{\mathsf T}(y+z) \\[3pt]&=  \lVert y \rVert^2  + \lVert z \rVert^2 \geq  \lVert y \rVert^2\end{align*}$$
+   $$\begin{align*} \lVert x \rVert^2 &= (y+z)^{\mathsf T}(y+z) \\\\[3pt]&=  \lVert y \rVert^2  + \lVert z \rVert^2 \geq  \lVert y \rVert^2\end{align*}$$
 
    $z = 0$ 时, 等号成立.  
    
@@ -149,7 +149,7 @@ $$
    若 $AA^{\mathsf T}$ 满秩, 则 $$ x = (AA^{\mathsf T})^{-1}b $$
    可得到 $$y=A^{\mathsf T}(AA^{\mathsf T})^{-1}b$$
    下面证明 ${\rm rank} A ={\rm rank } AA^{\mathsf T}$, 只需证明
-   $$ \begin{cases}Ax =0 \\[3pt] A^{\mathsf T}Ax=0 \end{cases}$$
+   $$ \begin{cases}Ax =0 \\\\[3pt] A^{\mathsf T}Ax=0 \end{cases}$$
    同解. 显然, $Ax = 0 \Longrightarrow A^{\mathsf T}Ax=0$.  
    <br />
    若满足 $A^{\mathsf T}Ax=0$, 左右同乘 $x^{\mathsf T}$

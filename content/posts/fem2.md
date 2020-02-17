@@ -33,10 +33,10 @@ $$
 **记:**
 
 $$
-\left\{
+\left\\{
 \begin{aligned}
-\psi_1 = \overrightarrow{AB}, \\[3pt]
-\psi_2 = \overrightarrow{AC}, \\[3pt]
+\psi_1 = \overrightarrow{AB}, \\\\[3pt]
+\psi_2 = \overrightarrow{AC}, \\\\[3pt]
 f = \overrightarrow{AF}.
 \end{aligned}
 \right.
@@ -49,37 +49,37 @@ $$
 $$
 \begin{cases}
 A_{11} = (\psi_1, \psi_1) = 10,
-\\[3pt]
+\\\\[3pt]
 A_{12} = (\psi_2, \psi_1) = 4,
-\\[3pt]
+\\\\[3pt]
 A_{21} = A_{12} = 4,
-\\[3pt]
+\\\\[3pt]
 A_{22} = (\psi_2, \psi_2) = 16.
 \end{cases}
 $$
 
 所以矩阵 
 
-$$A=\begin{bmatrix} 10 & 4 \\ 4 & 16 \end{bmatrix}.$$
+$$A=\begin{bmatrix} 10 & 4 \\\\ 4 & 16 \end{bmatrix}.$$
 
 $$
 \begin{cases}
 b_{1} = (\psi_1, f) = 23,
-\\
+\\\\
 b_{2} = (\psi_2, f) = 20.
 \end{cases}
 $$
 
 所以 
 
-$$b=\begin{bmatrix} 23 \\ 20 \end{bmatrix}$$
+$$b=\begin{bmatrix} 23 \\\\ 20 \end{bmatrix}$$
 
 解 
 
-$$A\begin{bmatrix} c_1 \\ c_2 \end{bmatrix}=b$$ 得
+$$A\begin{bmatrix} c_1 \\\\ c_2 \end{bmatrix}=b$$ 得
 
 $$
-\begin{bmatrix} c_1 \\ c_2 \end{bmatrix}=\begin{bmatrix} 2 \\ 3/4 \end{bmatrix}.
+\begin{bmatrix} c_1 \\\\ c_2 \end{bmatrix}=\begin{bmatrix} 2 \\\\ 3/4 \end{bmatrix}.
 $$
 
 最后, 
@@ -103,7 +103,7 @@ _也许聪明的同学已经看出, 哪儿用这么麻烦, $u$ 的横纵坐标�
 \psi_1 & \psi_2
 \end{bmatrix}
 \begin{bmatrix}
-c_1 \\ c_2
+c_1 \\\\ c_2
 \end{bmatrix} =
 f.
 \label{eq:eq1}
@@ -113,34 +113,34 @@ f.
 
 $$
 \begin{bmatrix}
-1&4\\3&0\\0&0
+1&4\\\\3&0\\\\0&0
 \end{bmatrix}
 \begin{bmatrix}
-c_1 \\ c_2
+c_1 \\\\ c_2
 \end{bmatrix} =
 \begin{bmatrix}
-5 \\ 6 \\ 5
+5 \\\\ 6 \\\\ 5
 \end{bmatrix}.
 $$
 
 上式显然无解, 式 (1) 左右同乘 
 
 $$\begin{bmatrix}
-\psi_1^{\rm T} \\ \psi_2^{\rm T}
+\psi_1^{\rm T} \\\\ \psi_2^{\rm T}
 \end{bmatrix}$$ 
 
 得
 
 \begin{equation}
 \begin{bmatrix}
-\psi_1^{\rm T}\psi_1 & \psi_1^{\rm T}\psi_2 \\
+\psi_1^{\rm T}\psi_1 & \psi_1^{\rm T}\psi_2 \\\\
 \psi_2^{\rm T}\psi_1 & \psi_2^{\rm T}\psi_2
 \end{bmatrix}
 \begin{bmatrix}
-c_1 \\ c_2
+c_1 \\\\ c_2
 \end{bmatrix} =
 \begin{bmatrix}
-\psi_1^{\rm T}f \\ \psi_2^{\rm T}f
+\psi_1^{\rm T}f \\\\ \psi_2^{\rm T}f
 \end{bmatrix}.
 \label{eq:eq2}
 \end{equation}
@@ -149,33 +149,33 @@ c_1 \\ c_2
 
 $$
 \begin{bmatrix}
-1&3 & 0\\
+1&3 & 0\\\\
 4&0&0
 \end{bmatrix}
 \begin{bmatrix}
-1&4\\
-3&0\\
+1&4\\\\
+3&0\\\\
 0&0
 \end{bmatrix}
 \begin{bmatrix}
-c_1 \\ c_2
+c_1 \\\\ c_2
 \end{bmatrix} =
 \begin{bmatrix}
-1&3 & 0\\
+1&3 & 0\\\\
 4&0&0
 \end{bmatrix}
 \begin{bmatrix}
-5 \\ 6 \\ 5
+5 \\\\ 6 \\\\ 5
 \end{bmatrix}.
 $$
 
 进一步,
 
 $$
-\begin{bmatrix} 10 & 4 \\ 4 & 16 \end{bmatrix}\begin{bmatrix}
-c_1 \\ c_2
+\begin{bmatrix} 10 & 4 \\\\ 4 & 16 \end{bmatrix}\begin{bmatrix}
+c_1 \\\\ c_2
 \end{bmatrix} =
-\begin{bmatrix} 23 \\ 20 \end{bmatrix}.
+\begin{bmatrix} 23 \\\\ 20 \end{bmatrix}.
 $$
 
 得到与之前一样的结果. 该解在线性代数上称为`最小二乘解`.
@@ -202,7 +202,7 @@ $$
 
 $$
 \begin{align*}
-E(c_0, \cdots, c_N) = (e, e) &= ( \sum_{j=0}^N c_j\psi_j-f , \sum_{j=0}^N c_j\psi_j-f) \\
+E(c_0, \cdots, c_N) = (e, e) &= ( \sum_{j=0}^N c_j\psi_j-f , \sum_{j=0}^N c_j\psi_j-f) \\\\
 & = \sum_{p=0}^N \sum_{q=0}^N c_p c_q \psi_p \psi_q -2\sum_{j=0}^N c_j(\psi_j, f) + (f, f).
 \end{align*}
 $$
@@ -224,7 +224,7 @@ $$
 $$
 \begin{align*}
 [A_{ij}] &= (\psi_j, \psi_i),
-\\[3pt]
+\\\\[3pt]
 [b_i] &= (\psi_i, f).
 \end{align*}
 $$
@@ -252,7 +252,7 @@ $$
 u = \sum_{j \in {\cal{I}}_s} c_j \psi_j.
 $$
 
-指标集 ${\mathcal{I}}_s$ 定义为 ${\mathcal{I}}_s = \\{0, 1, \cdots , N\\}$.
+指标集 ${\mathcal{I}}_s$ 定义为 ${\mathcal{I}}_s = \\\\{0, 1, \cdots , N\\\\}$.
 
 下面首先讨论单变量函数, 之后在讨论多变量的情况.
 
@@ -285,7 +285,7 @@ $E$ 是关于 $\{c_j\}_{j \in {\mathcal{I}_s} }$ 的函数, 进一步化简
 
 $$
 \begin{align*}
-E(c_0, \cdots, c_N) & =  (\sum_{j \in {\cal{I}}_s} c_j \psi_{j(x)}-f(x), \sum_{j \in {\cal{I}}_s} c_j \psi_j(x)-f(x))\\
+E(c_0, \cdots, c_N) & =  (\sum_{j \in {\cal{I}}_s} c_j \psi_{j(x)}-f(x), \sum_{j \in {\cal{I}}_s} c_j \psi_j(x)-f(x))\\\\[3pt]
 & = \sum_{p \in {\cal{I}}_s} \sum_{q \in {\cal{I}}_s} c_p c_q\psi_p(x)\psi_{q(x)} - 2\sum_{j \in {\cal{I}}_s} c_j (\psi_j(x), f) + (f(x), f(x)).
 \end{align*}
 $$
@@ -296,7 +296,7 @@ $$
 \begin{align}
 [A_{ij}]&=(\psi_j, \psi_i),
 \label{eq:eq3}
-\\[3pt]
+\\\\[3pt]
 [b_i] &= (\psi_i, f).
 \label{eq:eq4}
 \end{align}
@@ -325,7 +325,7 @@ $$
 给定一个二次(抛物型)函数 $f(x) = 10(x-1)^2-1, x \in \Omega=[1,2]$, 在线性函数空间 $V$ 中寻找最佳逼近向量 $u$
 
 $$
-V={\rm span}\{1, x\}.
+V={\rm span}\\{1, x\\}.
 $$
 
 <b>解:</b> 设 $\psi_0 = 1, \psi_1 = x$, 则
@@ -338,9 +338,9 @@ $$
 
 $$
 \begin{align*}
-& A_{11} = (\psi_0, \psi_0) = \int_1^2 1\cdot1{\rm d}x = 1,\\[3pt]
-& A_{12} = (\psi_1, \psi_0) = \int_1^2 x \cdot 1 {\rm d}x = \frac{3}{2},\\[3pt]
-& A_{21} = A_{12} = \frac{3}{2},\\[3pt]
+& A_{11} = (\psi_0, \psi_0) = \int_1^2 1\cdot1{\rm d}x = 1,\\\\[3pt]
+& A_{12} = (\psi_1, \psi_0) = \int_1^2 x \cdot 1 {\rm d}x = \frac{3}{2},\\\\[3pt]
+& A_{21} = A_{12} = \frac{3}{2},\\\\[3pt]
 & A_{22} = (\psi_1, \psi_1) = \int_1^2 x \cdot x {\rm d}x = \frac{7}{3}.
 \end{align*}
 $$
@@ -348,14 +348,14 @@ $$
 所有系数矩阵是 
 
 $$
-A = \begin{bmatrix} 1 & \frac{3}{2} \\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}
+A = \begin{bmatrix} 1 & \frac{3}{2} \\\\ \frac{3}{2} & \frac{7}{3} \end{bmatrix}
 $$
 
 右端项为:
 
 $$
 \begin{align*}
-& b_{1} = (\psi_0, f) = \int_1^2 1\cdot (10(x-1)^2-1){\rm d}x = \frac{7}{3},\\[3pt]
+& b_{1} = (\psi_0, f) = \int_1^2 1\cdot (10(x-1)^2-1){\rm d}x = \frac{7}{3},\\\\[3pt]
 & b_{2} = (\psi_1, f) = \int_1^2 x \cdot (10(x-1)^2-1) {\rm d}x = \frac{13}{3}.
 \end{align*}
 $$
@@ -363,7 +363,7 @@ $$
 所以 $b = [\frac{7}{3},  \frac{13}{3}]^{\mathsf T}$, 解线性方程组就可以得到
 
 $$
-c = \begin{bmatrix} −38/3 \\ 10\end{bmatrix}.
+c = \begin{bmatrix} −38/3 \\\\ 10\end{bmatrix}.
 $$
 
 因此

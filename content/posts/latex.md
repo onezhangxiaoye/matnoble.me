@@ -1,6 +1,6 @@
 +++
 title = "LaTeX 实用命令汇总(长期更新)"
-katex = true
+mathjax = true
 description = "**从小白到老司机**"
 categories = ["TECH","好工具高效率"]
 tags = ["LaTeX 命令"]
@@ -234,14 +234,14 @@ $$ \frac{n!}{k!(n-k)!} = \binom{n}{k} $$
 ```tex
 f(n) =
   \begin{cases}
-    n/2       & \quad \text{if }\, n \, \text{ is even}\\
+    n/2       & \quad \text{if }\, n \, \text{ is even}\\[3pt]
     -(n+1)/2  & \quad \text{if }\, n \,\text{ is odd}
   \end{cases}
 ```
 $$
 f(n) =
   \begin{cases}
-    n/2       & \quad \text{if }\, n \, \text{ is even}\\
+    n/2       & \quad \text{if }\, n \, \text{ is even}\\\\[3pt]
     -(n+1)/2  & \quad \text{if }\, n \,\text{ is odd}
   \end{cases}
 $$
@@ -290,7 +290,7 @@ a & b & c
 
 $$
 \begin{matrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{matrix}
 $$
@@ -306,7 +306,7 @@ a & b & c
 
 $$
 \begin{pmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{pmatrix}
 $$
@@ -322,7 +322,7 @@ a & b & c
 
 $$
 \begin{bmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{bmatrix}
 $$
@@ -331,14 +331,14 @@ $$
 
 ```tex
 \begin{Bmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{Bmatrix}
 ```
 
 $$
 \begin{Bmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{Bmatrix}
 $$
@@ -347,28 +347,28 @@ $$
 
 ```tex
 \begin{vmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{vmatrix}
 ```
 
 $$
 \begin{vmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{vmatrix}
 $$
 
 ```tex
 \begin{Vmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{Vmatrix}
 ```
 
 $$
 \begin{Vmatrix}
-1 & 2 & 3\\
+1 & 2 & 3\\\\
 a & b & c
 \end{Vmatrix}
 $$

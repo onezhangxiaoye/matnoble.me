@@ -12,25 +12,25 @@ mathjax = true
 
 ## 理解线性方程组
 
-本文在实数域 $\mathbb{R}$ 内考虑(复数域 $\mathbb{C}$ 内是类似的). 假设存在 $m\times n$ 阶实矩阵 $A$, 以及 ${\rm b}\in \, \mathbb{R}^m$. 则线性方程组 $A{\rm x}={\rm b}$ 有解可以有一下两种解释:
+本文在实数域 $\mathbb{R}$ 内考虑(复数域 $\mathbb{C}$ 内是类似的). 假设存在 $m\times n$ 阶实矩阵 $A$, 以及 ${\rm b}\in \mathbb{R}^m$. 则线性方程组 $A{\rm x}={\rm b}$ 有解可以有一下两种解释:
 
 - ${\rm b}$ 可表示为 $A$ 的列向量的线性组合
 
 $$
 \begin{aligned}
-{\rm b} &= x_1\alpha_1+\cdots+x_n\alpha_n \\ &=
+{\rm b} &= x_1\alpha_1+\cdots+x_n\alpha_n \\\\ &=
 \begin{bmatrix}
 \alpha_1,\cdots,\alpha_n
 \end{bmatrix}
 \begin{bmatrix}
-x_1 \\ \vdots \\ x_n
-\end{bmatrix} \\ &= A{\rm x}
+x_1 \\\\ \vdots \\\\ x_n
+\end{bmatrix} \\\\ &= A{\rm x}
 \end{aligned}
 $$
 
 - ${\rm b}$ 属于线性变换 $A$ 的值域(range),
-   $${\rm b} \in \, C(A)$$
-   其中, 列空间 $C(A)=\\{ A{\rm x}|{\rm x} \in \, \mathbb{R}^n \\}$, ${\rm b}=A{\rm x}$ 称为 ${\rm x}$ 经线性变换 $A$ 的像(image).
+   $${\rm b} \in C(A)$$
+   其中, 列空间 $C(A)=\\{ A{\rm x}|{\rm x} \in \mathbb{R}^n \\}$, ${\rm b}=A{\rm x}$ 称为 ${\rm x}$ 经线性变换 $A$ 的像(image).
 
 当线性方程组 $A{\rm x}={\rm b}$ 无解时, 我们希望找到最佳近似解 $\check{\rm x}$, 使得 ${\rm e}={\rm b} - A\check{\rm x}$ 长度的平方最小
 
@@ -65,9 +65,9 @@ $$
 
 $$
 \begin{aligned}
-0&=({\rm x}-P{\rm x})^{\mathsf T}(P{\rm y}) \\[3pt]
-&= [(I-P){\rm x}]^{\mathsf T}(P{\rm y}) \\[3pt]
-& = {\rm x}^{\mathsf T}(I-P)^{\mathsf T}(P{\rm y}) \\[3pt]
+0&=({\rm x}-P{\rm x})^{\mathsf T}(P{\rm y}) \\\\[3pt]
+&= [(I-P){\rm x}]^{\mathsf T}(P{\rm y}) \\\\[3pt]
+& = {\rm x}^{\mathsf T}(I-P)^{\mathsf T}(P{\rm y}) \\\\[3pt]
 & = {\rm x}^{\mathsf T}(P-P^{\mathsf T}P){\rm y}
 \end{aligned}
 $$
@@ -80,7 +80,7 @@ $$
 
 $$
 \begin{cases}
-P^2 = P \\[3pt]
+P^2 = P \\\\[3pt]
 P = P^{\mathsf T}
 \end{cases}
 $$
@@ -115,19 +115,19 @@ $$
 - 根据秩-零化度定理, 成立
    $$
    \begin{cases}
-   N(P)=C(P^{\mathsf T})^{\bot} \\[3pt] N(A^{\mathsf T})=C(A)^{\bot}
+   N(P)=C(P^{\mathsf T})^{\bot} \\\\[3pt] N(A^{\mathsf T})=C(A)^{\bot}
    \end{cases}
    $$
    结合
    $$
    \begin{cases}
-   P=P^{\mathsf T} \\[3pt] C(P)=C(A)
+   P=P^{\mathsf T} \\\\[3pt] C(P)=C(A)
    \end{cases}
    $$
    得到
    $$
    \begin{aligned}
-   N(P)&=C(P^{\mathsf T})^{\bot} \\&= C(P)^{\bot} = C(A)^{\bot} \\&= N(A^{\mathsf T})
+   N(P)&=C(P^{\mathsf T})^{\bot} \\\\&= C(P)^{\bot} = C(A)^{\bot} \\\\&= N(A^{\mathsf T})
    \end{aligned}
    $$
 
@@ -179,7 +179,7 @@ $I-P$ 同样是一个正交投影矩阵, 因为
 
 $$
 \begin{aligned}
-(I-P)^2 &= I - 2P + P^2 \\[3pt] &= I -2P + P  \\[3pt] &= I - P
+(I-P)^2 &= I - 2P + P^2 \\\\[3pt] &= I -2P + P  \\\\[3pt] &= I - P
 \end{aligned}
 $$
 

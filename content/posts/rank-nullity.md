@@ -37,7 +37,7 @@ $\mathcal{V}$ 中所有元素经 $T$ 映射构成的集合, 称为 $T$ 的值域
 > 　定义域 $\mathcal{V}$ 的维数等于核空间 $\ker (T)$ 的维数与值域 ${\rm ran} (T)$ 的维数之和. 即
 >
 > $$
-> \dim \mathcal{V} = \dim \ker (T) + {\rm rank}\, T
+> \dim \mathcal{V} = \dim \ker (T) + {\rm rank}\\, T
 > $$
 
 ## 证明
@@ -58,7 +58,7 @@ $$
 矩阵 $A$ 经初等行变换可化简为下方`分块矩阵`形式
 
 $$
-R = \begin{bmatrix} E_r & F \\ 0 & 0 \end{bmatrix}
+R = \begin{bmatrix} E_r & F \\\\ 0 & 0 \end{bmatrix}
 $$
 
 易知, 矩阵 $R$ 的秩为 $r, F$ 是一个 $r\times (n-r)$ 阶矩阵. 因为初等行变换不改变矩阵的秩和零空间, 所以 ${\rm rank} A = {\rm rank} R = r$, 以及 $N(A) = N( R )$.
@@ -68,13 +68,13 @@ $$
 观察矩阵 $R$, 得到其 $n \times (n-r)$ 零空间矩阵(nullspace matrix)
 
 $$
-P = \begin{bmatrix} -F \\ E_{n-r}  \end{bmatrix}
+P = \begin{bmatrix} -F \\\\ E_{n-r}  \end{bmatrix}
 $$
 
 验证一下
 
 $$
-RP = \begin{bmatrix} E_r & F \\ 0 & 0 \end{bmatrix}\begin{bmatrix} -F \\ E_{n-r}  \end{bmatrix} = \begin{bmatrix} -F + F \\ 0  \end{bmatrix} = 0
+RP = \begin{bmatrix} E_r & F \\\\ 0 & 0 \end{bmatrix}\begin{bmatrix} -F \\\\ E_{n-r}  \end{bmatrix} = \begin{bmatrix} -F + F \\\\ 0  \end{bmatrix} = 0
 $$
 
 <br />
@@ -86,13 +86,13 @@ $$
 假设 $x= [ x_1, x_2]^{\sf T}$, 其中, $x_1$ 是 $r$ 维向量, $x_2$ 是 $n-r$ 维向量. 使得 $Rx = 0$, 则
 
 $$
-Rx = \begin{bmatrix} E_r & F \\ 0 & 0 \end{bmatrix}\begin{bmatrix} x_1 \\ x_2  \end{bmatrix} = \begin{bmatrix} x_1 + Fx_2 \\ 0  \end{bmatrix} =0
+Rx = \begin{bmatrix} E_r & F \\\\ 0 & 0 \end{bmatrix}\begin{bmatrix} x_1 \\\\ x_2  \end{bmatrix} = \begin{bmatrix} x_1 + Fx_2 \\\\ 0  \end{bmatrix} =0
 $$
 
 所以, $x_1 = -Fx_2$, 接着有
 
 $$
-x = \begin{bmatrix} x_1 \\  x_2 \end{bmatrix} = \begin{bmatrix} -Fx_2 \\  x_2 \end{bmatrix} = \begin{bmatrix} -F \\  E_{n-r} \end{bmatrix}x_2 = Px_2
+x = \begin{bmatrix} x_1 \\\\  x_2 \end{bmatrix} = \begin{bmatrix} -Fx_2 \\\\  x_2 \end{bmatrix} = \begin{bmatrix} -F \\\\  E_{n-r} \end{bmatrix}x_2 = Px_2
 $$
 
 所以 $C(P) = N( R )$, 即 $\dim N(A) = \dim N( R ) = {\rm rank}\, P = n-r$, 也就证明了
@@ -105,10 +105,10 @@ $$
 
 <i style="color:gray">不讲变换思想的线代是没有灵魂的线代</i>
 
-如下图所示, 假设向量空间 $\mathcal{V}$ 的维数为 $n$, 且 $\dim \ker(T) = p, p \leq n$. 设 $\ker(T)$ 的一组基底为 $\{u_1, \dots, u_p\}$, 并将其扩充为 $\mathcal{V}$ 的一组基底 $\{u_1,\dots,u_p,w_1,\dots,w_r\}$, $n=p+r$, 因此, 我们需要证明:
+如下图所示, 假设向量空间 $\mathcal{V}$ 的维数为 $n$, 且 $\dim \ker(T) = p, p \leq n$. 设 $\ker(T)$ 的一组基底为 $\\{u_1, \dots, u_p\\}$, 并将其扩充为 $\mathcal{V}$ 的一组基底 $\\{u_1,\dots,u_p,w_1,\dots,w_r\\}$, $n=p+r$, 因此, 我们需要证明:
 
 $$
-{\rm rank}\, T = r
+{\rm rank}\\, T = r
 $$
 
 <img src="https://imgkr.cn-bj.ufileos.com/d97c88ee-79f4-4a7f-99c9-61331f51895c.png" title="数系家园" alt="数系家园" width="450">
@@ -123,8 +123,8 @@ $$
 
 $$
 \begin{aligned}
-T(v) & =T(a_1u_1 + \cdots + a_pu_p + b_1w_1 + \cdots + b_rw_r ) \\[3pt]
-& = a_1(Tu_1) + \cdots + a_pT(u_p) + b_1T(w_1) + \cdots + b_rT(w_r) \\[3pt]
+T(v) & =T(a_1u_1 + \cdots + a_pu_p + b_1w_1 + \cdots + b_rw_r ) \\\\[3pt]
+& = a_1(Tu_1) + \cdots + a_pT(u_p) + b_1T(w_1) + \cdots + b_rT(w_r) \\\\[3pt]
 & = b_1T(w_1) + \cdots + b_rT(w_r)
 \end{aligned}
 $$
@@ -147,7 +147,7 @@ $$
 c_1w_1 + \cdots + c_rw_r = d_1u_1 + \cdots + d_pu_p
 $$
 
-又因为 $\{u_1,\dots,u_p,w_1,\dots,w_r\}$ 线性无关, 所以上式的系数全部为零, 证得 $\{T(w_1), \dots, T(w_r)\}$ 线性无关, 即 ${\rm rank}\, T = r$.
+又因为 $\\{u_1,\dots,u_p,w_1,\dots,w_r\\}$ 线性无关, 所以上式的系数全部为零, 证得 $\\{T(w_1), \dots, T(w_r)\\}$ 线性无关, 即 ${\rm rank}\, T = r$.
 
 <br />
 
@@ -158,7 +158,7 @@ $$
 1. 若 $\dim \mathcal{V} > \dim \mathcal{W}$, 则  
 $$
 \begin{aligned}
-   \operatorname{dim} \operatorname{ker}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ran}(T) \\[3pt]
+   \operatorname{dim} \operatorname{ker}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ran}(T) \\\\[3pt]
    \geq \operatorname{dim} \mathcal{V}-\operatorname{dim} \mathcal{W}>0
    \end{aligned}
    $$
@@ -166,7 +166,7 @@ $$
 
 2. 若 $\dim \mathcal{V} < \dim \mathcal{W}$, 则  
    $$\begin{aligned}
-   \operatorname{dim} \operatorname{ran}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ker}(T) \\[3pt]
+   \operatorname{dim} \operatorname{ran}(T)=\operatorname{dim} \mathcal{V}-\operatorname{dim} \operatorname{ker}(T) \\\\[3pt]
    \leq \operatorname{dim} \mathcal{V}<\operatorname{dim} \mathcal{W}
    \end{aligned}$$
    即存在非零向量 $\mathbf{y}\in\mathcal{W}$ 使得 $\mathbf{y} \notin {\rm ran}(T)$, 即 $T$ 不是满射.

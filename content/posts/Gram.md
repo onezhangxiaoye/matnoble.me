@@ -20,9 +20,9 @@ mathjax = true
 
 $$
 \begin{aligned}
-G &= \, A^{\mathsf T}A \\[3pt]
-&= \begin{bmatrix} \mathbf{\alpha}_1^{\mathsf T} \\ \mathbf{\alpha}_2^{\mathsf T} \\ \vdots \\ \mathbf{\alpha}_n^{\mathsf T}  \end{bmatrix}  \begin{bmatrix} \mathbf{\alpha}_1 & \mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_n \end{bmatrix} \\[3pt]
-& = \begin{bmatrix} \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_1 &  \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_n \\ \mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_1 & \mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_2 & \cdots &\mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_n  \\ \vdots & \vdots & & \vdots \\ \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_1 & \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_n \end{bmatrix}
+G &= \, A^{\mathsf T}A \\\\[3pt]
+&= \begin{bmatrix} \mathbf{\alpha}_1^{\mathsf T} \\\\ \mathbf{\alpha}_2^{\mathsf T} \\\\ \vdots \\\\ \mathbf{\alpha}_n^{\mathsf T}  \end{bmatrix}  \begin{bmatrix} \mathbf{\alpha}_1 & \mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_n \end{bmatrix} \\\\[3pt]
+& = \begin{bmatrix} \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_1 &  \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_n \\\\ \mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_1 & \mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_2 & \cdots &\mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_n  \\\\ \vdots & \vdots & & \vdots \\\\ \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_1 & \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_n \end{bmatrix}
 \end{aligned}
 $$
 
@@ -33,9 +33,9 @@ $$
 
 $$
 \begin{aligned}
-G &= \, AA^{\mathsf T} \\[3pt]
-&= \begin{bmatrix}\mathbf{\beta}_1^{\mathsf T}  \\ \mathbf{\beta}_2^{\mathsf T} \\ \vdots \\ \mathbf{\beta}_m^{\mathsf T} \end{bmatrix} \begin{bmatrix} \mathbf{\beta}_1 & \mathbf{\beta}_2 & \cdots & \mathbf{\beta}_m \end{bmatrix} \\[3pt]
-& = \begin{bmatrix} \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_1 &  \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_2 & \cdots & \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_m \\ \mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_1 & \mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_2 & \cdots &\mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_m  \\ \vdots & \vdots & & \vdots \\ \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_1 & \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_2 & \cdots & \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_m \end{bmatrix}
+G &= \, AA^{\mathsf T} \\\\[3pt]
+&= \begin{bmatrix}\mathbf{\beta}_1^{\mathsf T}  \\\\ \mathbf{\beta}_2^{\mathsf T} \\\\ \vdots \\\\ \mathbf{\beta}_m^{\mathsf T} \end{bmatrix} \begin{bmatrix} \mathbf{\beta}_1 & \mathbf{\beta}_2 & \cdots & \mathbf{\beta}_m \end{bmatrix} \\\\[3pt]
+& = \begin{bmatrix} \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_1 &  \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_2 & \cdots & \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_m \\\\ \mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_1 & \mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_2 & \cdots &\mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_m  \\\\ \vdots & \vdots & & \vdots \\\\ \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_1 & \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_2 & \cdots & \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_m \end{bmatrix}
 \end{aligned}
 $$
 
@@ -43,10 +43,10 @@ $$
 
 下面只考虑`列向量 Gram 矩阵`
 
-> (1) $G = \, A^{\mathsf T}A$ 是对称矩阵
+> (1) $G = A^{\mathsf T}A$ 是对称矩阵
 
 $$
-G^{\mathsf T } = \,  (A^{\mathsf T}A)^{\mathsf T} = \,  A^{\mathsf T}A = G 
+G^{\mathsf T } = (A^{\mathsf T}A)^{\mathsf T} = A^{\mathsf T}A = G 
 $$
 
 <br />
@@ -56,7 +56,7 @@ $$
 证明 
 
 $$
-\begin{cases} A\mathsf{x} = 0 \\[3pt] A^{\mathsf T}A\mathbf{x} = 0 \end{cases}
+\begin{cases} A\mathsf{x} = 0 \\\\[3pt] A^{\mathsf T}A\mathbf{x} = 0 \end{cases}
 $$ 
 
 同解即可. 
@@ -68,7 +68,7 @@ $$
 >  (3) 若 $A^{\mathsf T}A=0$, 则 $A = 0$  
 
 由上面性质 
-$$\begin{aligned} \mathrm{rank} (A^{\mathsf T}A) &= \mathrm{rank} (A) \\
+$$\begin{aligned} \mathrm{rank} (A^{\mathsf T}A) &= \mathrm{rank} (A) \\\\
 &=  \mathrm{rank} \ (0) = 0 \end{aligned}$$
 
 <br />
@@ -98,8 +98,8 @@ $$ \mathbf{x}^{\mathsf T}A^{\mathsf T}A\mathbf{x} = (A\mathbf{x})^{\mathsf T}A\m
   
   则可得 
   
-  $$\begin{aligned}  M &= Q\Lambda Q^{\mathsf T} \\[3pt] 
-  &= (\Lambda^{\frac{1}{2}}Q^{\mathsf T})^{\mathsf T}\Lambda^{\frac{1}{2}}Q^{\mathsf T} \\[3pt]
+  $$\begin{aligned}  M &= Q\Lambda Q^{\mathsf T} \\\\[3pt] 
+  &= (\Lambda^{\frac{1}{2}}Q^{\mathsf T})^{\mathsf T}\Lambda^{\frac{1}{2}}Q^{\mathsf T} \\\\[3pt]
   &= A^{\mathsf T}A \end{aligned}$$
   
 <br />

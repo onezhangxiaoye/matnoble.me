@@ -32,7 +32,7 @@ $$
 其中，行阶梯型矩阵 $R$ 可..分块..表示为:
 
 $$
-R = \begin{bmatrix}I_r & F \\ 0 & 0 \end{bmatrix}
+R = \begin{bmatrix}I_r & F \\\\ 0 & 0 \end{bmatrix}
 $$
 
 $I_r$ 为 $r$ 阶单位阵, $F$ 为 $r \times (n-r)$ 阶矩阵．
@@ -40,7 +40,7 @@ $I_r$ 为 $r$ 阶单位阵, $F$ 为 $r \times (n-r)$ 阶矩阵．
 $E$ 为非奇异 $m$ 阶方阵，对应 $R$ 可..分块..表示为
 
 $$
-E = \begin{bmatrix} E_1 \\[3pt] E_2 \end{bmatrix}
+E = \begin{bmatrix} E_1 \\\\[3pt] E_2 \end{bmatrix}
 $$
 
 $E_1$ 为 $r\times m$ 阶，$E_２$ 为 $(m-r)\times m$ 阶
@@ -48,7 +48,7 @@ $E_1$ 为 $r\times m$ 阶，$E_２$ 为 $(m-r)\times m$ 阶
 综上
 
 $$
-\begin{bmatrix}R & E \end{bmatrix} =  \begin{bmatrix}I_r & F & E_1\\ 0 & 0  & E_2\end{bmatrix}
+\begin{bmatrix}R & E \end{bmatrix} =  \begin{bmatrix}I_r & F & E_1\\\\ 0 & 0  & E_2\end{bmatrix}
 $$
 
 矩阵 $A$ 的四个基本空间的基底信息全部蕴含在上式中
@@ -67,7 +67,7 @@ $$C(A^{\mathsf T}) = C(R^{\mathsf T})$$
 $$N(A) = N(R)$$
 
 显然
-$$P = \begin{bmatrix}-F \\[3pt] I_{n-r}\end{bmatrix}$$
+$$P = \begin{bmatrix}-F \\\\[3pt] I_{n-r}\end{bmatrix}$$
 
 满足 $RP=0$，且 $P$ 列满秩，所以，$P$ 构成矩阵 $A$ 的零空间．
 
@@ -78,7 +78,7 @@ $$P = \begin{bmatrix}-F \\[3pt] I_{n-r}\end{bmatrix}$$
 ### 左零空间 $N(A^{\mathsf T})$
 
 $$
-EA = \begin{bmatrix} E_1A \\[3pt] E_2A \end{bmatrix} = \begin{bmatrix}I_r & F \\ 0 & 0 \end{bmatrix} = R
+EA = \begin{bmatrix} E_1A \\\\[3pt] E_2A \end{bmatrix} = \begin{bmatrix}I_r & F \\\\ 0 & 0 \end{bmatrix} = R
 $$
 
 由 $E_2A = 0$，知 $E_2$ 的行向量属于左零空间 $N(A^{\mathsf T})$．因为 $E$ 非奇异，所以 $E_2$ 的行向量也线性无关，构成 $N(A^{\mathsf T})$ 的一组基底．
@@ -89,9 +89,9 @@ $$
 
 $$
 A=\left[\begin{array}{lllll}
-{2} & {6} & {2} & {2} & {2} \\
-{1} & {3} & {1} & {1} & {1} \\
-{3} & {9} & {3} & {4} & {5} \\
+{2} & {6} & {2} & {2} & {2} \\\\
+{1} & {3} & {1} & {1} & {1} \\\\
+{3} & {9} & {3} & {4} & {5} \\\\
 {1} & {3} & {1} & {2} & {3}
 \end{array}\right]
 $$
@@ -107,34 +107,34 @@ $$
 $$
 
 $$
-\left[\begin{array}{lllll|llll}{2} & {6} & {2} & {2} & {2} & {1} & {0} & {0} & {0} \\ {1} & {3} & {1} & {1} & {1} & {0} & {1} & {0} & {0} \\ {3} & {9} & {3} & {4} & {5} & {0} & {0} & {1} & {0} \\ {1} & {3} & {1} & {2} & {3} & {0} & {0} & {0} & {1}\end{array}\right]
+\left[\begin{array}{lllll|llll}{2} & {6} & {2} & {2} & {2} & {1} & {0} & {0} & {0} \\\\ {1} & {3} & {1} & {1} & {1} & {0} & {1} & {0} & {0} \\\\ {3} & {9} & {3} & {4} & {5} & {0} & {0} & {1} & {0} \\\\ {1} & {3} & {1} & {2} & {3} & {0} & {0} & {0} & {1}\end{array}\right]
 \to
 $$
 $$
-\left[\begin{array}{rrrrr|rrrr}{1} & {3} & {1} & {0} & {-1} & {-17} & {28} & {4} & {5} \\ {0} & {0} & {0} & {1} & {2} & {27} & {-43} & {-6} & {7} \\ {0} & {0} & {0} & {0} & {0} & {-13} & {20} & {3} & {-3} \\ {0} & {0} & {0} & {0} & {0} & {4} & {-6} & {-1} & {1}\end{array}\right]
+\left[\begin{array}{rrrrr|rrrr}{1} & {3} & {1} & {0} & {-1} & {-17} & {28} & {4} & {5} \\\\ {0} & {0} & {0} & {1} & {2} & {27} & {-43} & {-6} & {7} \\\\ {0} & {0} & {0} & {0} & {0} & {-13} & {20} & {3} & {-3} \\\\ {0} & {0} & {0} & {0} & {0} & {4} & {-6} & {-1} & {1}\end{array}\right]
 $$
 
 所以 $r=2$，$1, 4$ 列线性独立．以及
 
 $$
-\begin{bmatrix}I_2 & F \end{bmatrix} = \begin{bmatrix}1 & 3 & 1 & 0 & -1 \\ 0 & 0& 0&1&2 \end{bmatrix}
+\begin{bmatrix}I_2 & F \end{bmatrix} = \begin{bmatrix}1 & 3 & 1 & 0 & -1 \\\\ 0 & 0& 0&1&2 \end{bmatrix}
 $$
 
 $$
-E_2 = \begin{bmatrix} -13&20&3&-3\\ 4&-6&-1&1 \end{bmatrix}
+E_2 = \begin{bmatrix} -13&20&3&-3\\\\ 4&-6&-1&1 \end{bmatrix}
 $$
 
-$$P=\left[\begin{array}{rrr}{-3} & {-1} & {1} \\ {1} & {0} & {0} \\ {0} & {1} & {0} \\ {0} & {0} & {-2} \\ {0} & {0} & {1}\end{array}\right]$$
+$$P=\left[\begin{array}{rrr}{-3} & {-1} & {1} \\\\ {1} & {0} & {0} \\\\ {0} & {1} & {0} \\\\ {0} & {0} & {-2} \\\\ {0} & {0} & {1}\end{array}\right]$$
 
 - 行空间 $C(A^{\mathsf T})$  
   由 $\left[ I_r \quad  F \right]$ 的行向量组成
 
   $$
   \begin{bmatrix}
-  1\\3\\1\\0\\-1
+  1\\\\3\\\\1\\\\0\\\\-1
   \end{bmatrix} \quad
    \begin{bmatrix}
-  0\\0\\0\\1\\2
+  0\\\\0\\\\0\\\\1\\\\2
   \end{bmatrix}
   $$
 
@@ -143,13 +143,13 @@ $$P=\left[\begin{array}{rrr}{-3} & {-1} & {1} \\ {1} & {0} & {0} \\ {0} & {1} & 
 
   $$
   \begin{bmatrix}
-  -3\\1\\0\\0\\0
+  -3\\\\1\\\\0\\\\0\\\\0
   \end{bmatrix} \quad
    \begin{bmatrix}
-  -1\\0\\1\\0\\0
+  -1\\\\0\\\\1\\\\0\\\\0
   \end{bmatrix} \quad
   \begin{bmatrix}
-  1\\0\\0\\-2\\1
+  1\\\\0\\\\0\\\\-2\\\\1
   \end{bmatrix}
   $$
 
@@ -158,10 +158,10 @@ $$P=\left[\begin{array}{rrr}{-3} & {-1} & {1} \\ {1} & {0} & {0} \\ {0} & {1} & 
 
   $$
   \begin{bmatrix}
-  2\\1\\3\\1
+  2\\\\1\\\\3\\\\1
   \end{bmatrix} \quad
    \begin{bmatrix}
-   2\\1\\4\\2
+   2\\\\1\\\\4\\\\2
   \end{bmatrix}
   $$
 
@@ -170,10 +170,10 @@ $$P=\left[\begin{array}{rrr}{-3} & {-1} & {1} \\ {1} & {0} & {0} \\ {0} & {1} & 
 
   $$
   \begin{bmatrix}
-  -13\\20\\3\\-3
+  -13\\\\20\\\\3\\\\-3
   \end{bmatrix} \quad
    \begin{bmatrix}
-   4\\-6\\-1\\1
+   4\\\\-6\\\\-1\\\\1
   \end{bmatrix}
   $$
 

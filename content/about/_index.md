@@ -9,8 +9,9 @@ katex = true
 smallCaps = false
 comments = true
 meta = false
-aplayer = true
 +++
+
+{{< music id="2612212788" type="playlist" server="netease" >}}
 
 > **武汉加油**
 
@@ -18,9 +19,10 @@ aplayer = true
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=86583436&cid=147973477&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
 
+<hr />
+
 <!--more-->
 
-<hr />
 陌生人您好🤝, 欢迎在我的博客留下👣, 不知道您是从何处来到的这里, 但这并不重要. 因为相遇即是缘分, 世界上的人总会通过各种方式产生千丝万缕的联系, 所以, 即使我们素为谋面, 您来到这里, 我们就是朋友💖
 
 <img src="https://ttfou.com/images/2020/02/16/27b0abfdb3b2a0b15d5f406f6b8a4828.jpg" width="95%" title="欢迎我的朋友" alt="老友记欢迎我的朋友们"/>
@@ -68,6 +70,8 @@ aplayer = true
 <img src="https://imgkr.cn-bj.ufileos.com/50926e79-32fd-4a3b-9114-804429c898a1.gif" width="75%" alt="抖音 TicToc 数系家园 matnoble.me ＭatNoble"/>
 
 此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>. 当然, 你也可以经常访问本博客, 以及时获取到最新文章.
+
+本站欢迎大家友链 $\to$ [点我跳转](https://matnoble.me/search/#友链)
 
 *为防止忘记本站, 可快捷键 `Ctrl + D` 将本站添加至书签*
 

@@ -180,12 +180,14 @@ $$
 #### $\varphi_i$ 的性质
 
 - `帽子`
+
 $$
-\varphi_{i}\left(x_{j}\right)=\delta_{i j}, \quad \delta_{i j}=
-\left\{\begin{array}{ll}
-{1,} & {i=j} \\
+\varphi_{i}\left(x_{j}\right)=\delta_{i j}
+\quad \delta_{i j}=
+\begin{cases}
+{1,} & {i=j} \\\\[3pt]
 {0,} & {i \neq j}
-\end{array}\right.
+\end{cases}
 $$
 
 从而
@@ -210,9 +212,9 @@ $$
 $$
 \varphi_{i}(x)=
 \begin{cases}
-0, \quad & x < x_{i-1} \\
-(x-x_{i-1})/h,  & x_{i-1} \leq x < x_i \\
-1-(x-x_{i-1})/h,  & x_{i}  \leq x < x_{i+1} \\
+0, \quad & x < x_{i-1} \\\\[3pt]
+(x-x_{i-1})/h,  & x_{i-1} \leq x < x_i \\\\[3pt]
+1-(x-x_{i-1})/h,  & x_{i}  \leq x < x_{i+1} \\\\[3pt]
 0, & x \geq x_{i+1}
 \end{cases}
 $$
@@ -241,9 +243,9 @@ $$
 
 $$
 \begin{aligned}
-A_{i,i} & = \int_{\Omega} \varphi_i^2 {\rm d} x \\
-& = \int_{i-1}^{i} \varphi_i^2 {\rm d} x + \int_{i}^{i-1} \varphi_i^2 {\rm d} x \\
-&=\int_{i-1}^{i} \left(\frac{x-x_{i-1}}{h}\right)^2 {\rm d} x + \int_{i}^{i-1} \left(1-\frac{x-x_{i}}{h}\right)^2 {\rm d} x \\
+A_{i,i} & = \int_{\Omega} \varphi_i^2 {\rm d} x \\\\[3pt]
+& = \int_{i-1}^{i} \varphi_i^2 {\rm d} x + \int_{i}^{i-1} \varphi_i^2 {\rm d} x \\\\[3pt]
+&=\int_{i-1}^{i} \left(\frac{x-x_{i-1}}{h}\right)^2 {\rm d} x + \int_{i}^{i-1} \left(1-\frac{x-x_{i}}{h}\right)^2 {\rm d} x \\\\[3pt]
 & = \frac{2h}{3}.
 \end{aligned}
 $$
@@ -266,7 +268,7 @@ $
 
 $$
 \begin{aligned}
-b_{i}&=\int_{\Omega} \varphi_{i}(x) f(x) \mathrm{d} x \\
+b_{i}&=\int_{\Omega} \varphi_{i}(x) f(x) \mathrm{d} x \\\\[3pt]
 & = \int_{x_{i-1}}^{x_{i}} \frac{x-x_{i-1}}{h} f(x) \mathrm{d} x+\int_{x_{i}}^{x_{i+1}}\left(1-\frac{x-x_{i}}{h}\right) f(x) \mathrm{d} x
 \end{aligned}
 $$
@@ -281,12 +283,12 @@ $$
 
 $$
 A=\frac{h}{6}\left[\begin{array}{lll}
-{2} & {1} & {0} \\
-{1} & {4} & {1} \\
+{2} & {1} & {0} \\\\[3pt]
+{1} & {4} & {1} \\\\[3pt]
 {0} & {1} & {2}
 \end{array}\right], \quad b=\frac{h^{2}}{12}\left[\begin{array}{c}
-{2-3 h} \\
-{12-14 h} \\
+{2-3 h} \\\\[3pt]
+{12-14 h} \\\\[3pt]
 {10-17 h}
 \end{array}\right].
 $$

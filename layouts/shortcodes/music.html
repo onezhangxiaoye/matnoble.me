@@ -1,0 +1,24 @@
+
+  {{ if .IsNamedParams }}
+  <!-- require APlayer -->
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+           <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+           <!-- require MetingJS -->
+           <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  
+    <meting-js
+      id="{{ .Get "id" }}"
+      server="{{ .Get "server" }}"
+      type="{{ .Get "type" }}"
+      fixed="false"
+      mini="false"
+      autoplay="false"
+      loop="none"
+      theme="#255579"
+      volume="0.6"
+      prelosd="auto"
+      mutex="true"
+      list-folded="true">
+    </meting-js>
+  
+{{ end }}

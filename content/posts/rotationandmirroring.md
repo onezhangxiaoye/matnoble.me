@@ -27,7 +27,7 @@ $$
 \alpha_i \cdot \alpha_j=
 \begin{cases}
 1 \quad i = j
-\\[3pt]
+\\\\[3pt]
 0 \quad i \neq j
 \end{cases}
 $$
@@ -58,7 +58,7 @@ $$
 若 $\lVert A \rVert = 1$, 则成正交矩阵 $A$ 为`旋转矩阵`. 当 $n=2$ 时, 逆时针旋转 $\theta$ 角度的旋转矩阵为:
 
 $$
-R(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix}
+R(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\\\ \sin(\theta) & \cos(\theta) \end{bmatrix}
 $$
 
 显然, $R(\theta)^{\mathsf T}=R(-\theta)=R^{-1}(\theta)$, 且
@@ -77,7 +77,7 @@ $$P^2=P=P^T$$
 
 $$
 \begin{aligned}
-(P\mathbf{x})^{\mathsf T}(I-P)\mathbf{x} &=\mathbf{x}^{\mathsf T}P^{\mathsf T}(I-P)\mathbf{x} \\[3pt]
+(P\mathbf{x})^{\mathsf T}(I-P)\mathbf{x} &=\mathbf{x}^{\mathsf T}P^{\mathsf T}(I-P)\mathbf{x} \\\\[3pt]
 &=\mathbf{x}^{\mathsf T}(P-P^2 )\mathbf{x}=0
 \end{aligned}
 $$
@@ -108,9 +108,9 @@ $$ S=2P-I$$
 > 
 >$$ 
 >\begin{aligned}
->S_2&=2\mathbf{v}\mathbf{v}^{\mathsf T}-I \\[3pt] 
->&=\begin{bmatrix} 2\cos^2\phi-1&2\cos\phi\sin\phi \\ 2\sin\phi\cos\phi&2\sin^2\phi-1 \end{bmatrix} \\[3pt]
->&= \begin{bmatrix} \cos 2\phi&\sin 2\phi \\ \sin 2\phi &-\cos 2\phi \end{bmatrix}
+>S_2&=2\mathbf{v}\mathbf{v}^{\mathsf T}-I \\\\[3pt] 
+>&=\begin{bmatrix} 2\cos^2\phi-1&2\cos\phi\sin\phi \\\\ 2\sin\phi\cos\phi&2\sin^2\phi-1 \end{bmatrix} \\\\[3pt]
+>&= \begin{bmatrix} \cos 2\phi&\sin 2\phi \\\\ \sin 2\phi &-\cos 2\phi \end{bmatrix}
 >\end{aligned} 
 >$$
 

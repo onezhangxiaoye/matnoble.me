@@ -16,15 +16,18 @@ images = ["https://imgkr.cn-bj.ufileos.com/e27f3006-20ca-409a-b932-dd2ca16385aa.
 # Career
 
 ## Miami Heat
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="https://www.youtube.com/embed/8dCCLAvksOE" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 80%; left: 0; top: 0;"> </iframe></div>
+
+{{< youtube 8dCCLAvksOE >}}
 
 ### Dwyane Wade
 <img src="https://imgkr.cn-bj.ufileos.com/f3d8584c-9b86-4f55-9e48-46765f208d19.jpg" title="Lebron's dunk from wade vs. Bucks" alt="Dwyane Wade no-look to LeBron James for tomahawk dunk vs. the Bucks 2010" width=95%>
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="https://www.youtube.com/embed/BmDNvTgD4Xo" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 80%; left: 0; top: 0;"> </iframe></div>
+{{< youtube BmDNvTgD4Xo >}}
 
 ## Cleveland Cavaliers
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="https://www.youtube.com/embed/RJ3vJqKVUe8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 80%; left: 0; top: 0;"> </iframe></div>
+
+{{< youtube RJ3vJqKVUe8 >}}
 
 ## Los Angeles Lakers
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="https://www.youtube.com/embed/J_17Atptyyo" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 80%; left: 0; top: 0;"> </iframe></div>
+
+{{< youtube J_17Atptyyo >}}

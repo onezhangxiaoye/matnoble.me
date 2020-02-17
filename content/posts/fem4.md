@@ -89,7 +89,7 @@ $$
 $$
 \begin{align*}
 A_{ij} &= \psi_j(x_i),
-\\[3pt]
+\\\\[3pt]
 b_i &= f(x_i).
 \end{align*}
 $$
@@ -111,25 +111,25 @@ $$
 
 $$
 \begin{cases}
-a_nx_n^n+\cdots+a_1x_n + a_0 = y_n,\\[3pt]
-a_nx_{n-1}^n+\cdots+a_1x_{n-1} + a_0 = y_{n-1}, \\[3pt]
-\hspace{5em} \vdots \\[3pt]
+a_nx_n^n+\cdots+a_1x_n + a_0 = y_n,\\\\[3pt]
+a_nx_{n-1}^n+\cdots+a_1x_{n-1} + a_0 = y_{n-1}, \\\\[3pt]
+\hspace{5em} \vdots \\\\[3pt]
 a_nx_0^n+\cdots+a_1x_0 + a_0 = y_0.
 \end{cases}
 $$
 
 $$
 \begin{bmatrix}
-x_n^n & \cdots & x_n & 1\\
-x_{n-1}^{n} & \cdots & x_{n-1} & 1\\
-&\vdots&&\\
+x_n^n & \cdots & x_n & 1\\\\
+x_{n-1}^{n} & \cdots & x_{n-1} & 1\\\\
+&\vdots&&\\\\
 x_0^n & \cdots & x_0 & 1
 \end{bmatrix}
 \begin{bmatrix}
-a_n\\ \vdots \\ a_1 \\ a_0
+a_n\\\\ \vdots \\\\ a_1 \\\\ a_0
 \end{bmatrix} =
 \begin{bmatrix}
-y_n\\ y_{n-1} \\ \vdots  \\ y_0
+y_n\\\\ y_{n-1} \\\\ \vdots  \\\\ y_0
 \end{bmatrix}.
 $$
 
@@ -141,13 +141,13 @@ $$
 解: 已知 $\psi_0 = 1, \psi_1 = x$, 因此利用式 (\ref{eq:eq4}), 得
 
 $$
-A = \begin{bmatrix} 1 & \frac{4}{3}\\ 1& \frac{5}{3}\end{bmatrix}, \quad b = \begin{bmatrix} \frac{1}{9} \\ \frac{31}{9}\end{bmatrix}.
+A = \begin{bmatrix} 1 & \frac{4}{3}\\\\ 1& \frac{5}{3}\end{bmatrix}, \quad b = \begin{bmatrix} \frac{1}{9} \\\\ \frac{31}{9}\end{bmatrix}.
 $$
 
 解得
 
 $$
-c = \begin{bmatrix} -\frac{119}{9} \\ 10 \end{bmatrix}.
+c = \begin{bmatrix} -\frac{119}{9} \\\\ 10 \end{bmatrix}.
 $$
 
 所以,
@@ -173,7 +173,7 @@ $$
 $$
 \psi_{i}\left(x_{s}\right)=\delta_{i s}, \quad \delta_{i s}
 =\left\{\begin{array}{ll}
-{1,} & {i=s} \\
+{1,} & {i=s} \\\\
 {0,} & {i \neq s}
 \end{array}\right.
 $$
@@ -184,7 +184,7 @@ $$
 A_{ij}=
 \begin{cases}
 0\quad  \textit{for} \ i \neq j,
-\\[3pt]
+\\\\[3pt]
 1\quad  \textit{for} \ i = j.
 \end{cases}
 $$
