@@ -7,6 +7,7 @@ tags = ["Hugo"]
 keywords = ["Shortcodes","Hugo","建站那些事儿","year","hugo-notice","music","video","friend link","优酷","维基百科 Wikipedia","blockquote"]
 toc = true
 katex = true
+gitinfo = true
 +++
 
 ## 前言
@@ -193,7 +194,7 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 
 ### 提供下载 download
 
-以上所有 `shortcodes` 代码都可以访问以下 `GitHub` 链接下载.
+以上所有 `shortcodes` 代码都可以访问以下 `GitHub` 链接下载, 欢迎发现问题的同学提交[Issues](https://github.com/MatNoble/hugo-shortcodes-sets/issues/1)!
 
 {{< blockquote author="数学小兵儿" link="https://github.com/MatNoble/hugo-shortcodes-sets" >}}
 These are shortcodes that I have created for the Hugo static blogging engine.

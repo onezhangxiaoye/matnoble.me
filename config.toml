@@ -717,7 +717,7 @@ uglyURLs = false
     modifiedDateIcon = "calendar-check"
 
     # 是否显示过期时间
-    displayExpiredDate = true
+    displayExpiredDate = false
     # 过期时间的图标
     expiredDateIcon = "calendar-times"
 
@@ -1020,7 +1020,7 @@ uglyURLs = false
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = true
+    enablePostUpdatedBadge = false
 
     # 是否显示（全局设置）
     displayUpdatedBadge = true
@@ -1028,7 +1028,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 是否添加 `title`
-    enableBadgeTitle = true
+    enableBadgeTitle = false
     # `title` 的前缀
     badgeTitlePrefix = "Updated @ "
 
@@ -1067,7 +1067,7 @@ uglyURLs = false
     feedbackText = "Feedback"
 
     # 是否显示编辑链接
-    displayEditLink = true
+    displayEditLink = false
     # 编辑链接的图标
     editIcon = "edit"
     # 编辑链接的文本
