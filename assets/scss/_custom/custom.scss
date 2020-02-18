@@ -79,37 +79,6 @@ p#div-default {
     margin: -30px;
 }
 
-/* 友链样式 */
-.blogroll {
-    padding: 1rem 0;
-    border: 2px solid transparent;
-    border-bottom: 1px dashed var(--color-contrast-low);
-    display: flex;
-}
-.blogroll .friend {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.blogroll .name {
-    font-weight: bold;
-    margin-bottom: 6px;
-    margin-top: 6px;
-}
-.blogroll .excerpt {
-    font-size:14px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.blogroll .avatar {
-    width: 4em !important;
-    height: 4em !important;
-    margin:0 !important;
-    margin-right: 1em !important;
-    border-radius:4px;   
-}
-
 // 颜色渐变
 //文件位置：\themes\meme\assets\scss\_custom\custom.scss
 .colorfulfont {
@@ -204,31 +173,4 @@ table th:nth-of-type(6) {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
-}
-
-// children
-.children p {
-    font-size: small;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom:  0px;
-    padding-bottom: 0px;
-}
-
-.children-li p {
-    font-size: small;
-    font-style: italic;
-}
-
-.children-h2 p, .children-h3 p {
-    font-size: small;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom:  0px;
-    padding-bottom: 0px;
-}
-
-.children h3,.children h2 {
-    margin-bottom: 0px;
-    margin-top: 5px;
 }
