@@ -205,8 +205,7 @@ uglyURLs = false
 	weight = 6
 	pre = "internal"
         post = "search"
-		
-
+	
     ## 社交栏
     [[menu.socials]]
         url = "https://github.com/MatNoble"
@@ -228,13 +227,28 @@ uglyURLs = false
         name = "Facebook"
         weight = 4
         pre = "external"
+      [[menu.socials]]
+        url = "https://twitter.com/mat_noble"
+        name = "twitter"
+        weight = 5
+        pre = "external"
 
-    ## 链接栏
-    #[[menu.links]]
-    #   url = "/"
-    #  name = "Home"
-    # weight = 1
-    # pre = "internal"
+    # 链接栏
+    [[menu.links]]
+       url = "/search/#友链"
+       name = "友链"
+       weight = 1
+       pre = "internal"
+    [[menu.links]]
+        url = "/tags/"
+        name = "标签"
+        weight = 2
+        pre = "internal"
+    [[menu.links]]
+        url = "/categories/"
+        name = "分类"
+        weight = 3
+        pre = "internal"
 
 ##########################################
 # 主题配置
@@ -651,8 +665,8 @@ uglyURLs = false
     enableGoogleAutoAds = true
 
     ## 广告单元
-    enableGoogleAdUnits = false
-    googleAdSlot = ""
+    enableGoogleAdUnits = true
+    googleAdSlot = "6616360495"
 
 
     ######################################
@@ -739,7 +753,7 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = true
+    displayBusuanziPagePV = false
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
@@ -1037,7 +1051,7 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = true
+    enablePostGitInfo = false
 
     # 是否显示（全局设置）
     displayPostGitInfo = false
@@ -1045,7 +1059,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/MatNoble/matnoble.me"
+    repoURL = "https://github.com/MatNoble/matnoble.github.io"
     # 编辑地址
     repoEditURL = "https://github.com/MatNoble/matnoble.me/blob/master"
 

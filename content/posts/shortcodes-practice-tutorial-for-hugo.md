@@ -7,7 +7,6 @@ tags = ["Hugo"]
 keywords = ["Shortcodes","Hugo","建站那些事儿","year","hugo-notice","music","video","friend link","优酷","维基百科 Wikipedia","blockquote"]
 toc = true
 katex = true
-gitinfo = true
 +++
 
 ## 前言
@@ -22,28 +21,17 @@ Shortcodes 翻译为: 短代码或者简码
 
 ### 需注意
 
-#### 主题适应
-
 本博客基于 HUGO, 使用的是 [reuixiy](https://io-oi.me/) 开发的 [MemE 主题](https://github.com/reuixiy/hugo-theme-meme/), 但由于该主题暂时不支持 Shortcodes (与$\LaTeX$ 渲染冲突), 所以, 如果你用的也是该主题, 又想玩玩儿 Shortcodes, 那么你需要作出一些小修改, 修改办法见下方链接.
 
 {{< blockquote author="reuixiy" link="https://github.com/reuixiy/hugo-theme-meme/issues/50">}}
 MemE v4.0.0 breaks Hugo shortcodes
 {{< /blockquote >}}
 
-#### 代码呈现
-
-{{< notice tip >}}
-由于渲染问题, 下文中出现的
-```
-{{空格< sth >空格}}
-```
-「空格」是没有的!
-{{< /notice >}}
 ## Shortcodes 实例
 ### 当前年 Year
 官网例子, 输出今年的年份.
 ```
-今年是 {{ < year > }} 年.
+今年是 {{</* year */>}} 年.
 ```
 今年是 {{< year >}} 年.
 
@@ -55,7 +43,7 @@ MemE v4.0.0 breaks Hugo shortcodes
 ### GitHub gist
 原生支持, 添加 GitHub gist
 ```
-{{ < gist MatNoble b8d6a9541221fef7c30bf214d3505836 > }}
+{{</* gist MatNoble b8d6a9541221fef7c30bf214d3505836 */>}}
 ```
 {{< gist MatNoble b8d6a9541221fef7c30bf214d3505836 >}}
 
@@ -77,9 +65,9 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 显示效果如下:
 #### Warning
 ```
-{{ < notice warning > }}
+{{</* notice warning */>}}
 这是告诫! 请注意!
-{{ < /notice > }}
+{{</* /notice */>}}
 ```
 {{< notice warning >}}
 这是告诫! 请注意!
@@ -88,9 +76,9 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 #### Info
 ```
 
-{{ < notice info > }}
+{{</* notice info */>}}
 这是引言
-{{ < /notice > }}
+{{</* /notice */>}}
 ```
 {{< notice info >}}
 这是引言
@@ -99,9 +87,9 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 #### Tip
 
 ```
-{{ < notice tip > }}
+{{</* notice tip */>}}
 这是小贴示
-{{ < /notice > }}
+{{</* /notice */>}}
 ```
 
 {{< notice tip >}}
@@ -111,9 +99,9 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 #### Note
 
 ```
-{{ < notice note > }}
+{{</* notice note */>}}
 这是注释
-{{ < /notice > }}
+{{</* /notice */>}}
 ```
 
 {{< notice note >}}
@@ -125,12 +113,12 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 借鉴自[GitHub](https://github.com/parsiya/Hugo-Shortcodes/blob/master/shortcodes/blockquote.html), 举个栗子:
 
 ```
-{{ < blockquote author="李健" link="https://baike.baidu.com/item/%E6%87%82%E5%BE%97/22699721" title="《懂得》" > }}
+{{</* blockquote author="李健" link="https://baike.baidu.com/item/%E6%87%82%E5%BE%97/22699721" title="《懂得》" */>}}
 花开花谢 白天黑夜<br />
 一切自然 又不尽然<br />
 春夏秋冬 经过才懂<br />
 世间冷暖 无非自然
-{{ < /blockquote > }}
+{{</* /blockquote */>}}
 ```
 {{< blockquote author="李健" link="https://baike.baidu.com/item/%E6%87%82%E5%BE%97/22699721" title="《懂得》" >}}
 花开花谢 白天黑夜<br />
@@ -142,7 +130,7 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 ### 维基百科 Wikipedia
 借鉴自[GitHub](https://github.com/parsiya/Hugo-Shortcodes/blob/master/shortcodes/wp.html), 举个栗子:
 ```
-{{ < wp tag="Wikipedia:历史上的今天" lang="zh" title="历史上的今天" > }}
+{{</* wp tag="Wikipedia:历史上的今天" lang="zh" title="历史上的今天" */>}}
 ```
 
 {{< wp tag="Wikipedia:历史上的今天" lang="zh" title="历史上的今天" >}}
@@ -150,7 +138,7 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 ### 音乐 Music
 基于 [MetingJS](https://github.com/metowolf/MetingJS) 制作 `./layouts/shortcodes/music.html`
 ```
-{{ < music id="569200212" type="song" server="netease" > }}
+{{</* music id="569200212" type="song" server="netease" */>}}
 ```
 |option |  default |  description|
 |:--:|:--:|:--:|
@@ -160,16 +148,18 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 
 更多选项看[这里](https://github.com/metowolf/MetingJS#option)
 
+显示效果:
 {{< notice warning >}}
-该 shortcodes 存在问题! 会导致 TOC 目录点击失效, 所以, 暂时只能将音乐放到没有目录的页面, 比如[这里](https://matnoble.me/about/)
+该 shortcodes 存在问题! 会导致 TOC 目录点击失效, 所以, 暂时只能将音乐放到没有目录的页面 👇
 {{< /notice >}}
+<a href="https://matnoble.me/about"><img title="点击跳转" alt="Aplayer 播放器" src="https://ttfou.com/images/2020/02/18/3596ac5359d85bd85bab7f0241a3ab97.png" /></a>
 
 ### 视频 Video
 #### YouTube
 原生支持 YouTube, 代码如下
 
 ```
-{{ < youtube ID > }}
+{{</* youtube ID */>}}
 ```
 
 {{< youtube MHsiF9avPww >}}
@@ -177,7 +167,7 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 #### 优酷 YOUKU
 还可以创建`./layouts/shortcodes/youku.html` 使其支持 `YOUKU`
 ```
-{{ < youku id="ID" > }}
+{{</* youku id="ID" */>}}
 ```
 
 {{< youku id="XNDU0OTY4OTg4OA==" >}}
@@ -187,7 +177,7 @@ This is not a standalone theme. It is a Hugo theme component providing a shortco
 借鉴自 [hugo-friendlinks](https://github.com/kkkgo/hugo-friendlinks), 针对本主题, 稍加修改.
 
 ```
-{{ < friend name="数学小兵儿" url="https://matnoble.me/" logo="/icons/android-chrome-512x512.png" word="数学＆计算机 我都爱" > }}
+{{</* friend name="数学小兵儿" url="https://matnoble.me/" logo="/icons/android-chrome-512x512.png" word="数学＆计算机 我都爱" */>}}
 ```
 
 {{< friend name="数学小兵儿" url="https://matnoble.me/" logo="/icons/android-chrome-512x512.png" word="数学＆计算机 我都爱" >}}
