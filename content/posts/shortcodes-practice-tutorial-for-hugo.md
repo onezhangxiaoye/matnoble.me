@@ -1,10 +1,10 @@
 +++
-title = "Shortcodes 实践教程"
+title = "在 Hugo 博客上实践 Shortcodes 短代码, 太强大了"
 date = "2020-02-16T00:22:42+00:00"
-description = "Hugo 这个功能太强大了"
+description = "Hugo 这个「高度自定义」功能太强大了"
 categories = ["TECH","建站那些事儿"]
 tags = ["Hugo"]
-keywords = ["Shortcodes","Hugo","建站那些事儿","year","hugo-notice","music","video","friend link","优酷","维基百科 Wikipedia","blockquote"]
+keywords = ["Shortcodes","短代码","Hugo 博客","建站那些事儿","year","hugo-notice","music","video","friend link","优酷","维基百科 Wikipedia","blockquote"]
 toc = true
 katex = true
 +++
