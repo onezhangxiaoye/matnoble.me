@@ -51,16 +51,19 @@ MemE v4.0.0 breaks Hugo shortcodes
 {{< blockquote author="martignoni" link="https://github.com/martignoni/hugo-notice" title="hugo-notice" >}}
 This is not a standalone theme. It is a Hugo theme component providing a shortcode: notice to display nice notices. Four notice types are provided: warning, info, note and tip.
 {{< /blockquote >}}
-`hugo-notice` 是一个制作十分精美的短代码, 非常感谢原作者的付出, 但使用并不需要把他的仓库 copy 到本地, 只需将 `notice.html` copy 到 `./layouts/shortcodes/` 下, 如需要翻译, 且使用 `MemE 主题`, 只需要在根目录下创建 `./i18n/zh-cn.yaml`
-```yaml
-- id: warning
-  translation: "警告"
-- id: note
-  translation: "注释"
-- id: info
-  translation: "引言"
-- id: tip
-  translation: "小贴示"
+`hugo-notice` 是一个制作十分精美的短代码, 非常感谢原作者的付出, 但使用并不需要把他的仓库 copy 到本地, 只需将 `notice.html` copy 到 `./layouts/shortcodes/` 下, 如需要翻译, 且使用 `MemE 主题`, 只需要在根目录下创建 `./i18n/zh-cn.toml`
+```toml
+[warning]
+other = "警告"
+
+[note]
+other = "注释"
+
+[info]
+other = "引言"
+
+[tip]
+other = "小贴示"
 ```
 显示效果如下:
 #### Warning

@@ -1,0 +1,11 @@
+[warning]
+other = "警告"
+
+[note]
+other = "注释"
+
+[info]
+other = "引言"
+
+[tip]
+other = "小贴示"

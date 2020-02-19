@@ -10,7 +10,7 @@ katex = true
 images = ["https://imgkr.cn-bj.ufileos.com/1cef4c32-2ea9-4ed5-be57-b20b8fa8d789.jpeg"]
 +++
 
-<img src="https://imgkr.cn-bj.ufileos.com/1cef4c32-2ea9-4ed5-be57-b20b8fa8d789.jpeg" title="Emacs vs vim vs text" alt="Emacs vs vim vs text" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/1cef4c32-2ea9-4ed5-be57-b20b8fa8d789.jpeg" title="Emacs vs vim vs text" alt="Emacs vs vim vs text" width=95% />
 
 <i style="display:block;text-align:center;color:gray">Emacs 是一种生活方式</i>
 
@@ -20,7 +20,7 @@ Emacs 是我目前主要的编辑器: 写 Python 代码, 写 $\LaTeX$ 文档, �
 
 ## 界面及安装
 
-<img src="https://imgkr.cn-bj.ufileos.com/5ab0ab4b-00b1-483f-9c4d-26651c81946a.png" title="自定义后的界面--清爽之极" alt="Emacs 自定义后的界面--清爽之极" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/5ab0ab4b-00b1-483f-9c4d-26651c81946a.png" title="自定义后的界面--清爽之极" alt="Emacs 自定义后的界面--清爽之极" width=95% />
 
 Emacs 是一个支持多平台的自由软件, 我在 Windows 和 Ubuntu 上都安装使用过, 在 Ubuntu 上体验更好一些. 另外, Emacs 有众多版本, 我用的是 25.3.1.
 
@@ -42,7 +42,7 @@ Emacs 是一个支持多平台的自由软件, 我在 Windows 和 Ubuntu 上都�
 
   `C-h t` : 表示按住 `Ctrl` 键不松开, 再按住 `h` 键, 然后按 `t` 键. 试一试, `C-h t` 可以打开 Emacs 官方文档.
   
-  <img src="https://imgkr.cn-bj.ufileos.com/e6c8c7e8-af72-45db-b1fd-a43936d96719.png"  title="Emacs 官方帮助文档" alt="Emacs 官方帮助文档" width=80% />
+  <img src="https://imgkr.cn-bj.ufileos.com/e6c8c7e8-af72-45db-b1fd-a43936d96719.png"  title="Emacs 官方帮助文档" alt="Emacs 官方帮助文档" width=95% />
 
 - 移屏
 
@@ -54,7 +54,7 @@ Emacs 是一个支持多平台的自由软件, 我在 Windows 和 Ubuntu 上都�
 
 - 上下左右
 
-  <img src="https://imgkr.cn-bj.ufileos.com/7e9d0777-73c0-41b4-b66d-c1636326bd4c.png"  title="Emacs 键盘操作" alt="Emacs 官方帮助文档　键盘操作" width=80% />
+  <img src="https://imgkr.cn-bj.ufileos.com/7e9d0777-73c0-41b4-b66d-c1636326bd4c.png"  title="Emacs 键盘操作" alt="Emacs 官方帮助文档　键盘操作" width=95% />
   
   `C-f` 和 `C-b` 分别表示向前和向后移动**一个字符**, `M-f` 和`M-b` 则可以相应的移动的更多. 
 
@@ -84,19 +84,19 @@ Emacs 是一个支持多平台的自由软件, 我在 Windows 和 Ubuntu 上都�
 
 > 没有固定的编辑框, 没有固定的输出框, 支持同时打开多个文件(文件类型不定)
 
-<img src="https://imgkr.cn-bj.ufileos.com/f82c62b9-8149-4e88-80a5-c9218aab5976.png"  title="Emacs + Python" alt="Emacs + Python" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/f82c62b9-8149-4e88-80a5-c9218aab5976.png"  title="Emacs + Python" alt="Emacs + Python" width=95% />
 
 ##  $\LaTeX$ 配置
 
 > 简单快速
 
-<img src="https://imgkr.cn-bj.ufileos.com/ef044f36-8a22-4882-8c7a-bd2c018343d4.png"  title="Emacs + $\LaTeX$" alt="Emacs + $\LaTeX$" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/ef044f36-8a22-4882-8c7a-bd2c018343d4.png"  title="Emacs + $\LaTeX$" alt="Emacs + $\LaTeX$" width=95% />
 
 ## Org-mode
 
 > 类似 `Markdown` 的语法, 提纲式记录想法, 输出格式支持: $\TeX \to$ PDF, HTML等
 
-<img src="https://imgkr.cn-bj.ufileos.com/bffb935f-834f-4d68-affe-1a488e35bc76.png"  title="Emacs　org-mode" alt="Emacs org-mode" width=80% />
+<img src="https://imgkr.cn-bj.ufileos.com/bffb935f-834f-4d68-affe-1a488e35bc76.png"  title="Emacs　org-mode" alt="Emacs org-mode" width=95% />
 
 ## 推荐阅读
 
