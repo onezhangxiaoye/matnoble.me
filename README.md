@@ -5,7 +5,7 @@
 <a href="https://matnoble.me/about/"><img alt="Author" src="https://img.shields.io/badge/Author-MetNoble-blue?style=flat-square"/></a>
  <a href="https://gohugo.io/"><img alt="Generator" src="https://img.shields.io/badge/Generator-Hugo-ff4088?&logo=hugo"/></a>
  <a href="https://github.com/reuixiy/hugo-theme-meme"><img alt="Theme" src="https://img.shields.io/badge/Theme-MemE-2a6df4?&logo=meme"/></a>
- <a href="https://github.com/MatNoble/matnoble.me"><img alt="Source" src="https://img.shields.io/badge/Source-GitHub-181717?&logo=github"/></a>
+  <a href="https://github.com/MatNoble/matnoble.me"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MatNoble/matnoble.me?style=social"/></a>
 </p>
 
 ## 文章精选
