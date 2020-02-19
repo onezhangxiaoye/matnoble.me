@@ -1,4 +1,5 @@
-# <div align="center"><a title="matnoble.me" href="https://matnoble.me"><img align="center" width="75" height="75" src="https://ttfou.com/images/2020/02/19/57a3562785bea2ca64bed59cc5616a3b.png?sanitize=true">  <img align="center" width="300" height="300" src="https://imgkr.cn-bj.ufileos.com/f960c734-5ebd-4053-a2a0-15a82a1bc77a.svg?sanitize=true"> </a></div>
+
+# <div align="center"><a title="matnoble.me" href="https://matnoble.me"><img align="center" width="75" height="75" src="https://ttfou.com/images/2020/02/19/57a3562785bea2ca64bed59cc5616a3b.png?sanitize=true"></a> 数学小兵儿 </div>
 
 <p align="center">
 <a href="https://matnoble.me/about/"><img alt="Author" src="https://img.shields.io/badge/Author-MetNoble-blue?style=flat-square"/></a>
@@ -23,9 +24,10 @@
   - <a href="https://matnoble.me/posts/basicspacebase/"> Gram 矩阵 </a> 
   - <a href="https://matnoble.me/posts/rotationandmirroring/"> 正交矩阵之旋转与镜射 </a> 
   
-  ## 关注我吧
-
-<img src="https://raw.githubusercontent.com/MatNoble/Picture/master/wechat.gif" title="公众号: 数系家园" alt="公众号: 数系家园" width="300">
+  ## 关注我吧 公众号: 「数系家园」
+<p align="center">
+<img src="https://ttfou.com/images/2020/02/19/bc90bd3543630db2343add28f578ee2f.png" title="公众号: 数系家园" alt="公众号: 数系家园" width="300">
+</p>
 
 ## 授权情况
 本模板代码按[MIT 协议](https://github.com/MatNoble/matnoble.me/blob/master/LICENSE)授权
