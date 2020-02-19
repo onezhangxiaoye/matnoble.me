@@ -6,7 +6,6 @@
  <a href="https://gohugo.io/"><img alt="Generator" src="https://img.shields.io/badge/Generator-Hugo-ff4088?&logo=hugo"/></a>
  <a href="https://github.com/reuixiy/hugo-theme-meme"><img alt="Theme" src="https://img.shields.io/badge/Theme-MemE-2a6df4?&logo=meme"/></a>
  <a href="https://github.com/MatNoble/matnoble.me"><img alt="Source" src="https://img.shields.io/badge/Source-GitHub-181717?&logo=github"/></a>
-  <a href="https://github.com/MatNoble/matnoble.me/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/npm/l/meting.svg?style=flat-square"/></a>
 </p>
 
 ## 文章精选
@@ -30,7 +29,7 @@
 </p>
 
 ## 授权情况
-本模板代码按[MIT 协议](https://github.com/MatNoble/matnoble.me/blob/master/LICENSE)授权
+本模板代码按 [CC 4.0 BY-SA](https://github.com/MatNoble/matnoble.me/blob/master/CC-BY-SA-4.0) 授权, 转载请附上原文出处链接和本声明.
 
 ## 联系方式
 Mail: [hustmatnoble@gmail.com](mailto:hustmatnoble@gmail.com)
