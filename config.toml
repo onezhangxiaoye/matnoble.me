@@ -238,12 +238,14 @@ uglyURLs = false
        url = "/search/#友链"
        name = "友链"
        weight = 1
-       pre = "internal"
+       pre = "external"
+       post = "sfriend"
     [[menu.links]]
         url = "/atom.xml"
         name = "订阅"
         weight = 2
-        pre = "internal"
+        pre = "external"
+	post = "slink"
 
 ##########################################
 # 主题配置
