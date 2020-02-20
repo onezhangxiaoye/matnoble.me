@@ -7,6 +7,7 @@ tags = ["Hugo"]
 keywords = ["Shortcodes","短代码","Hugo 博客","建站那些事儿","year","hugo-notice","music","video","friend link","优酷","维基百科 Wikipedia","blockquote"]
 toc = true
 katex = true
+gitinfo = true
 +++
 
 ## 前言
@@ -39,6 +40,68 @@ MemE v4.0.0 breaks Hugo shortcodes
 ```html
 {{ now.Format "2006" }}
 ```
+
+### mark 标记支持
+```
+{{</* mark text="HTML 标记" */>}}
+```
+{{< mark text="HTML 标记" >}}
+
+<br />
+实现方法很简单, 只需创建 `mark.html`
+
+```html
+<!-- ./layouts/shortcodes/mark.html 
+https://matnoble.me/posts/shortcodes-practice-tutorial-for-hugo/#mark-标记支持
+-->
+
+<mark>{{ .Get "text" }}</mark>
+```
+
+### abbr 缩写支持
+```
+{{</* abbr title="Huazhong University of Science and Technology" text="HUST" */>}}
+```
+{{< abbr title="Huazhong University of Science and Technology" text="HUST" >}}
+
+<br />
+实现方法也很简单, 只需创建 `abbr.html`
+```html
+<!-- ./layouts/shortcodes/abbr.html 
+https://matnoble.me/posts/shortcodes-practice-tutorial-for-hugo/#abbr-缩写支持
+-->
+
+<abbr title="{{ .Get "title" }}">{{ .Get "text" }}</abbr>
+```
+
+### image with caption
+
+```markdown
+{{</* imgcap src="https://ttfou.com/images/2020/02/20/75294917c54568d991f5e2e0581dafb8.jpg" title="陪安东尼度过漫长岁月" */>}}
+```
+
+{{< imgcap src="https://ttfou.com/images/2020/02/20/75294917c54568d991f5e2e0581dafb8.jpg" title="陪安东尼度过漫长岁月" >}}
+
+<br />
+实现稍复杂一些, 依旧建立 `imgcap.html`
+
+```html
+<!--
+./layouts/shortcodes/imgcap.html
+https://matnoble.me/posts/shortcodes-practice-tutorial-for-hugo/#image-with-caption
+-->
+
+<span class="caption-wrapper">
+  <img class="caption" src="{{ .Get "src" }}"
+       title="{{ .Get "title" }}"
+       alt="{{ if .Get "alt" }}{{ .Get "alt" }}{{ else }}{{ .Get "title" }}{{ end }}"
+       width="{{ if .Get "width" }}{{ .Get "width" }}{{ else }}95%{{ end }}"
+       >
+  <span class="caption">◎ {{ .Get "title" }}</span>
+</span>
+```
+
+其中, `src` 和 `title` 为必填项, `alt` 和 `width` 为选填项, `alt` 默认与 `title` 保持一致, `width` 默认值为: {{< mark text="95%" >}}.
 
 ### GitHub gist
 原生支持, 添加 GitHub gist
@@ -189,7 +252,7 @@ other = "小贴示"
 
 以上所有 `shortcodes` 代码都可以访问以下 `GitHub` 链接下载, 欢迎发现问题的同学提交[Issues](https://github.com/MatNoble/hugo-shortcodes-sets/issues/1)!
 
-{{< blockquote author="数学小兵儿" link="https://github.com/MatNoble/hugo-shortcodes-sets" >}}
+{{< blockquote author="数学小兵儿" link="https://github.com/MatNoble/hugo-shortcodes-sets" title="hugo shortcodes sets" >}}
 These are shortcodes that I have created for the Hugo static blogging engine.
 {{< /blockquote >}}
 

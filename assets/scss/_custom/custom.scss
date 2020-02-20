@@ -105,16 +105,23 @@ table th:nth-of-type(6) {
 	border: 1px solid #ddd;
 	padding: 2px;
 	box-shadow: 1px 1px 1px rgba(0,0,0, .15);
-	margin-top: 14px !important;
-	margin-left: 14px !important;
+	margin-top: -12px !important;
+	margin-left: 10px !important;
 	background-color: #fff;
 }
 
 .frienddiv {
-	height: 92px;
-	margin-top: 10px;
-	width: 100%;
-	display: inline-block !important;
+   position: relative;
+   left: 0; right: 0;
+   width: 100%;
+   height: 80px;
+   line-height: 1.38;
+   margin-top: -5px;
+   margin-bottom: -5px;
+   border-radius: 5px;
+   background: rgba(255, 255, 255, .2);
+   box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, .2);
+   overflow: hidden;
 }
 
 .frienddiv:hover {
@@ -140,12 +147,11 @@ table th:nth-of-type(6) {
 }
 
 .frienddivleft {
-	margin-right: 2px;
+   margin-right: 2px;
 }
 
 .frienddivright {
-	margin-top: 18px;
-	margin-right: 18px;
+	margin-top: -5px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
