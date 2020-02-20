@@ -230,6 +230,10 @@ other = "小贴示"
 
 {{< youtube MHsiF9avPww >}}
 
+#### B 站
+
+{{< bili aid="12440781" cid="20478809" >}}
+
 #### 优酷 YOUKU
 还可以创建`./layouts/shortcodes/youku.html` 使其支持 `YOUKU`
 ```

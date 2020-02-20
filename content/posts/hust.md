@@ -133,7 +133,7 @@ images = ["https://imgkr.cn-bj.ufileos.com/1bc5d4b3-414f-49f9-84e9-254be8586dfa.
 
 ### 遇见华中大
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=56170676&cid=98179520&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 90%; left: 0; top: 0;"> </iframe></div>
+{{< bili aid="56170676" cid="98179520" >}}
 
 ### 遇见森林式大学
 
