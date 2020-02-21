@@ -1,5 +1,6 @@
 # SSG 生成的文件所在目录
 public/*
+content/posts/*
 
 # Node.js
 node_modules

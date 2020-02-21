@@ -251,8 +251,11 @@ uglyURLs = false
 # 主题配置
 
 [params]
+
     ######################################
-    algolia = "xxxxxxxxxxx"
+    # Encryptor
+
+    hugoEncryptorStorage = "local" #"session" # or
     ######################################
     # 顶栏
 
