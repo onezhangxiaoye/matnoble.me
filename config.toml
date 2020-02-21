@@ -255,7 +255,7 @@ uglyURLs = false
     ######################################
     # Encryptor
 
-    hugoEncryptorStorage = "local" #"session" # or
+    hugoEncryptorStorage = "session" #"local"
     ######################################
     # 顶栏
 
