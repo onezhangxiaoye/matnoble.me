@@ -8,8 +8,6 @@ keywords = ["hot key","常用快捷键推荐","Chrome"]
 images = ["https://ttfou.com/images/2020/02/21/6c8a1795c8956cf5a6436cada6b219e9.jpg"]
 +++
 
-## Chrome
-
 {{< imgcap src="https://ttfou.com/images/2020/02/21/6c8a1795c8956cf5a6436cada6b219e9.jpg" title="Chrome 最好用的浏览器" >}}
 
 Chrome 是我用过的最好用的浏览器, 快速, Google 生态, 最重要的是有众多好用的插件, 简直是爱不释手啊~ 下面介绍一些常用的快捷键, 解放鼠标, 解放生产力 💪
