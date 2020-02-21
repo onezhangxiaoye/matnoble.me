@@ -2,7 +2,7 @@
 title = "About"
 date = "2020-01-03T16:29:06+08:00"
 description = "数学＆计算机 我都爱"
-keywords = ["about","关于此博客","MatNoble","数系家园","matnoble.me"]
+keywords = ["about","关于此博客","MatNoble","数系家园","matnoble.me","Hugo","GitHub"]
 images = ["https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg"]
 displayCopyright = false
 katex = true
@@ -49,11 +49,14 @@ meta = false
 
 ### 我的一些 [GitHub](https://github.com/MatNoble) 开源项目 ✍
 
-> - [中英文 $\LaTeX$ 文档模板](https://github.com/MatNoble/LaTeX-Document)
-> - [FEM and FDM Solve PDE](https://github.com/MatNoble/PDE_coding)
-> - [HUST Beamer](https://github.com/MatNoble/HUSTMatNobleBeamer)
-> - [Matplotlib Tutorial](https://github.com/MatNoble/Matplotlib-Tutorial)
-> - [My Emacs Private Configuration](https://github.com/MatNoble/.emacs.d)
+{{< blockquote author="MatNoble" link="https://github.com/MatNoble" >}}
+- [中英文 $\LaTeX$ 文档模板](https://github.com/MatNoble/LaTeX-Document)
+- [Using FEM and FDM to solve PDE](https://github.com/MatNoble/PDE_coding)
+- [HUST $\LaTeX$ Beamer](https://github.com/MatNoble/HUSTMatNobleBeamer)
+- [Hugo shortcodes](https://github.com/MatNoble/hugo-shortcodes-sets)
+- [My Emacs Private Configuration](https://github.com/MatNoble/.emacs.d)
+{{< /blockquote >}}
+
 
 <hr />
 
@@ -69,11 +72,13 @@ meta = false
 
 <img src="https://imgkr.cn-bj.ufileos.com/50926e79-32fd-4a3b-9114-804429c898a1.gif" width="75%" alt="抖音 TicToc 数系家园 matnoble.me ＭatNoble"/>
 
+本博客使用基于 Go 语言的 [Hugo](https://gohugo.io/) 生成静态网页, 配合 [MemE](https://github.com/reuixiy/hugo-theme-meme) 主题, 并使用 [GitHub Pages](https://pages.github.com/) 存放[静态网页](https://github.com/MatNoble/matnoble.github.io), 以及开放博客[源码](https://github.com/MatNoble/matnoble.me). 短期拥有 [matnoble.me](https://matnoble.me/) 域名, 利用 [Cloudflare CDN](https://www.cloudflare.com/) 加速.
+
 此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>. 当然, 你也可以经常访问本博客, 以及时获取到最新文章.
 
 本站欢迎大家友链 $\to$ [点我跳转](https://matnoble.me/search/#友链)
 
-*为防止忘记本站, 可快捷键 `Ctrl + D` 将本站添加至书签*
+*为防止失去本站, 可快捷键 `Ctrl + D` 将本站添加至浏览器书签*
 
 <br />
 
@@ -81,6 +86,6 @@ meta = false
 
 基于 [Valine](https://valine.js.org/) 实现博客的评论功能, 支持「Markdown」语言. 还可以换成自己喜欢的[头像](https://valine.js.org/avatar.html)
 
-> Valine 诞生于2017年8月7日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统。
+> Valine 诞生于 2017 年 8 月 7 日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统.
 
 另外, 评论系统已支持邮件通知, 借鉴于[此](http://www.zhaojun.im/hexo-valine-modify/), 欢迎在下方留言, 我的朋友!
