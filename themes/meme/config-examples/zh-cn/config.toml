@@ -1,37 +1,37 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://matnoble.me/"
-title = "数学小兵儿"
+baseURL = "https://example.com/"
+title = "Hugo 主题 MemE"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
-copyright = "本博客遵循 [CC 4.0 BY-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) 版权协议，转载请附上原文出处链接和本声明"
+copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 # 主题选择
-theme = ["meme"]
+theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
 newContentEditor = ""
 
 # i18n
 defaultContentLanguage = "zh-cn"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 # 是否复数化列表页面的标题
 pluralizeListTitles = false
 
 # 摘要的字数限制
-summaryLength = 100
+summaryLength = 42
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
-enableEmoji = true
+enableEmoji = false
 
 # 脚注的返回链接中的文本
 footnoteReturnLinkContents = "↩"
 
 # 是否启用 Git 版本信息
-enableGitInfo = true
+enableGitInfo = false
 
 # 是否生成 robots.txt 文件
 enableRobotsTXT = true
@@ -41,7 +41,7 @@ paginate = 5
 
 # URL 相关
 disablePathToLower = false
-relativeURLs = true
+relativeURLs = false
 uglyURLs = false
 
 # URL 结构
@@ -92,17 +92,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "MatNoble"
+    name = "reuixiy"
     # 邮箱
-    email = "hustmatnoble@gmail.com"
+    email = "reuixiy@gmail.com"
     # 座右铭或简介
-    motto = "每天进步一点点"
+    motto = "Viva La Vida"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://matnoble.me/"
+    website = "https://io-oi.me/"
     # 推特
-    twitter = "mat_noble"
+    twitter = "reuixiy"
 
 # 相关文章
 [related]
@@ -148,6 +148,8 @@ uglyURLs = false
 # RSS & Atom 文章数限制
 [services.rss]
     limit = -1
+
+
 
 ##########################################
 # 菜单配置
@@ -199,63 +201,13 @@ uglyURLs = false
         weight = 5
         pre = "internal"
         post = "user-circle"
-     [[menu.main]]
-        url = "/search/"
-	name = "站内搜寻"
-	weight = 6
-	pre = "internal"
-        post = "search"
-	
-    ## 社交栏
-    [[menu.socials]]
-        url = "https://github.com/MatNoble"
-        name = "GitHub"
-        weight = 1
-        pre = "external"
-    [[menu.socials]]
-        url = "mailto:hustmatnoble@gmail.com"
-        name = "Email"
-        weight = 2
-        pre = "external"
-    [[menu.socials]]
-        url = "https://www.youtube.com/c/RossMatNoble?sub_confirmation=1"
-        name = "YouTube"
-        weight = 3
-        pre = "external"
-     [[menu.socials]]
-        url = "https://www.facebook.com/matnoble365/"
-        name = "Facebook"
-        weight = 4
-        pre = "external"
-      [[menu.socials]]
-        url = "https://twitter.com/mat_noble"
-        name = "twitter"
-        weight = 5
-        pre = "external"
 
-    # 链接栏
-    [[menu.links]]
-       url = "/search/#友链"
-       name = "友链"
-       weight = 1
-       pre = "external"
-       post = "sfriend"
-    [[menu.links]]
-        url = "/atom.xml"
-        name = "订阅"
-        weight = 2
-        pre = "external"
-	post = "slink"
+
 
 ##########################################
 # 主题配置
 
 [params]
-
-    ######################################
-    # Encryptor
-
-    hugoEncryptorStorage = "session" #"local"
     ######################################
     # 顶栏
 
@@ -273,23 +225,19 @@ uglyURLs = false
     siteBrandSVG = true
     # 如果是，请将你的 SVG 放到 `SVG.toml` 文
     # 件内，并配置以下项。单位：px。
-    siteBrandSVGWidth = 300
+    siteBrandSVGWidth = 250
     siteBrandSVGHeight = 100
     siteBrandSVGFill = "#fff"
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 3
+    siteBrandFontSize = 5
     siteBrandFontColor = "#fff"
 
     # 背景色
-    siteBrandBackgroundColor = "hsl(206, 53%, 31%)"
-    #siteBrandBackgroundColor = "hsl(2, 63%, 47%)"
-    
+    # siteBrandBackgroundColor = "hsl(240, 8%, 12%)"
     # 背景图片
-    # siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
-    #siteBrandBackgroundImage = "linear-gradient(90deg, #f4433c 0, #ffbc32 19%, #0aa858 89%, #2d85f0 100%)"
-    #siteBrandBackgroundImage = "linear-gradient(90deg, #f4433c 0, #ffbc32 19%, #2d85f0 89%, #0aa858 100%)"
+    siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
     # 注意：背景色和背景图片只能二选一
 
 
@@ -303,7 +251,7 @@ uglyURLs = false
     displayMenuInHome = true
 
     # 是否按文章分区高亮当前菜单项
-    activeInSection = true
+    activeInSection = false
     # 说明：如果开启，那么当某一文章的分区名是某
     #      一菜单项中的 `url` 时，该文章页面中
     #      的该菜单项也会被高亮
@@ -318,11 +266,11 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "poetry"
+    homeLayout = "posts"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["花开花谢 白天黑夜","一切自然 又不尽然","春夏秋冬 经过才懂","世间冷暖 无非自然","<i>　　－－李健《懂得》</i>"]
+    homePoetry = []
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -347,21 +295,21 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "数学系在读研究生 ; 公众号:「数系家园」, 分享数学和计算机知识, 学习心得, 生活感悟"
+    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的关键词
-    siteKeywords = ["数学","计算机","数学小兵儿","matnoble","数系家园","有限元","线性代数","数学系","latex","FEM","python","FEniCS","matlab","HUST","华中科技大学"]
+    siteKeywords = []
     # 说明：如果留空（[]），则会取站点的所有类别名、分
     #      区名（如果按分区分类）作为默认值
 
     # 站点的创建时间
-    siteCreatedTime = "2018-09-01T06:00:00+00:00"
+    siteCreatedTime = "1969-07-20T20:17:43+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "mat_noble"
+    siteTwitter = "reuixiy"
     # 说明：用于 Twitter Cards
 
 
@@ -423,7 +371,7 @@ uglyURLs = false
     # 列表页面
 
     # 宽度
-    listWidth = 42
+    listWidth = 36
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -439,7 +387,7 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = false
+    groupByMonth = true
 
     # 是否开启十二生肖
     chineseZodiac = true
@@ -469,7 +417,7 @@ uglyURLs = false
     # 说明：分区的名字即站点的 content 目录下
     #      的文件夹的名字。
 
-    #mainSections = ["posts"]
+    # mainSections = ["posts"]
 
 
     ######################################
@@ -564,7 +512,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = true
+    enableServiceWorker = false
     # 说明：需要第三方支持，暂见：
     #      https://io-oi.me/tech/pwa-via-workbox/
 
@@ -596,7 +544,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = true
+    enableComments = false
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -605,14 +553,14 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = true
-    valineAppId = "6XSQubR7QUsrMqFc9qplzzAg-gzGzoHsz"
-    valineAppKey = "zdYrMQSyRHwRokz9Lp8ft9lv"
-    valinePlaceholder = "支持 Markdown 语言, 另外, 填写邮箱后, 会第一时间收到通知邮件呦 🍀"
+    enableValine = false
+    valineAppId = ""
+    valineAppKey = ""
+    valinePlaceholder = "Just go go"
     valineNotify = false
-    valineVerify = true
+    valineVerify = false
     valinePath = ""
-    valineAvatar = "monsterid"
+    valineAvatar = "mm"
     valineMeta = ["nick", "mail", "link"]
     valinePageSize = 10
     valineLang = "zh-cn"
@@ -631,29 +579,26 @@ uglyURLs = false
     utterancesThemeDark = "photon-dark"
     utterancesLabel = ""
     # 说明：https://utteranc.es/
-    
-    ######################################
-    # Google Analytics
-    googleMapsAPIKey = "AIzaSyBhNTF7V-KU2_RhnIS82jYtHqf8WFEWpFY"
+
 
     ######################################
     # Google Analytics
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableGoogleAnalytics = true
+    enableGoogleAnalytics = false
 
     # 跟踪代码的类型
     trackingCodeType = "gtag"
     # 说明：gtag 或 analytics
 
-    trackingID = "UA-134534284-5"
+    trackingID = ""
 
 
     ######################################
     # Google Site Verification
 
-    googleSiteVerification = "google12cfc8677988bb4.html"
+    googleSiteVerification = ""
 
 
     ######################################
@@ -661,14 +606,14 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    googleAdClient = "ca-pub-4221480300398103"
+    googleAdClient = ""
 
     ## 自动广告
-    enableGoogleAutoAds = true
+    enableGoogleAutoAds = false
 
     ## 广告单元
-    enableGoogleAdUnits = true
-    googleAdSlot = "6616360495"
+    enableGoogleAdUnits = false
+    googleAdSlot = ""
 
 
     ######################################
@@ -679,11 +624,8 @@ uglyURLs = false
 
     # 浅色模式的主色
     primaryColorLight = "220, 90%, 56%"
-    #primaryColorLight = "2, 63%, 47%"
-    
     # 深色模式的主色
     primaryColorDark = "201, 65%, 62%"
-    #primaryColorDark = "2, 63%, 47%"
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
@@ -723,7 +665,7 @@ uglyURLs = false
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 是否显示发布时间
-    displayPublishedDate = false
+    displayPublishedDate = true
     # 发布时间的图标
     publishedDateIcon = "calendar-alt"
 
@@ -733,7 +675,7 @@ uglyURLs = false
     modifiedDateIcon = "calendar-check"
 
     # 是否显示过期时间
-    displayExpiredDate = false
+    displayExpiredDate = true
     # 过期时间的图标
     expiredDateIcon = "calendar-times"
 
@@ -895,41 +837,27 @@ uglyURLs = false
 
     # 品牌栏
     fontFamilySiteBrand = ""
-	
     # 菜单栏
     fontFamilyMenu = ""
-	
-    # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题
-    #fontFamilyTitle = "Comfortaa, sans-serif"
-    fontFamilyTitle = "'Cinzel Decorative', 'Noto Serif SC', serif"
-	
+    # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
+    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
     # 分节标题、目录标题
-    #fontFamilyHeadings = "Comfortaa, sans-serif"
-    fontFamilyHeadings = "'Cinzel Decorative', 'Noto Serif SC', serif"
-	
-    # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚
-    #fontFamilyCode = "'Source Code Pro', monospace"
+    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
+    # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
     fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
-	
     # 引用
     fontFamilyQuote = ""
-    #fontFamilyQuote = "'EB Garamond', 'STKaiti', 'KaiTi', 'SimKai', 'Noto Serif SC', serif"
-	
     # 文章目录
     fontFamilyTOC = ""
-	
     # 说明文字
     fontFamilyCaption = ""
-	
     # 页脚
     fontFamilyFooter = ""
-	
     # 主体
-    #fontFamilyBody = "'IBM Plex Serif', serif"
     fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,700|Source+Code+Pro:400,400i,700,700i|Cinzel+Decorative:700&display=swap&subset=chinese-simplified"
+    fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,700,700i|Noto+Serif+SC:400,500,700|Source+Code+Pro:400,400i,700,700i&display=swap&subset=chinese-simplified"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -975,7 +903,7 @@ uglyURLs = false
     # 是否开启（全局设置）
     enableJustify = true
     # 说明：文章的 Front Matter 中的 `align`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     ######################################
     ## 首字下沉
@@ -983,17 +911,17 @@ uglyURLs = false
     # 是否开启（全局设置）
     enableDropCap = false
     # 说明：文章的 Front Matter 中的 `dropCap`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     # 是否在每一分隔线之后首字下沉（全局设置）
     enableDropCapAfterHr = false
     # 说明：文章的 Front Matter 中的 `dropCapAfterHr`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     # 是否删除首字下沉前的分隔线（全局设置）
     deleteHrBeforeDropCap = false
     # 说明：文章的 Front Matter 中的 `deleteHrBeforeDropCap`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     ######################################
     ## 大型小写（英文）
@@ -1002,7 +930,7 @@ uglyURLs = false
     enableSmallCaps = false
     # 说明：只会应用到分节标题和目录标题
     #      文章的 Front Matter 中的 `smallCaps`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     ######################################
     ## 着重号
@@ -1029,22 +957,22 @@ uglyURLs = false
     # 是否显示（全局设置）
     displayPostCopyright = true
     # 说明：文章的 Front Matter 中的 `displayCopyright`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
 
     ######################################
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = false
+    enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
     displayUpdatedBadge = true
     # 说明：文章的 Front Matter 中的 `badge`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     # 是否添加 `title`
-    enableBadgeTitle = false
+    enableBadgeTitle = true
     # `title` 的前缀
     badgeTitlePrefix = "Updated @ "
 
@@ -1053,17 +981,17 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = true
+    enablePostGitInfo = false
 
     # 是否显示（全局设置）
     displayPostGitInfo = false
     # 说明：文章的 Front Matter 中的 `gitinfo`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/MatNoble/matnoble.github.io"
+    repoURL = ""
     # 编辑地址
-    repoEditURL = "https://github.com/MatNoble/matnoble.me/blob/master"
+    repoEditURL = ""
 
     # Git 的图标
     gitIcon = "code-branch"
@@ -1083,38 +1011,13 @@ uglyURLs = false
     feedbackText = "Feedback"
 
     # 是否显示编辑链接
-    displayEditLink = false
+    displayEditLink = true
     # 编辑链接的图标
     editIcon = "edit"
     # 编辑链接的文本
     editText = "Edit Me?"
 
 
-    ######################################
-    # 文章分享
-
-  ### # 是否开启
-  ### enablePostShare = false
-  ### 
-  ### # 是否显示（全局设置）
-  ### displayPostShare = true
-  ### # 说明：文章的 Front Matter 中的 `share`
-  ### #      的优先级高于此处
-  ### 
-  ### displayShareOnText = false
-  ### 
-  ### shareOnTwitter = true
-  ### shareOnFacebook = true
-  ### shareOnLinkedIn = true
-  ### shareOnTelegram = true
-  ### shareOnWeibo = true
-  ### shareOnDouban = true
-  ### shareOnQQ = true
-  ### shareOnQzone = true
-  ### 
-  ### shareViaQRCode = true
-
-    addThis = "ra-5e4cce4739576e5e"
     ######################################
     # 相关文章
 
@@ -1124,7 +1027,7 @@ uglyURLs = false
     # 是否显示（全局设置）
     displayRelatedPosts = true
     # 说明：文章的 Front Matter 中的 `related`
-    #      的优先级高于此处
+    #      的的优先级高于此处
 
     # 相关文章数
     relatedPostsNumber = 5
@@ -1164,14 +1067,14 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = true
-    enableVerticalBarStructure = true
+    enableMinimalFooter = false
+    enableVerticalBarStructure = false
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
     #      以竖线（|）分隔开来。
 
     # 是否开启关于页面的极简页脚
-    enableAboutPageMinimalFooter = true
+    enableAboutPageMinimalFooter = false
 
 
     ######################################
@@ -1184,7 +1087,7 @@ uglyURLs = false
     enableBackToTopAutoHide = true
 
     # 是否在首页显示
-    displayBackToTopInHome = false
+    displayBackToTopInHome = true
 
     # 按钮图标
     backToTopIcon = "arrow-up"
@@ -1212,13 +1115,13 @@ uglyURLs = false
     iconAnimation = true
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = false
+    displayPoweredBy = true
 
     # 是否显示站点的版权信息
-    displaySiteCopyright = false
+    displaySiteCopyright = true
 
     # 自定义页脚（支持 Markdown）
-    customFooter = "温馨提示: [本站](https://matnoble.me)在电脑端浏览更佳"
+    customFooter = ""
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"
@@ -1266,7 +1169,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启
-    enableForceHTTPS = true
+    enableForceHTTPS = false
     # 说明：使用 JavaScript 来实现跳转。如果你
     #      的服务器不支持强制 HTTPS 跳转，则可
     #      开启此选项。

@@ -72,7 +72,7 @@ meta = false
 
 <img src="https://imgkr.cn-bj.ufileos.com/50926e79-32fd-4a3b-9114-804429c898a1.gif" width="75%" alt="抖音 TicToc 数系家园 matnoble.me ＭatNoble"/>
 
-本博客使用基于 Go 语言的 [Hugo](https://gohugo.io/) 生成静态网页, 配合 [MemE](https://github.com/reuixiy/hugo-theme-meme) 主题, 并使用 [GitHub Pages](https://pages.github.com/) 存放[静态网页](https://github.com/MatNoble/matnoble.github.io), 以及开放博客[源码](https://github.com/MatNoble/matnoble.me). 短期拥有 [matnoble.me](https://matnoble.me/) 域名, 利用 [Cloudflare CDN](https://www.cloudflare.com/) 加速.
+本博客使用基于 Go 语言的 [Hugo](https://gohugo.io/) 生成静态网页, 配合 [MemE 4.1.0](https://github.com/reuixiy/hugo-theme-meme) 主题, 并使用 [GitHub Pages](https://pages.github.com/) 存放[静态网页](https://github.com/MatNoble/matnoble.github.io), 以及开放博客[源码](https://github.com/MatNoble/matnoble.me). 短期拥有 [matnoble.me](https://matnoble.me/) 域名, 利用 [Cloudflare CDN](https://www.cloudflare.com/) 加速.
 
 此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>. 当然, 你也可以经常访问本博客, 以及时获取到最新文章.
 

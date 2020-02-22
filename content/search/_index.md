@@ -10,6 +10,8 @@ meta = false
 images =["https://searchengineland.com/figz/wp-content/seloads/2016/03/google-search-new-logo1-ss-1920.jpg"]
 +++
 
+{{< music id="002AzeJ92OvaLo" type="song" server="tencent" >}}
+
 ## 站内搜索
 
 借助 Google 家的[Google Custom Search](https://cse.google.com/cse/)实现站内搜索功能(本功能需要梯子) 👇
