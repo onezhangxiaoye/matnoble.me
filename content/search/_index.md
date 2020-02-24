@@ -26,7 +26,7 @@ images =["https://searchengineland.com/figz/wp-content/seloads/2016/03/google-se
 在不断的学习中, 会发现自己正在做的, 之前早就有人做过了, 在这些丰富的借鉴素材的基础上, 我才得以不断学习进步, 谢谢你们的知识 🍻
 
 {{< friend name="reuixiy" url="https://io-oi.me/" logo="https://io-oi.me/icons/android-chrome-512x512.png" word="生活与技术博客" >}}
-{{< friend name="热爱数学的 hoganbin" url="https://hoganbin.top/" logo="https://hoganbin.top/images/avatar.png" word="喜欢数学，热爱编程" >}}
+{{< friend name="热爱数学的 hoganbin" url="https://hoganbin.top/" logo="https://hoganbin.top/medias/logo.jpg" word="喜欢数学，热爱编程" >}}
 {{< friend name="mathor" url="https://www.wmathor.com/" logo="https://s2.ax1x.com/2020/01/08/l2xtUO.jpg" word="数学与科技" >}}
 {{< friend name="天涯共此时" url="https://ztygcs.github.io/" logo="https://guanqr.com/images/friends/ztygcs.png" word="科技与生活" >}}
 {{< friend name="方寸间" url="https://10101.io/" logo="https://cdn.jsdelivr.net/gh/WithdewHua/static@withdewhua-hugo/img/avatar.jpg" word="拖延症患者的瞎折腾" >}}
