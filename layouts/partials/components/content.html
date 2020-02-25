@@ -210,14 +210,14 @@
 {{- if .Site.Params.enableHighlight -}}
     {{- if and .Site.Params.enableDarkMode (eq .Site.Params.defaultTheme "dark") -}}
         {{- $Content := .Scratch.Get "Content" -}}
-        {{- $regexPatternDarkmode := `(<pre class=")(chroma)(">)` -}}
+        {{- $regexPatternDarkmode := `(<(div|pre) class=")chroma(">)` -}}
         {{- $regexReplacementDarkmode := `${1}chroma-dark${3}` -}}
         {{- $Content := $Content | replaceRE $regexPatternDarkmode $regexReplacementDarkmode | safeHTML -}}
         {{- .Scratch.Set "Content" $Content -}}
     {{- end -}}
 {{- end -}}
 
-<!-- Medium Zoom -->
+<!-- Medium Zoom 
 {{- $Content := .Scratch.Get "Content" -}}
 {{- if .Site.Params.enableMediumZoom -}}
     {{- $regexPatternMediumZoom := `(<img)(.[^>]+)( />|>)` -}}
@@ -225,6 +225,7 @@
     {{- $Content := $Content | replaceRE $regexPatternMediumZoom $regexReplacementMediumZoom | safeHTML -}}
     {{- .Scratch.Set "Content" $Content -}}
 {{- end -}}
+-->
 
 <!-- Custom -->
 {{- partial "custom/content.html" . -}}

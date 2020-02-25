@@ -23,6 +23,10 @@
     margin-top: 5em !important;
     a {
         text-decoration: underline;
+	text-decoration-color: var(--color-contrast-low);
+        &:hover {
+            text-decoration-color: alpha(var(--color-primary), 0.5);
+        }
     }
 }
 
@@ -84,7 +88,7 @@ blockquote {
     float: left;
     font-size: $fontSize * 3 + 2px;
     margin-right: $lineHeight * $fontSize - $fontSize;
-    margin-top: $fontSize / 2;
+    margin-top: $fontSize / $lineHeight;
     line-height: $lineHeight * $fontSize;
 }
 
@@ -141,13 +145,16 @@ ol.toc {
     vertical-align: baseline;
 }
 
+.table-container {
+    margin: 2em 0;
+    overflow-x: auto;
+}
+
 table {
-    display: block;
+    width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
     border-color: var(--color-contrast-lower);
-    margin: 2em 0;
-    overflow-x: auto;
 }
 th {
     font-weight: 700;
@@ -174,7 +181,6 @@ dd {
 code {
     padding: ($fontSize / 8) ($fontSize / 4);
     background-color: var(--color-contrast-lower);
-    border-radius: 3px;
     font-size: 80%;
 }
 pre {
