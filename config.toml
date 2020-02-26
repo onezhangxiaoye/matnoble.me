@@ -661,15 +661,16 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    googleAdClient = "ca-pub-4221480300398103"
+    googleAdClient = ""
+    # ca-pub-4221480300398103
 
     ## 自动广告
-    enableGoogleAutoAds = true
+    enableGoogleAutoAds = false
 
     ## 广告单元
-    enableGoogleAdUnits = true
-    googleAdSlot = "6616360495"
-
+    enableGoogleAdUnits = false
+    googleAdSlot = ""
+    # 6616360495
 
     ######################################
     # 文章设置
