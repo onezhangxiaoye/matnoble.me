@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://matnoble.me/"
-title = "数学小兵儿"
+title = "数学小兵儿 MatNoble"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -92,7 +92,7 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "MatNoble"
+    name = "数学小兵儿 MatNoble"
     # 邮箱
     email = "hustmatnoble@gmail.com"
     # 座右铭或简介
