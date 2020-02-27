@@ -439,7 +439,7 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = false
+    groupByMonth = true
 
     # 是否开启十二生肖
     chineseZodiac = true
