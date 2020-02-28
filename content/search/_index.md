@@ -8,6 +8,7 @@ smallCaps = true
 comments = true
 meta = false
 images =["https://searchengineland.com/figz/wp-content/seloads/2016/03/google-search-new-logo1-ss-1920.jpg"]
+related = false
 +++
 
 ## 站内搜索
@@ -31,6 +32,8 @@ images =["https://searchengineland.com/figz/wp-content/seloads/2016/03/google-se
 [guanqr.com](https://guanqr.com/)
 {{< friend name="方寸间" url="https://10101.io/" logo="https://cdn.jsdelivr.net/gh/WithdewHua/static@withdewhua-hugo/img/avatar.jpg" word="拖延症患者的瞎折腾, 很精美的博客" >}}
 [10101.io](https://10101.io/)
+{{< friend name="Newlearnerの小站" url="https://www.newlearner.site" logo="https://www.newlearner.site/%E2%80%9Cwp-content/uploads%E2%80%9D/2019/01/2018-08-29-19.40.08.png" word="「探索未知，记录点滴」" >}}
+[Newlearnerの小站](https://www.newlearner.site)
 {{< friend name="mathor" url="https://www.wmathor.com/" logo="https://s2.ax1x.com/2020/01/08/l2xtUO.jpg" word="数学与科技" >}}
 [www.wmathor.com](https://www.wmathor.com/)
 {{< friend name="天涯共此时" url="https://ztygcs.github.io/" logo="https://guanqr.com/images/friends/ztygcs.png" word="科技与生活, 华科校友" >}}

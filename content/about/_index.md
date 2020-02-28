@@ -87,7 +87,7 @@ related = false
 
 本博客使用基于 Go 语言的 [Hugo](https://gohugo.io/) 生成静态网页, 配合 [MemE 4.1.0](https://github.com/reuixiy/hugo-theme-meme) 主题, 并使用 [GitHub Pages](https://pages.github.com/) 存放[静态网页](https://github.com/MatNoble/matnoble.github.io), 以及开放博客[源码](https://github.com/MatNoble/matnoble.me). 短期拥有 [matnoble.me](https://matnoble.me/) 域名(计划长期续期), 利用 [Cloudflare CDN](https://www.cloudflare.com/) 加速.
 
-此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>. 当然, 你也可以经常访问本博客, 以及时获取到最新文章.
+此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>.如果你有电报, 也可以订阅我的[电报频道](https://t.me/HUSTMatNoble), 快速获取本博客更新提醒. 当然, 你也可以经常访问本博客, 以及时获取到最新文章. 
 
 本站欢迎大家与我友链 $\to$ [点我跳转](https://matnoble.me/search/#友链)
 
