@@ -11,12 +11,9 @@ copyright = "本博客遵循 [CC 4.0 BY-SA](https://creativecommons.org/licenses
 # 主题选择
 theme = ["meme"]
 
-# `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = ""
-
 # i18n
 defaultContentLanguage = "zh-cn"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 # 是否复数化列表页面的标题
 pluralizeListTitles = false
@@ -48,11 +45,13 @@ uglyURLs = false
 [permalinks]
     categories = "/categories/:slug/"
     tags = "/tags/:slug/"
+    #series = "/series/:slug/"
 
 # 类别
 [taxonomies]
     category = "categories"
     tag = "tags"
+    series = "series"
 
 # 修改时间
 [frontmatter]
@@ -110,11 +109,17 @@ uglyURLs = false
     includeNewer = true
     toLower = true
     [[related.indices]]
+        name = "series"
+        weight = 100
+    [[related.indices]]
         name = "categories"
         weight = 100
     [[related.indices]]
         name = "tags"
         weight = 95
+    [[related.indices]]
+        name = "keywords"
+        weight = 90
     [[related.indices]]
         name = "date"
         weight = 10
@@ -177,7 +182,7 @@ uglyURLs = false
         post = "home"
     [[menu.main]]
         url = "/posts/"
-        name = "文章"
+        name = "归档"
         weight = 2
         pre = "internal"
         post = "archive"
@@ -232,20 +237,28 @@ uglyURLs = false
         name = "twitter"
         weight = 5
         pre = "external"
-
+      [[menu.socials]]
+        url = "https://t.me/HUSTMatNoble"
+	name = "Telegram"
+	weight = 6
+        pre = "external"
+	
     # 链接栏
+    [[menu.links]]
+        url = "/series/"
+        name = "专栏"
+        weight = 1
+        pre = "internal"
     [[menu.links]]
        url = "/search/#友链"
        name = "友链"
-       weight = 1
+       weight = 2
        pre = "external"
-       post = "sfriend"
     [[menu.links]]
         url = "/atom.xml"
         name = "订阅"
-        weight = 2
+        weight = 3
         pre = "external"
-	post = "slink"
 
 ##########################################
 # 主题配置
@@ -400,7 +413,7 @@ uglyURLs = false
     # `sections`，则无法关闭树状布局
 
     # 是否显示文章标题
-    displayPosts = false
+    displayPosts = true
 
     # 是否显示每一分类下的文章数
     displayPostsCount = true
@@ -469,7 +482,7 @@ uglyURLs = false
     # 说明：分区的名字即站点的 content 目录下
     #      的文件夹的名字。
 
-    #mainSections = ["posts"]
+    mainSections = ["life","tech","math"]
 
 
     ######################################

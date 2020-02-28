@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "关于"
 date = "2020-01-03T16:29:06+08:00"
 description = "数学＆计算机 我都爱"
 keywords = ["about","关于此博客","MatNoble","数系家园","matnoble.me","Hugo","GitHub"]
@@ -9,6 +9,7 @@ katex = true
 smallCaps = false
 comments = true
 meta = false
+related = false
 +++
 
 > **武汉加油**
@@ -31,8 +32,13 @@ meta = false
 
 我是一个 95 前的 90 后👴, 就读于 HUST 的数学系读研究生, 喜欢数学, 乐于计算机编程序. 不会吸烟, 但偶尔会小酌一杯. 喜欢旅行✈, 却还没有去过太多地方, 期待以后可以和我的她去更多好玩儿的地方. 最重要的是: 在能维持生计的同时, 做自己喜欢做的事!
 
-<img src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" width="95%" alt="数系家园微信公众号"/>
-<span class="caption">◎ 云 真好吃</span>
+{{< imgcap src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" title="云 真好吃" >}}
+
+### 足迹
+
+<div style="position: relative; width: 100%; padding-bottom: 70%; padding-top: 5px; height: 0; overflow: hidden;">
+  <iframe src="https://www.google.com/maps/d/embed?mid=1L2Lih0i8JwsobbtokWqHQ8BOziiMMXO_" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"> </iframe>
+</div>
 
 ### 社交媒体 🖇
 - 微信公众号: [数系家园](https://mp.weixin.qq.com/s?__biz=MzI0NDcwMzE0NQ==&mid=100000467&idx=1&sn=bdb37d8e5b8b38e862fe3ce5261fa797&chksm=695888155e2f0103c6a2b96c2e85a6ff875a42c09f55d3d6cf23e7c54fef9ac51e7d1c911935#rd)(ID:MatNoble)
@@ -87,7 +93,7 @@ meta = false
 
 <p style="display:block;text-align:center;color:gray;font-size:18pt;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif">记录所思，所想，所为</p>
 
-*为防止失去本站, 可快捷键 `Ctrl + D` 将本站添加至浏览器书签*
+*本站建议使用 Chrome 或 Chromium 浏览器浏览, 为防止失去本站, 可快捷键 `Ctrl + D` 将本站添加至浏览器书签*
 
 <br />
 
@@ -97,4 +103,4 @@ meta = false
 
 > Valine 诞生于 2017 年 8 月 7 日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统.
 
-另外, 评论系统已支持邮件通知, 借鉴于[此](http://www.zhaojun.im/hexo-valine-modify/), 欢迎在下方留言, 我的朋友!
+另外, 评论系统已支持邮件通知, 借鉴于[此](http://www.zhaojun.im/hexo-valine-modify/), 欢迎在下方留言, 我的朋友 🗽

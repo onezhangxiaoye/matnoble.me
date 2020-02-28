@@ -13,4 +13,8 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+
+    .drop-cap {
+	margin-top: var(--font-size) !important;
+    }
 }
