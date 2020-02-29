@@ -254,3 +254,16 @@ color: transparent;
 	overflow: hidden;
 	white-space: nowrap;
 }
+
+// 主页底部图标
+.home {
+    .mla {
+        color: 	hsl(136, 53%, 43%);
+    }
+    .latex {
+        color: hsl(5, 81%, 56%);
+    }
+    .series {
+        color: hsl(217, 89%, 61%);
+    }
+}

@@ -1,4 +1,5 @@
 +++
-title = "线代回忆录"
+title = "线代拾遗"
+keywords = ["线性代数"]
 slug = "mla"
 +++

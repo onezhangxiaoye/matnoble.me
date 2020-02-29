@@ -5,7 +5,7 @@ description = "数学＆计算机 我都爱"
 keywords = ["about","关于此博客","MatNoble","数系家园","matnoble.me","Hugo","GitHub"]
 images = ["https://imgkr.cn-bj.ufileos.com/cded9ee3-55a8-498b-814a-baa0792a0166.jpg"]
 displayCopyright = false
-katex = true
+mathjax = true
 smallCaps = false
 comments = true
 meta = false
@@ -85,9 +85,15 @@ related = false
 
 <br />
 
+目前, 本站设有两个专栏 
+- [线性回忆录](https://matnoble.me/series/mla/)<br>
+  企图完整地介绍「线性代数」, 而不采取(大陆)大学课堂里的套路.
+- [LaTeX 排版「冷」知识](https://matnoble.me/series/latex/)<br>
+  每篇博文介绍一个实用的 $\LaTeX$ 排版小知识. 「不积跬步, 无以至千里. 不积小流, 无以成江海.」
+
 本博客使用基于 Go 语言的 [Hugo](https://gohugo.io/) 生成静态网页, 配合 [MemE 4.1.0](https://github.com/reuixiy/hugo-theme-meme) 主题, 并使用 [GitHub Pages](https://pages.github.com/) 存放[静态网页](https://github.com/MatNoble/matnoble.github.io), 以及开放博客[源码](https://github.com/MatNoble/matnoble.me). 短期拥有 [matnoble.me](https://matnoble.me/) 域名(计划长期续期), 利用 [Cloudflare CDN](https://www.cloudflare.com/) 加速.
 
-此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>.如果你有电报, 也可以订阅我的[电报频道](https://t.me/HUSTMatNoble), 快速获取本博客更新提醒. 当然, 你也可以经常访问本博客, 以及时获取到最新文章. 
+此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>.如果你有电报, 也可以订阅我的[..电报频道..](https://t.me/HUSTMatNoble), 快速获取本博客更新提醒. 当然, 你也可以经常访问本博客, 以及时获取到最新文章. 
 
 本站欢迎大家与我友链 $\to$ [点我跳转](https://matnoble.me/search/#友链)
 
