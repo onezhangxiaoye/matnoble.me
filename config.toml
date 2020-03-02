@@ -700,7 +700,7 @@ uglyURLs = false
     enableGoogleAutoAds = true
 
     ## 广告单元
-    enableGoogleAdUnits = false
+    enableGoogleAdUnits = true
     googleAdSlot = "6616360495"
 
     ######################################
@@ -933,11 +933,13 @@ uglyURLs = false
 	
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题
     #fontFamilyTitle = "Comfortaa, sans-serif"
-    fontFamilyTitle = "'Cinzel Decorative', 'Noto Serif SC', serif"
+    #fontFamilyTitle = "'Cinzel Decorative', 'Noto Serif SC', serif"
+    fontFamilyTitle = "'Noto Serif SC', Amstelvar, serif"
 	
     # 分节标题、目录标题
     #fontFamilyHeadings = "Comfortaa, sans-serif"
-    fontFamilyHeadings = "'Cinzel Decorative', 'Noto Serif SC', serif"
+    #fontFamilyHeadings = "'Cinzel Decorative', 'Noto Serif SC', serif"
+    fontFamilyHeadings = "'Noto Serif SC', Amstelvar, serif"
 	
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚
     #fontFamilyCode = "'Source Code Pro', monospace"
@@ -958,7 +960,8 @@ uglyURLs = false
 	
     # 主体
     #fontFamilyBody = "'IBM Plex Serif', serif"
-    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    #fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyBody = "Amstelvar, 'Noto Serif SC', serif"
 
     # 网络字体链接
     fontsLink = "https://fonts.loli.net/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,700|Source+Code+Pro:400,400i,700,700i|Cinzel+Decorative:700&display=swap&subset=chinese-simplified"
@@ -972,7 +975,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 18
+    fontSize = 16
 
     ######################################
     ## 制表符的宽度
