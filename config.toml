@@ -380,12 +380,13 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "数学系在读研究生; 公众号:「数系家园」, 分享数学, 计算机和 LaTeX 排版等知识, 分享学习心得, 分享生活感悟"
+    siteDescription = "数学系在读研究生; 公众号:「数系家园」, 分享数学, 计算机和 LaTeX 排版等知识, 分享学习心得, 分享生活感悟．<br />Graduate student in the Department of Mathematics; sharing knowledge about mathematics, computer and LaTeX typesetting, sharing learning experience, sharing life experience"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的关键词
-    siteKeywords = ["数学","计算机","数学小兵儿","matnoble","数系家园","有限元","线性代数","数学系","LaTeX","FEM","python","FEniCS","matlab","HUST","华中科技大学"]
+    # siteKeywords = ["数学","计算机","数学小兵儿","matnoble","数系家园","有限元","线性代数","数学系","LaTeX","FEM","python","FEniCS","matlab","HUST","华中科技大学"]
+    sitekeywords = []
     # 说明：如果留空（[]），则会取站点的所有类别名、分
     #      区名（如果按分区分类）作为默认值
 
@@ -697,7 +698,7 @@ uglyURLs = false
     googleAdClient = "ca-pub-4221480300398103"
 
     ## 自动广告
-    enableGoogleAutoAds = true
+    enableGoogleAutoAds = false
 
     ## 广告单元
     enableGoogleAdUnits = true
