@@ -13,7 +13,7 @@ related = false
 
 ## 站内搜索
 
-借助 Google 家的[Google Custom Search](https://cse.google.com/cse/)实现站内搜索功能(本功能需要梯子) 👇
+借助 Google 家的[Google Custom Search](https://cse.google.com/cse/)实现站内搜索功能(需要梯子) 👇
 
 <script async src="https://cse.google.com/cse.js?cx=018071704944854801762:92uquzoxk7g"></script>
 <div class="gcse-search"></div>
@@ -33,8 +33,6 @@ related = false
 {{< friend name="mathor" url="https://www.wmathor.com/" logo="https://s2.ax1x.com/2020/01/08/l2xtUO.jpg" word="数学与科技" >}}
 {{< friend name="天涯共此时" url="https://ztygcs.github.io/" logo="https://guanqr.com/images/friends/ztygcs.png" word="科技与生活, 华科校友" >}}
 {{< friend name="热爱数学的 hoganbin" url="https://hoganbin.top/" logo="https://hoganbin.top/medias/logo.jpg" word="喜欢数学, 热爱编程. 八一本人" >}}
-
-*也许是由于使用 Cloudflare 的缘故, 本可以点击图片跳转的, 正在修复 ing* 
 
 <br />
 
