@@ -701,7 +701,7 @@ uglyURLs = false
     enableGoogleAutoAds = false
 
     ## 广告单元
-    enableGoogleAdUnits = true
+    enableGoogleAdUnits = false
     googleAdSlot = "6616360495"
 
     ######################################
@@ -756,7 +756,7 @@ uglyURLs = false
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 是否显示发布时间
-    displayPublishedDate = false
+    displayPublishedDate = true
     # 发布时间的图标
     publishedDateIcon = "calendar-alt"
 
@@ -783,7 +783,7 @@ uglyURLs = false
     wordCountIcon = "pencil-alt"
 
     # 是否显示阅读时长
-    displayReadingTime = true
+    displayReadingTime = false
     # 阅读时长的图标
     readingTimeIcon = "clock"
 
