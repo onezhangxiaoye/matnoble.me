@@ -110,3 +110,7 @@ related = false
 > Valine 诞生于 2017 年 8 月 7 日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统.
 
 另外, 评论系统已支持邮件通知, 借鉴于[此](http://www.zhaojun.im/hexo-valine-modify/), 欢迎在下方留言, 我的朋友 🗽
+
+<div style="position: relative; width: 100%; padding-bottom: 75%; padding-top: 5px; height: 0; overflow: hidden;">
+<script type="text/javascript" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=MuibB8UqyoLwjEuc62KkUF3hFsr09TEq5MpRv3jXMsk&cl=ffffff&w=a"></script>
+</div>
