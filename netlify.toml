@@ -1,13 +1,22 @@
 [build]
-  publish = "public"
-  command = "npm run build && npm run ipfs-deploy"
+  base = "/"
+  publish = "public/"
+  command = "npm run build"
+  # command = "npm run build && npm run ipfs-deploy"
 
-[context.production.environment]
-  HUGO_VERSION = "0.62.2"
+[build.environment]
+  HUGO_VERSION = "0.67.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://matnoble.netlify.com/*"
   to = "https://matnoble.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]	
+  from = "https://www.matnoble.com/*"	
+  to = "https://matnoble.me/:splat"	
+  status = 301	
   force = true

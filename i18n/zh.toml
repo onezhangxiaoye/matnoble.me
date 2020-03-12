@@ -1,11 +1,11 @@
 [warning]
-other = "警告"
+other = "Ｗarning"
 
 [note]
-other = "注释"
+other = "Note"
 
 [info]
-other = "引言"
+other = "Info"
 
 [tip]
-other = "小贴示"
+other = "Tips"

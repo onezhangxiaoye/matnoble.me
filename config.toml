@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://matnoble.me/"
-title = "数学小兵儿 MatNoble"
+title = "MatNoble"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -93,7 +93,7 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "数学小兵儿 MatNoble"
+    name = "数学小兵儿"
     # 邮箱
     email = "hustmatnoble@gmail.com"
     # 座右铭或简介
@@ -119,6 +119,9 @@ uglyURLs = false
     [[related.indices]]
         name = "tags"
         weight = 95
+    [[related.indices]]
+        name = "keywords"
+        weight = 90
     [[related.indices]]
         name = "date"
         weight = 10
@@ -233,25 +236,10 @@ uglyURLs = false
         name = "Email"
         weight = 2
         pre = "external"
-    [[menu.socials]]
-        url = "https://www.youtube.com/c/RossMatNoble?sub_confirmation=1"
-        name = "YouTube"
-        weight = 3
-        pre = "external"
-     [[menu.socials]]
-        url = "https://www.facebook.com/matnoble365/"
-        name = "Facebook"
-        weight = 4
-        pre = "external"
-      [[menu.socials]]
-        url = "https://twitter.com/mat_noble"
-        name = "twitter"
-        weight = 5
-        pre = "external"
       [[menu.socials]]
         url = "https://t.me/HUSTMatNoble"
 	name = "Telegram"
-	weight = 6
+	weight = 3
         pre = "external"
 	
     # 链接栏
@@ -329,7 +317,7 @@ uglyURLs = false
     # 在窄视图下隐藏菜单栏并显示一个按钮？
     enableNavToggle = true
 
-    navHeight = "10em"
+    navHeight = "9em"
     # 说明：菜单栏展开时的高度
 
 
@@ -346,7 +334,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    siteBrandFontSize = 2
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -381,7 +369,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["<br>","<br>","花开花谢 白天黑夜","一切自然 又不尽然","春夏秋冬 经过才懂","世间冷暖 无非自然","<i>－－李健《懂得》</i>"]
+    homePoetry = ["花开花谢 白天黑夜","一切自然 又不尽然","春夏秋冬 经过才懂","世间冷暖 无非自然","<i>－－李健《懂得》</i>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -389,10 +377,10 @@ uglyURLs = false
     homePoster = ""
     homeVideoWebm = ""
     homeVideoMp4 = ""
-    homeLogo = ""
-    homeLogoLink = ""
-    homeTitle = ""
-    homeMotto = ""
+    homeLogo = "/icons/android-chrome-512x512.png"
+    homeLogoLink = "/home/"
+    homeTitle = "MatNoble"
+    homeMotto = "每天进步一点点"
     homeDescription = ""
     homeKeywords = ""
     homeLinksDelimiter = ""
@@ -411,7 +399,7 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2018-09-01T06:00:00+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
@@ -454,7 +442,7 @@ uglyURLs = false
     # `sections`，则无法关闭树状布局
 
     # 是否显示文章标题
-    displayPosts = true
+    displayPosts = false
 
     # 是否显示每一分类下的文章数
     displayPostsCount = true
@@ -952,13 +940,13 @@ uglyURLs = false
     # 菜单栏
     fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Noto Serif SC', 'Amstelvar', serif"
+    fontFamilyTitle = "'Cinzel Decorative','Noto Serif SC', 'Amstelvar', serif"
     # 分节标题、目录标题
     fontFamilyHeadings = "'Noto Serif SC', 'Amstelvar', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
     fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
     # 引用
-    fontFamilyQuote = ""
+    fontFamilyQuote = "'Amstelvar', 'Noto Serif SC', serif"
     # 文章目录
     fontFamilyTOC = ""
     # 说明文字
@@ -1093,7 +1081,7 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = false
+    enablePostGitInfo = true
 
     # 是否显示（全局设置）
     displayPostGitInfo = false

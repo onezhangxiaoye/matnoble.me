@@ -1,3 +1,46 @@
+.list-title, .term-title, .list-year, .list-month {
+    font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif SC', serif;
+}
+
+.brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.nav {
+    font-size: 1em;
+    margin-top: 0.4em;
+}
+
+.home .poetry {
+    padding: 10em 1em;
+}
+
+.menu-item .icon {
+    display: none;
+}
+
+@media (max-width: $maxWidth) {
+    .nav {
+        margin: 2em 0;
+    }
+    .menu-item .icon {
+        display: inline-block;
+    }
+    .menu-item-name {
+        font-size: 80%;
+    }
+}
+
+.nav-toggle {
+    transform: translateY(0.4em);
+}
+
+.footer {
+    letter-spacing: -0.1em;
+}
+
 // 自定义引用边框
 .note-danger, .note-warning, .note-success, .note-info, .note-primary, .note-default {
     padding: 0.5em 1em;

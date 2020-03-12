@@ -43,7 +43,7 @@ related = false
 ### 社交媒体 🖇
 - 微信公众号: [数系家园](https://mp.weixin.qq.com/s?__biz=MzI0NDcwMzE0NQ==&mid=100000467&idx=1&sn=bdb37d8e5b8b38e862fe3ce5261fa797&chksm=695888155e2f0103c6a2b96c2e85a6ff875a42c09f55d3d6cf23e7c54fef9ac51e7d1c911935#rd)(ID:MatNoble)
 
-<img src="https://i.postimg.cc/3NQDpV9v/small.png" width="40%" alt="数系家园微信公众号"/>
+<img src="https://ttfou.com/images/2020/03/12/eaff404d0d32b6ddf9ade4ea57217280.png" width="40%" alt="数系家园微信公众号"/>
 
 欢迎大家扫描订阅我的微信公众号, 当我更新博客时, 会在公众号里发文通知 🤳
 
