@@ -3,9 +3,9 @@
 
 <p align="center">
 <a href="https://matnoble.me/about/"><img alt="Author" src="https://img.shields.io/badge/Author-MetNoble-blue?style=flat-square"/></a>
- <a href="https://gohugo.io/"><img alt="Generator" src="https://img.shields.io/badge/Generator-Hugo-ff4088?&logo=hugo"/></a>
- <a href="https://github.com/reuixiy/hugo-theme-meme"><img alt="Theme" src="https://img.shields.io/badge/Theme-MemE-2a6df4?&logo=meme"/></a>
-  <a href="https://github.com/MatNoble/matnoble.me"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MatNoble/matnoble.me?style=social"/></a>
+<a href="https://gohugo.io/"><img alt="Generator" src="https://img.shields.io/badge/Generator-Hugo-ff4088?&logo=hugo"/></a>
+<a href="https://github.com/reuixiy/hugo-theme-meme"><img alt="Theme" src="https://img.shields.io/badge/Theme-MemE-2a6df4?&logo=meme"/></a>
+<a href="https://app.netlify.com/sites/matnoble/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/d10378f2-cffe-40f3-9374-2dd0de14f971/deploy-status"/></a>
 </p>
 
 ## 文章精选

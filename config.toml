@@ -231,12 +231,7 @@ uglyURLs = false
         name = "GitHub"
         weight = 1
         pre = "external"
-    [[menu.socials]]
-        url = "mailto:hustmatnoble@gmail.com"
-        name = "Email"
-        weight = 2
-        pre = "external"
-      [[menu.socials]]
+   [[menu.socials]]
         url = "https://t.me/HUSTMatNoble"
 	name = "Telegram"
 	weight = 3
