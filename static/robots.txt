@@ -6,6 +6,5 @@ Allow: /tags/
 Allow: /about/
 Allow: /series/
 Allow: /search/
-Disallow: /uploads/
 
 Sitemap: https://matnoble.me/sitemap.xml
