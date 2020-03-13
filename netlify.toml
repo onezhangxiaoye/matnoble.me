@@ -11,4 +11,11 @@
 [[redirects]]
   from = "https://matnoble.netlify.com/*"
   to = "https://matnoble.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.matnoble.com/"
+  to = "https://matnoble.me/:splat"
+  status = 301
   force = true
