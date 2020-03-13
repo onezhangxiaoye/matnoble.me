@@ -18,10 +18,6 @@ related = false
 <script async src="https://cse.google.com/cse.js?cx=018071704944854801762:92uquzoxk7g"></script>
 <div class="gcse-search"></div>
 
-<hr />
-
-{{< music id="7440730730" type="playlist" server="tencent" >}}
-
 ## 友链
 
 在不断的学习中, 会发现自己正在做的, 之前早就有人做过了, 在这些丰富的借鉴素材的基础上, 我才得以不断学习进步, 谢谢你们的知识 🍻
