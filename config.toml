@@ -31,10 +31,10 @@ enableEmoji = true
 footnoteReturnLinkContents = "↩"
 
 # 是否启用 Git 版本信息
-enableGitInfo = false
+enableGitInfo = true
 
 # 是否生成 robots.txt 文件
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
 paginate = 5
@@ -1084,7 +1084,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/MatNoble/matnoble.github.io"
+    repoURL = "https://github.com/MatNoble/matnoble.me"
     # 编辑地址
     repoEditURL = "https://github.com/MatNoble/matnoble.me/blob/master"
 

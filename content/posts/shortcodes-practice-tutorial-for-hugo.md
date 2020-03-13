@@ -258,28 +258,6 @@ other = "小贴示"
 
 {{< youku id="XNDU0OTY4OTg4OA==" >}}
 
-### 文本加密
-
-```markdown
-{{</* hugo-encryptor "your password" */>}}
-
-加密内容
-
-{{</* /hugo-encryptor */>}}
-```
-
-试一试密码: `123` 👇
-
-{{< hugo-encryptor "123" >}}
-这就是加密文字.
-
-{{< imgcap src="https://ttfou.com/images/2020/02/21/8c0bd5e1dd5eb8c4986b31561f2a72bd.jpg" title="Lebron's dunk like Kobe" >}}
-
-{{< /hugo-encryptor >}}
-
-<br />
-借鉴自 [hugo-encryptor](https://github.com/Li4n0/hugo_encryptor), 里面写的很详细.
-
 ### GitHub gist
 原生支持, 添加 GitHub gist
 

@@ -16,13 +16,13 @@ related = false
 
 <br>
 
-陌生人您好🤝, 欢迎在我的博客留下👣, 不知道您是从何处来到的这里, 但这并不重要. 因为相遇即是缘分, 世界上的人总会通过各种方式产生千丝万缕的联系, 所以, 即使我们素为谋面, 您来到这里, 我们就是朋友 💖
+陌生人您好🤝，欢迎在我的博客留下👣，不知道您是从何处来到的这里，但这并不重要。因为相遇即是缘分，世界上的人总会通过各种方式产生千丝万缕的联系，所以，即使我们素为谋面，您来到这里，我们就是朋友 💖
 
 {{< imgcap src="https://ttfou.com/images/2020/02/16/27b0abfdb3b2a0b15d5f406f6b8a4828.jpg" title="欢迎我的朋友们 Friends" >}}
 
 ## About Me	
 
-我是一个 95 前的 90 后👴, 就读于 HUST 的数学系读研究生, 喜欢数学, 乐于计算机编程序. 不会吸烟, 但偶尔会小酌一杯. 喜欢旅行✈, 却还没有去过太多地方, 期待以后可以和我的她去更多好玩儿的地方. 最重要的是: 在能维持生计的同时, 做自己喜欢做的事!
+我是一个 95 前的 90 后👴，就读于 HUST 的数学系读研究生，喜欢数学，乐于计算机编程序。不会吸烟，但偶尔会小酌一杯。喜欢旅行✈，却还没有去过太多地方，期待以后可以和我的她去更多好玩儿的地方。最重要的是: 在能维持生计的同时，做自己喜欢做的事!
 
 {{< imgcap src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" title="云 真好吃" >}}
 
@@ -37,7 +37,7 @@ related = false
 
 <img src="https://ttfou.com/images/2020/03/12/eaff404d0d32b6ddf9ade4ea57217280.png" width="40%" alt="数系家园微信公众号"/>
 
-欢迎大家扫描订阅我的微信公众号, 当我更新博客时, 会在公众号里发文通知 🤳
+欢迎大家扫描订阅我的微信公众号，当我更新博客时，会在公众号里发文通知 🤳
 
 - 知乎账号: [MatNoble](https://www.zhihu.com/people/matnoble)
 - 新浪微博: [MatNoble](https://weibo.com/destiny1314z)
@@ -61,15 +61,15 @@ related = false
 
 ## About This Site
 
-<p style="display:block;text-align:center;color:gray;font-size:30pt;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif">matnoble.me</p>
+<p style="display:block;text-align:center;color:gray;font-size:30pt;font-family: "Arial"，"Microsoft YaHei"，"黑体"，"宋体"，sans-serif">matnoble.me</p>
 
-{{< mark text="MatNoble">}}可以拆分为两部分: Mat + Noble. 
+{{< mark text="MatNoble">}}可以拆分为两部分: Mat + Noble
 
-- 「Mat」可以是 「Mathematics」, 数学系的我自然对这个单词情有独钟!
+- 「Mat」可以是 「Mathematics」，数学系的我自然对这个单词情有独钟!
   > MatNoble= Mathematics + Noble
-- 「Mat」也可以是 「Matrix」, 有仿照 Matlab 的嫌疑(2333), 矩阵也是一个非常重要的「发明」, 对我来说, 学习理论知识和编程序都离不开 Matrix. 
+- 「Mat」也可以是 「Matrix」，有仿照 Matlab 的嫌疑(2333)，矩阵也是一个非常重要的「发明」，对我来说，学习理论知识和编程序都离不开 Matrix
   > MatNoble= Matrix + Noble
-- 「Noble」意为「高贵的, 贵族的」, 所以整体寓意为「数学是高贵的」. 灵感来自一个有关笛卡尔的[“浪漫”的爱情故事](https://www.bilibili.com/read/cv166401).
+- 「Noble」意为「高贵的，贵族的」，所以整体寓意为「数学是高贵的」。灵感来自一个有关笛卡尔的[“浪漫”的爱情故事](https://www.bilibili.com/read/cv166401)
 
 {{< imgcap src="https://imgkr.cn-bj.ufileos.com/5294788b-cbc3-4471-b49f-0fae425a5e42.png" title="油管版 MatNoble" width="80%" >}}
 
@@ -77,28 +77,28 @@ related = false
 
 <br />
 
-目前, 本站设有两个专栏 
+目前，本站设有两个专栏 
 - [线性回忆录](https://matnoble.me/series/mla/)<br>
-  企图完整地介绍「线性代数」, 而不采取(大陆)大学课堂里的套路.
+  企图完整地介绍「线性代数」，而不采取(大陆)大学课堂里的套路。
 - [LaTeX 排版「冷」知识](https://matnoble.me/series/latex/)<br>
-  每篇博文介绍一个实用的 $\LaTeX$ 排版小知识. 「不积跬步, 无以至千里. 不积小流, 无以成江海.」
+  每篇博文介绍一个实用的 $\LaTeX$ 排版小知识。「不积跬步，无以至千里。不积小流，无以成江海。」
 
-本博客使用基于 Go 语言的 [Hugo](https://gohugo.io/) 生成静态网页, 配合 [MemE 4.1.0](https://github.com/reuixiy/hugo-theme-meme) 主题, 并使用 [GitHub Pages](https://pages.github.com/) 存放[静态网页](https://github.com/MatNoble/matnoble.github.io), 以及开放博客[源码](https://github.com/MatNoble/matnoble.me). 短期拥有 [matnoble.me](https://matnoble.me/) 域名(计划长期续期), 利用 [Cloudflare CDN](https://www.cloudflare.com/) 加速.
+本博客使用基于 Go 语言的 [Hugo](https://gohugo.io/) 生成静态网页，配合 [MemE](https://github.com/reuixiy/hugo-theme-meme) 主题，并部署于 [Netlify](https://app.netlify.com/)。源码存放在 [GitHub](https://github.com/MatNoble/matnoble.me)。短期拥有 [matnoble.me](https://matnoble.me/) 域名(计划长期续期)。
 
-此外, 本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点, 你可以通过浏览器添加本博客到你的手机主屏或电脑桌面, 随时随地查看本博客. 如果你想订阅本博客, 推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>.如果你有电报, 也可以订阅我的[..电报频道..](https://t.me/HUSTMatNoble), 快速获取本博客更新提醒. 当然, 你也可以经常访问本博客, 以及时获取到最新文章. 
+此外，本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/?hl=zh_cn) 站点，你可以通过浏览器添加本博客到你的手机主屏或电脑桌面，随时随地查看本博客。如果你想订阅本博客，推荐<a href="/atom.xml" target="_blank" rel="noopener">Atom</a> / <a href="/rss.xml" target="_blank" rel="noopener">RSS</a>.如果你有电报，也可以订阅我的[..电报频道..](https://t.me/HUSTMatNoble)，快速获取本博客更新提醒。当然，你也可以经常访问本博客，以及时获取到最新文章。
 
 本站欢迎大家与我友链 $\to$ [点我跳转](https://matnoble.me/search/#友链)
 
-<p style="display:block;text-align:center;color:gray;font-size:18pt;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif">记录所思，所想，所为</p>
+<p style="display:block;text-align:center;color:gray;font-size:18pt;font-family: "Arial"，"Microsoft YaHei"，"黑体"，"宋体"，sans-serif">记录所思，所想，所为</p>
 
-*本站建议使用 Chrome 或 Chromium 浏览器浏览, 为防止失去本站, 可快捷键 `Ctrl + D` 将本站添加至浏览器书签*
+*本站建议使用 Chrome 或 Chromium 浏览器浏览，为防止失去本站，可快捷键 `Ctrl + D` 将本站添加至浏览器书签*
 
 <br />
 
 ### 评论系统
 
-基于 [Valine](https://valine.js.org/) 实现博客的评论功能, 支持「Markdown」语言. 还可以换成自己喜欢的[头像](https://valine.js.org/avatar.html)
+基于 [Valine](https://valine.js.org/) 实现博客的评论功能，支持「Markdown」语言。还可以换成自己喜欢的[头像](https://valine.js.org/avatar.html)
 
 > Valine 诞生于 2017 年 8 月 7 日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统.
 
-另外, 评论系统已支持邮件通知, 借鉴于[此](http://www.zhaojun.im/hexo-valine-modify/), 欢迎在下方留言, 我的朋友 🗽
+另外，评论系统已支持邮件通知，借鉴于[此](http://www.zhaojun.im/hexo-valine-modify/)，欢迎在下方留言，我的朋友 🗽

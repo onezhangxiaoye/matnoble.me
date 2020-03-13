@@ -12,8 +12,6 @@ mathjax = true
 
 {{< imgcap src="https://ttfou.com/images/2020/03/06/e503745fc92728f920414482f03f61ce.png" title="篇章结构" >}}
 
-{{< hugo-encryptor "matnoble" >}}
-
 <h3>多项式</h3>
 
 {{< pdf url="/files/pdf/duoxiangshi.pdf" >}}
@@ -29,9 +27,6 @@ mathjax = true
 <h3>矩阵</h3>
 
 {{< pdf url="/files/pdf/matrix.pdf" >}}
-
-{{< /hugo-encryptor >}}
-*`密码`请到公众号`数系家园`, 回复`高代习题2020`获取* <br>
 
 <hr />
 

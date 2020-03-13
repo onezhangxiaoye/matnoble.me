@@ -23,13 +23,3 @@ images = ["https://imgkr.cn-bj.ufileos.com/e27f3006-20ca-409a-b932-dd2ca16385aa.
 {{< imgcap src="https://ttfou.com/images/2020/02/22/e6eaac548fd39b1d3f42a192a824674e.jpg" title="博雅塔可真高呀!" >}}
 
 大二下学期, 因参加蓝桥杯, 得以到帝都参观清北航...
-
-<br />
-
-{{< hugo-encryptor "guoqi" >}}
-
-{{< imgcap src="https://ttfou.com/images/2020/02/22/469e115131951a26fe4880c443419951.jpg" title="敬礼" >}}
-
-近两年国旗护卫队生涯, 最喜欢的照片还是自拍的这张!
-
-{{< /hugo-encryptor >}}
