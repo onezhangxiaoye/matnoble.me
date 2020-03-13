@@ -1,6 +1,5 @@
 [build]
-  base = "/"
-  publish = "public/"
+  publish = "public"
   command = "npm run build"
   # command = "npm run build && npm run ipfs-deploy"
 
@@ -12,11 +11,4 @@
 [[redirects]]
   from = "https://matnoble.netlify.com/*"
   to = "https://matnoble.me/:splat"
-  status = 301
-  force = true
-
-[[redirects]]	
-  from = "https://www.matnoble.com/*"	
-  to = "https://matnoble.me/:splat"	
-  status = 301	
   force = true
