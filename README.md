@@ -26,7 +26,8 @@
   - <a href="https://matnoble.me/posts/svd1/"> 奇异值分解再探 </a>
   - <a href="https://matnoble.me/posts/svd-linear-system/"> SVD 于解线性方程组之应用 </a>
   
-- <a href="https://matnoble.me/posts/tec/scientific-internet/"> Chrome 插件实现科学上网 </a>
+- <a href="https://matnoble.me/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"> 科学上网 </a>
+  - <a href="https://matnoble.me/posts/tec/scientific-internet/"> Chrome 插件实现科学上网 </a>
   - <a href="https://matnoble.me/posts/ubuntu-ssr/"> Ubuntu 上使用 ssr 实现科学上网 </a>
   
 ## 关注我吧 公众号: 「数系家园」
