@@ -51,9 +51,9 @@ Fast, ultra secure, and easy to use VPN service to protect your privacy online. 
 
 本博客已舍弃 [GitHub Pages](https://pages.github.com/), 转投 [Netlify](https://www.netlify.com/). 不曾想，在国内访问速度依旧感人，墙外访问却很快，所以建议使用「科学上网」访问本站😉
 
-{{< imgcap src="https://imgkr.cn-bj.ufileos.com/c0e0f337-84f1-42db-aa36-23ff61880266.png" title="desktop" >}}
+{{< imgcap src="https://ttfou.com/images/2020/03/14/357f7ad77be5820d5a5dc1e8a552d614.png" title="desktop" >}}
 
-{{< imgcap src="https://imgkr.cn-bj.ufileos.com/aeba24c0-6fbc-4fb0-945c-9937aa6cfd86.png" title="mobile" >}}
+{{< imgcap src="https://ttfou.com/images/2020/03/14/c20a8283162dc082e91bda5a5a6639a0.png" title="mobile" >}}
 
 [^1]: http://tb.newday.me/doc
 [^2]: Google 咱管不了，但我们能保证自己不作恶。<br> https://en.wikipedia.org/wiki/Don%27t_be_evil
