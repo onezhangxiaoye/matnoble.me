@@ -1,5 +1,5 @@
 
-# <div align="center"><a title="matnoble.me" href="https://matnoble.me"><img align="center" width="75" height="75" src="https://ttfou.com/images/2020/02/19/57a3562785bea2ca64bed59cc5616a3b.png?sanitize=true"></a> 数学小兵儿 </div>
+# <div align="center"><a title="matnoble.me" href="https://matnoble.me"><img align="center" width="75" height="75" src="https://ttfou.com/images/2020/02/19/57a3562785bea2ca64bed59cc5616a3b.png?sanitize=true"></a> MatNoble </div>
 
 <p align="center">
 <a href="https://matnoble.me/about/"><img alt="Author" src="https://img.shields.io/badge/Author-MetNoble-blue?style=flat-square"/></a>
@@ -21,15 +21,24 @@
   - <a href="https://matnoble.me/posts/basicspacebase/"> 矩阵的四个基本空间的基底 </a> 
   - <a href="https://matnoble.me/posts/gram/"> 矩阵的四个基本空间的基底 </a> 
   - <a href="https://matnoble.me/posts/basicspacebase/"> Gram 矩阵 </a> 
-  - <a href="https://matnoble.me/posts/rotationandmirroring/"> 正交矩阵之旋转与镜射 </a> 
+  - <a href="https://matnoble.me/posts/rotationandmirroring/"> 正交矩阵之旋转与镜射 </a>
+  - <a href="https://matnoble.me/posts/svd/"> 奇异值分解初探 </a>
+  - <a href="https://matnoble.me/posts/svd1/"> 奇异值分解再探 </a>
+  - <a href="https://matnoble.me/posts/svd-linear-system/"> SVD 于解线性方程组之应用 </a>
   
-  ## 关注我吧 公众号: 「数系家园」
+- <a href="https://matnoble.me/posts/tec/scientific-internet/"> Chrome 插件实现科学上网 </a>
+  - <a href="https://matnoble.me/posts/ubuntu-ssr/"> Ubuntu 上使用 ssr 实现科学上网 </a>
+  
+## 关注我吧 公众号: 「数系家园」
+
 <p align="center">
 <img src="https://ttfou.com/images/2020/02/19/bc90bd3543630db2343add28f578ee2f.png" title="公众号: 数系家园" alt="公众号: 数系家园" width="300">
 </p>
 
 ## 授权情况
+
 本模板代码按 [CC 4.0 BY-SA](https://github.com/MatNoble/matnoble.me/blob/master/CC-BY-SA-4.0) 授权, 转载请附上原文出处链接和本声明.
 
 ## 联系方式
+
 Mail: [hustmatnoble@gmail.com](mailto:hustmatnoble@gmail.com)
