@@ -2,8 +2,8 @@
 title = "使用 Emacs 制作 LaTeX 表格"
 date = "2020-02-14T00:00:00+00:00"
 description = "作为神的编辑器 Emacs, 处理 LaTeX, 小菜一碟"
-categories = ["TECH","好工具高效率"]
-tags = ["Emacs"]
+categories = ["TECH","LaTeX 科技排版"]
+tags = ["Emacs","latex"]
 keywords = ["神的编辑器 Emacs","编辑器之神 Vim","Emacs","LaTeX","org-mode","python","表格"]
 toc = true
 katex = true

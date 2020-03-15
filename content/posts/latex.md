@@ -2,7 +2,7 @@
 title = "LaTeX 实用命令汇总(长期更新)"
 mathjax = true
 description = "从小白到老司机"
-categories = ["TECH","好工具高效率"]
+categories = ["TECH","LaTeX 科技排版"]
 tags = ["LaTeX"]
 date = "2019-02-22T19:32:00+00:00"
 keywords = ["经验分享","技术总结","LaTeX","自定义字体","添加注脚","数学公式","矩阵","matrix","matnoble","数系家园"] 
