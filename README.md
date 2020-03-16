@@ -10,7 +10,7 @@
 
 ## 文章精选
 
-- <a href="https://matnoble.me/categories/%E5%https://github.com/MatNoble/LaTeX-Document/blob/master/LICENSEBB%BA%E7%AB%99%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/"> 建站那些事 </a>
+- <a href="https://matnoble.me/categories/%E5%https://github.com/MatNoble/LaTeX-Document/blob/master/LICENSEBB%BA%E7%AB%99%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/"> 建站那些事</a>
   - <a href="https://matnoble.me/posts/shortcodes-practice-tutorial-for-hugo/"> Shortcodes 实践教程 </a>
   
 - <a href="https://matnoble.me/categories/%E7%BA%BF%E4%BB%A3%E6%8B%BE%E9%81%97/"> 线代拾遗 </a> 
