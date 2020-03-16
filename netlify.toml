@@ -19,3 +19,21 @@
   to = "https://matnoble.me/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/posts/svd-linear-system/"
+  to = "/posts/svd/svd-apply-to-linear-system/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/svd1/"
+  to = "/posts/svd/svd-mathematical-basis-b/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/svd/"
+  to = "/posts/svd/svd-mathematical-basis-a/"
+  status = 301
+  force = true
