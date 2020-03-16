@@ -10,8 +10,6 @@ mathjax = true
 series = ["mla"]
 +++
 
-<!--more-->
-
 ## 知识回顾
 
 在 [矩阵的四个基本空间, 不了解下吗?](https://matnoble.me/posts/matrix4basicth/) 中, 介绍了实矩阵的四个基本空间的`正交关系`
