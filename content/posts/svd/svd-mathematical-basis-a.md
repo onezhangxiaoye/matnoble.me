@@ -66,7 +66,6 @@ $$
 $$
 
 <br />
-<br />
 
 又因为 ${\rm rank}(A^{\mathsf T}A) = {\rm rank}(A) = r$, 不妨设
 
@@ -90,7 +89,7 @@ $$\\{ v_{r+1}, \cdots, v_n \\} \subset N(A) = N(A^{\mathsf T}A)$$
 
 又因为$C(A^{\mathsf T}) = N(A)^{\perp}$, 所以 $\\{ v_{1}, \cdots, v_r \\}$ 是 $C(A^{\mathsf T})$ 的一组标准正交基.
 
-<hr />
+<br />
 
 对式(\ref{eq:eq1})左右同乘 $A$
 
@@ -117,7 +116,7 @@ $$
 
 接下来, 扩充单位正交向量 $\\{ u_{r+1}, \cdots u_m \\}$, 使得 $\\{ u_1, \cdots u_r, u_{r+1}, \cdots, u_m \\}$ 成为 $\mathbb{R}^m$ 的标准正交基. 因为 $C(A) = N(A^{\mathsf T})^{\perp}$, 所以, $\\{ u_{r+1}, \cdots u_m \\}$ 是 $N(A^{\mathsf T})$ 的一组标准正交基.
 
-<hr />
+<br />
 
 综上, 理论上得到了实矩阵 $A$ 的四个基本空间各自的正交基.
 
@@ -178,4 +177,6 @@ $$
 
 这就是奇异值分解(singular value decomposition), 简称 SVD. 
 
-详细推导过程, 下次继续 !
+<hr />
+
+更多..奇异值分解..的内容可以戳 [**这里**](https://matnoble.me/tags/%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3/)

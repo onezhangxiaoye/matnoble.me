@@ -280,5 +280,9 @@ $$
 
 前一项属于行空间 $C(\boldsymbol{A}^\mathsf{T})$.
 
+<hr />
+
+更多..奇异值分解..的内容可以戳 [**这里**](https://matnoble.me/tags/%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3/)
+
 [^1]: https://matnoble.me/posts/matrixleastsquares/#%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E8%A7%A3
 [^2]: https://matnoble.me/posts/matrixleastsquares/#%E5%88%97%E6%BB%A1%E7%A7%A9
