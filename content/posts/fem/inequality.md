@@ -91,7 +91,43 @@ $$
 $\blacksquare$
 </p>
 
-There is a more general theorem[^1]
+### General Young’s inequality 
+
+Let $c>0$ and $f:[0, c] \to \mathbb{R}$ be a strictly increasing continuous function such that $f(0)=0$. Let $a\in [0, c]$ and $b\in [0, f(c)]$. Then
+
+\begin{equation}
+ab \leq \int_0^a f(x) \\, \mathrm{d}x + \int\_0^b f^{-1}(x) \\, \mathrm{d}x
+\label{eq:eqy2}
+\end{equation}
+
+{{< imgcap src="https://imgkr.cn-bj.ufileos.com/a41e796b-adbb-44a7-adbe-3da2bb474641.svg" title="Figure 1" >}}
+
+(\ref{eq:eqy2}) can be understood with the figure 1.
+
+> **Lemma** Let $c>0$. For a strictly increasing continuous function $f:[0, c]\to \mathbb{R}$ and $b\in [0, f(c)]$, we have that
+> $$
+> bf^{-1}(b) = \int_0^b f^{-1}(x) \\, \mathrm{d}x + \int\_0^{f^{-1}(b)} f(x) \\, \mathrm{d}x
+> $$
+> **Proof.** It is enough to prove it when $f$ is $C^1$, as then a continuous $f$ can be uniformly approximated by strictly increasing $C^1$ functions while $f ^{−1}$ is also uniformly approximated. It is also enough to prove it when $f(a) \geq b$, as otherwise we can just interchange both $f, f^{−1}$ and $a, b$.
+>
+> To prove it in this case we can change variables in the integral $\int_0^b\ f^{−1}(x)\\, \mathrm{d}x$ by putting $x = f(y)$, and then integrate by parts:
+> $$
+>  \int\_0^b f^{-1}(x) \\, \mathrm{d}x = \int\_0^{f^{-1}(b)} yf'(y) \\, \mathrm{d}y = bf^{-1}(b) - \int\_0^{f^{-1}(b)} f(x) \\, \mathrm{d}x
+> $$
+> <p style="text-align: right"> $\blacksquare$ </p>
+
+**Proof.** Use (\ref{eq:eqy2}), we get
+
+$$
+\begin{aligned}
+ab & = bf^{-1}(b) + b(a-f^{-1}(b)) \\\\[3pt]
+& = \int\_0^b f^{-1}(x) \\, \mathrm{d}x + \int\_0^{f^{-1}(b)} f(x) \\, \mathrm{d}x + b(a-f^{-1}(b)) \\\\[3pt]
+& \leq \int\_0^b f^{-1}(x) \\, \mathrm{d}x + \int\_0^{f^{-1}(b)} f(x) \\, \mathrm{d}x + \int_{f^{-1}(b)}^a f(x) \\, \mathrm{d}x \\\\[3pt]
+& = \int\_0^b f^{-1}(x) \\, \mathrm{d}x + \int\_0^a f(x) \\, \mathrm{d}x
+\end{aligned}
+$$
+
+<p style="text-align: right"> $\blacksquare$ </p>
 
 ## Holder inequality
 
@@ -123,5 +159,3 @@ $$
 <p style="text-align: right">
 $\blacksquare$
 </p>
-
-[^1]: General Young’s inequality https://canizo.org/tex/young.pdf
