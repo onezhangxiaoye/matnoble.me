@@ -134,9 +134,11 @@ $ python2 -m pip install --upgrade pip
 $ python3 -m pip install --upgrade pip
 ```
 
-### 安装常用科学计算包
+### 安装
 
-#### NumPy SciPy Pandas Matplotlib
+#### 安装常用科学计算包
+
+> NumPy SciPy Pandas Matplotlib
 
 1. 安装，打开 Terminal
 ```shell
@@ -164,6 +166,36 @@ $ pip install --upgrade numpy
 $ pip3 install --upgrade numpy
 ```
 
+#### IPython
+
+<img src="https://ttfou.com/images/2020/03/17/ff2a2704bc153b05dd7532c6b30a7e3c.png" width="60%" />
+
+{{< blockquote link="http://ipython.org/" >}}
+**IPython provides a rich architecture for interactive computing with:**
+- A powerful interactive shell.
+- A kernel for Jupyter.
+- Support for interactive data visualization and use of GUI toolkits.
+- Flexible, embeddable interpreters to load into your own projects.
+- Easy to use, high performance tools for parallel computing.
+{{< /blockquote >}}
+
+```shell
+% python 3
+$ pip3 install ipython
+% or
+$ sudo apt install ipython3
+```
+
+{{< imgcap src="https://ttfou.com/images/2020/03/17/5f8320ded08b503d4375064da04f23d4.png" title="IPython3 in my desktop" >}}
+
 #### Debugs
 
 如果遇到权限问题，可以尝试在命令后加 `--user`
+
+### 卸载
+
+```shell
+$ pip uninstall <package name>
+% or
+$ pip3 uninstall <package name>
+```
