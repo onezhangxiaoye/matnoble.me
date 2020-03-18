@@ -33,9 +33,9 @@ Constant deformation with $\epsilon$
 
 $$
 \begin{aligned}
-      ab &= ((2\epsilon)^{\frac{1}{2}}a)(\frac{b}{(2\epsilon)^{\frac{1}{2}}}) \\\\[3pt]
-         &\leq \frac{1}{2} [((2\epsilon)^{\frac{1}{2}}a)^2 + (\frac{b}{(2\epsilon)^{\frac{1}{2}}})^2] \\\\[3pt]
-         &= \frac{1}{2} (2\epsilon a^{2} + \frac{b^{2}}{2\epsilon}) \\\\[3pt]
+      ab &= ((2\epsilon)^{\frac{1}{2}}a)\bigg(\frac{b}{(2\epsilon)^{\frac{1}{2}}}\bigg) \\\\[3pt]
+         &\leq \frac{1}{2} \biggl[((2\epsilon)^{\frac{1}{2}}a)^2 + \bigg(\frac{b}{(2\epsilon)^{\frac{1}{2}}}\biggl)^2 \biggl] \\\\[3pt]
+         &= \frac{1}{2} \biggl(2\epsilon a^{2} + \frac{b^{2}}{2\epsilon}\biggr) \\\\[3pt]
          &= \epsilon a^{2} + \frac{b^{2}}{4\epsilon}.
 \end{aligned}
 $$
@@ -116,7 +116,7 @@ ab \leq \int_0^a f(x) \\, \mathrm{d}x + \int\_0^b f^{-1}(x) \\, \mathrm{d}x
 > $$
 > <p style="text-align: right"> $\blacksquare$ </p>
 
-**Proof.** Use (\ref{eq:eqy2}), we get
+**Proof.** Use (\ref{eq:eqy2}), and $f(a)\geq b$, we get
 
 $$
 \begin{aligned}
@@ -126,6 +126,8 @@ ab & = bf^{-1}(b) + b(a-f^{-1}(b)) \\\\[3pt]
 & = \int\_0^b f^{-1}(x) \\, \mathrm{d}x + \int\_0^a f(x) \\, \mathrm{d}x
 \end{aligned}
 $$
+
+While $f(a)\leq b$, the proof process is similar.
 
 <p style="text-align: right"> $\blacksquare$ </p>
 
