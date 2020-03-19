@@ -21,6 +21,54 @@
   force = true
 
 [[redirects]]
+  from = "/posts/"
+  to = "/archives/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/fem1"
+  to = "/math/fem/fem1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/fem5"
+  to = "/math/fem/fem5/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/matrixleastsquares/"
+  to = "/math/linear-algebra/matrixleastsquares/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/matrix4basicth/"
+  to = "/math/linear-algebra/matrix4basicth/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/rotationandmirroring/"
+  to = "/math/linear-algebra/rotationandmirroring/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/hust/"
+  to = "/life/hust/undergraduate-admissions-promotion/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/postgraduate_experience_sharing/"
+  to = "/life/hust/postgraduate_experience_sharing/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/posts/svd-linear-system/"
   to = "/math/linear-algebra/svd-apply-to-linear-system/"
   status = 301
@@ -59,5 +107,23 @@
 [[redirects]]
   from = "/posts/ubuntu/python/configure-python-environment-in-ubuntu/"
   to = "/tech/ubuntu/configure-python-environment-in-ubuntu/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/surfacego/"
+  to = "/tech/reviews/surfacego/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/transferfiles/"
+  to = "/tech/programming/transferfiles/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/install-texlive/"
+  to = "/tech/ubuntu/install-texlive/"
   status = 301
   force = true

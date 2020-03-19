@@ -20,7 +20,7 @@ Let $a, b$ are any real numbers, then
 
 \begin{equation}
 \label{eq:eqce}
-    ab \leq \epsilon a^{2} + \frac{b^{2}}{4\epsilon},\,\forall \epsilon > 0,\quad (Cauchy\ inequality\ with\ epsilon)
+    ab \leq \epsilon a^{2} + \frac{b^{2}}{4\epsilon},\\,\forall \epsilon > 0,\quad (Cauchy\ inequality\ with\ epsilon)
 \end{equation}
 
 **Proof.**
