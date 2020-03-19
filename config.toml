@@ -191,14 +191,14 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         url = "/archives/"
-        name = "归档"
-        weight = 3
+        name = "文章"
+        weight = 2
         pre = "internal"
 	post = "archive"
     [[menu.main]]
         url = "/categories/"
         name = "分类"
-        weight = 2
+        weight = 3
         pre = "internal"
 	post = "th"
     [[menu.main]]

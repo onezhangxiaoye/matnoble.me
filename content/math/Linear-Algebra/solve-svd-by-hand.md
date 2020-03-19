@@ -1,6 +1,6 @@
 +++
 title = "「手撕」奇异值分解 SVD"
-description = "矩阵"
+description = "线性相关有强弱之分吗？"
 date = "2020-03-16T00:14:37+00:00"
 categories = ["MATH","线代拾遗"]
 tags = ["奇异值分解"]

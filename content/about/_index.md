@@ -1,5 +1,5 @@
 +++
-title = "关于"
+title = "「我」是谁"
 date = "2020-01-03T16:29:06+08:00"
 description = "数学＆计算机 我都爱"
 keywords = ["about","关于此博客","MatNoble","数系家园","matnoble.me","Hugo","GitHub"]
