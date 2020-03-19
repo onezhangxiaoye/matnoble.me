@@ -48,10 +48,11 @@ uglyURLs = false
 [permalinks]
     categories = "/categories/:slug/"
     tags = "/tags/:slug/"
+    series = "/series/:slug/"
 
 # 类别
 [taxonomies]
-    category = "categories"
+    # category = "categories"
     tag = "tags"
     series = "series"
 
@@ -189,35 +190,30 @@ uglyURLs = false
     #     pre = "internal"
     #     post = "home"
     [[menu.main]]
-        url = "/posts/"
-        name = "文章"
+        url = "/archives/"
+        name = "归档"
         weight = 2
         pre = "internal"
-        post = "archive"
     [[menu.main]]
         url = "/categories/"
         name = "分类"
         weight = 3
         pre = "internal"
-        post = "th"
     [[menu.main]]
         url = "/tags/"
         name = "标签"
         weight = 4
         pre = "internal"
-        post = "tags"
     [[menu.main]]
         url = "/about/"
         name = "关于"
         weight = 5
         pre = "internal"
-        post = "user-circle"
     [[menu.main]]
         url = "/search/"
 	name = "站内搜寻"
 	weight = 6
 	pre = "internal"
-        post = "search"
     [[menu.main]]
         weight = 7
         identifier = "theme-switcher"
@@ -235,6 +231,11 @@ uglyURLs = false
         url = "https://t.me/HUSTMatNoble"
 	name = "Telegram"
 	weight = 3
+        pre = "external"
+   [[menu.socials]]
+        url = "https://twitter.com/mat_noble"
+        name = "Twitter"
+        weight = 3
         pre = "external"
 	
     # 链接栏
@@ -337,15 +338,15 @@ uglyURLs = false
     # 菜单栏
 
     # 是否开启
-    enableMenu = true
+    enableMenu = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
-    activeInSection = true
+    activeInSection = false
     # 说明：如果开启，那么当某一文章的分区名是某
     #      一菜单项中的 `url` 时，该文章页面中
     #      的该菜单项也会被高亮
@@ -419,7 +420,7 @@ uglyURLs = false
     # 的树状分类，故如需保留树状分类，建议适应
     # Hugo 的设计理念——分区。
 
-    categoryBy = "categories"
+    categoryBy = "sections"
     # 注意：如果你设置为 `sections`，请务必将
     #      此配置文件中的类别（taxonomies）中
     #      的 `categories` 删除，不然分类页
@@ -506,7 +507,7 @@ uglyURLs = false
     # 说明：分区的名字即站点的 content 目录下
     #      的文件夹的名字。
 
-    # mainSections = ["posts"]
+    mainSections = ["math","life","tech"]
 
 
     ######################################
