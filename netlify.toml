@@ -22,19 +22,19 @@
 
 [[redirects]]
   from = "/posts/svd-linear-system/"
-  to = "/math/linear-algebra/svd/svd-apply-to-linear-system/"
+  to = "/math/linear-algebra/svd-apply-to-linear-system/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/posts/svd1/"
-  to = "/math/linear-algebra/svd/svd-mathematical-basis-b/"
+  to = "/math/linear-algebra/svd-mathematical-basis-b/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/posts/svd/"
-  to = "/math/linear-algebra/svd/svd-mathematical-basis-a/"
+  to = "/math/linear-algebra/svd-mathematical-basis-a/"
   status = 301
   force = true
 

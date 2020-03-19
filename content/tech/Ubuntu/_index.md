@@ -1,3 +1,3 @@
 +++
-title = "Ubuntu 装机与优化"
+title = "Ubuntu 优化"
 +++
