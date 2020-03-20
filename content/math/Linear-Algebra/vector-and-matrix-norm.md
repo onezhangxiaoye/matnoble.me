@@ -27,6 +27,7 @@ series = ["mla"]
 
 <div>
 \begin{equation}
+\displaystyle
 \lVert \mathrm{x} \rVert_p := \biggl( \sum_{i=1}^n |x_i|^p \biggr)^{1/p}
 \label{eq:eqp}
 \end{equation}
@@ -62,7 +63,9 @@ plt.show()
 
 不同的 $p$ 值, “单位球”的形状是不一样的. $p$ 值越大, 越往外扩. 当 $p\geq 1$ 时, 图形都是凸集. $p<1$ 则不是凸集, 此时不满足「三角不等式」[^1]
 
-#### 常用$p-$范数
+<br />
+
+**常用 $p-$范数**
 
 以式 (\ref{eq:eqp}) 为基础, 最常用的范数有三个
 
@@ -71,18 +74,21 @@ plt.show()
 - $1-$范数<br>
 取 $p = 1$
 \begin{equation}
+\displaystyle
 \lVert \mathrm{x} \rVert_1 = \sum_{i=1}^n |x_i|
 \end{equation}
 也叫绝对值范数.
 - $2-$范数<br>
 取 $p = 2$
 \begin{equation}
+\displaystyle
 \lVert \mathrm{x} \rVert_2 = \sqrt{\sum_{i=1}^n |x_i|^2}
 \end{equation}
 这是最常见的欧几里德范数, 也叫作 $L^2$ 范数. 写成矩阵的形式: $\lVert \mathrm{x} \rVert_2 = \sqrt{\mathrm{x}^{\mathsf T}\mathrm{x}}$
 - $\infty-$范数<br>
 令 $p = +\infty$ 并取极限
 \begin{equation}
+\displaystyle
 \lVert \mathrm{x} \rVert_{\infty} = \max |x_i|
 \end{equation}
 
@@ -104,6 +110,7 @@ plt.show()
 
 <div>
 \begin{equation}
+\displaystyle
 \lVert \mathrm{v} \rVert_{\boldsymbol{S}} = \sqrt{\mathrm{v}^\mathsf{T} \boldsymbol{S} \mathrm{v}}
 \end{equation}
 </div>
@@ -123,16 +130,28 @@ $$
 ### 最小逼近问题
 
 $$
-\min_x \lVert \boldsymbol{A}\mathrm{x} - \mathrm{b} \rVert_p
+\displaystyle
+\min_{\mathrm{x}} \lVert \boldsymbol{A}\mathrm{x} - \mathrm{b} \rVert_p
 $$
 
 不同的 $p$ 值, 对应不同的最小逼近问题. 当 $p=2$ 时, 是熟悉的[最小二乘问题](https://matnoble.me/math/linear-algebra/matrixleastsquares/#%E7%90%86%E8%A7%A3%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84).[^2]
+
+二维情况下, 设 $\boldsymbol{A}=[2, 3], \mathrm{x} = [x, y]^{\mathsf{T}}, b=2$. 则
+
+$$
+\displaystyle
+\min_{\mathrm{x}} \lVert \boldsymbol{A}\mathrm{x} - \mathrm{b} \rVert_p = \min_{\mathrm{x}} \lVert 2x + 3y -2 \rVert_p
+$$
+
+在 $L^1, L^2, L^{\infty}$ 下解是不同的.
+
+{{< imgcap src="/images/leastsquare.svg" title="最小逼近" >}}
 
 <hr />
 
 ## 矩阵范数
 
-那么矩阵 $\boldsymbol{A}$ 的大小应如何来度量呢?
+那么矩阵 $\boldsymbol{A}$ 的..大小..应如何来..度量..呢?
 
 ### F 范数
 
@@ -152,6 +171,7 @@ $$
 
 \begin{equation}
 \lVert \boldsymbol{A} \rVert_F = \sqrt{\sum_{i=1}^r \sigma_i^2}
+\label{eq:eqf}
 \end{equation}
 
 **证明:**
@@ -188,6 +208,7 @@ $\blacksquare$
 
 <div>
 $$
+\displaystyle
 \begin{aligned}
 \lVert \boldsymbol{A}\mathrm{x} \rVert^2 & = \lVert x_1 \alpha_1 + \cdots + x_n \alpha_n \rVert^2
 \\[3pt]
@@ -202,6 +223,7 @@ $$
 
 <div>
 $$
+\displaystyle
 \begin{aligned}
 \bigl(|x_1| \cdot \lVert \alpha_1 \rVert + \cdots + |x_n| \cdot \lVert \alpha_n\bigr)^2 & \leq (\lVert \alpha_1 \rVert^2 + \cdots +  \lVert \alpha_n \rVert^2)(|x_1|^2 + \cdots + |x_n|^2)
 \\[3pt]
@@ -214,6 +236,7 @@ $$
 
 <div>
 $$
+\displaystyle
 \begin{aligned}
 \lVert \boldsymbol{A}\boldsymbol{B} \rVert_F^2 & = \bigl\lVert \bigl[ \boldsymbol{A} \beta_1  \cdots  \boldsymbol{A} \beta_p \bigr] \bigr\rVert_F^2
 \\[3pt]
@@ -244,6 +267,7 @@ $$
 , 如果 $\mathrm{x} \neq 0$, 就有
 
 \begin{equation}
+\displaystyle
  \lVert \boldsymbol{A} \rVert \geq \frac{\lVert \boldsymbol{A}\mathrm{x} \rVert}{\lVert \mathrm{x} \rVert}
 \label{eq:eq20} 
 \end{equation}
@@ -251,7 +275,8 @@ $$
 当式 (\ref{eq:eq20}) 右端取向量 $2-$范数时, 可以定义矩阵 $2-$范数
 
 \begin{equation}
- \lVert \boldsymbol{A} \rVert_2 = \max_{x\neq 0} \frac{\lVert \boldsymbol{A}\mathrm{x} \rVert_2}{\lVert \mathrm{x} \rVert_2}
+\displaystyle
+\lVert \boldsymbol{A} \rVert_2 = \max_{x\neq 0} \frac{\lVert \boldsymbol{A}\mathrm{x} \rVert_2}{\lVert \mathrm{x} \rVert_2}
 \label{eq:eqm2} 
 \end{equation}
 
@@ -259,19 +284,89 @@ $$
 
 **那如何计算$\lVert \boldsymbol{A} \rVert_2$ ?**
 
+将式 (\ref{eq:eqm2}) 平方
+<div>
+$$
+\displaystyle
+\begin{aligned}
+ \lVert \boldsymbol{A} \rVert_2^2 = \max_{x\neq 0} \frac{\lVert \boldsymbol{A}\mathrm{x} \rVert_2^2}{\lVert \mathrm{x} \rVert_2^2} & = \max_{x\neq 0} \frac{\mathrm{x}^{\mathsf{T}}\boldsymbol{A}^{\mathsf{T}}\boldsymbol{A}\mathrm{x}}{\lVert \mathrm{x} \rVert_2^2}
+\\[3pt]
+& = \max_{x\neq 0} \biggl(\frac{\mathrm{x}}{\lVert \mathrm{x} \rVert_2}\biggr)^{\mathsf{T}} \boldsymbol{A}^{\mathsf{T}}\boldsymbol{A} \frac{\mathrm{x}}{\lVert \mathrm{x} \rVert_2}
+\\[3pt]
+& = \max_{||\mathrm{y}||_2 = 1} \mathrm{y}^{\mathsf{T}} \boldsymbol{A}^{\mathsf{T}}\boldsymbol{A} \mathrm{y}
+\\[3pt]
+& =  \max_{||\mathrm{x}||_2 = 1} \lVert \boldsymbol{A}\mathrm{x} \rVert_2^2
+\end{aligned}
+$$
+</div>
+
+即
+$$
+\lVert \boldsymbol{A} \rVert_2 = \max_{||\mathrm{x}||_2 = 1} \sqrt{ \mathrm{x}^{\mathsf{T}} \boldsymbol{A}^{\mathsf{T}}\boldsymbol{A} \mathrm{x}} = \max_{||\mathrm{x}||_2 = 1} \lVert \boldsymbol{A}\mathrm{x} \rVert_2
+$$
+
+考虑 Gram 矩阵 $\boldsymbol{A}^{\mathsf{T}}\boldsymbol{A}$ 可正交对角化
+
+$$
+\boldsymbol{A}^{\mathsf{T}}\boldsymbol{A} = \boldsymbol{V} \boldsymbol{\Lambda} \boldsymbol{V}^\mathsf{T}
+$$
+
+其中 $\boldsymbol{V}$ 是正交矩阵. 所以
+
+$$
+\mathrm{x}^{\mathsf{T}} \boldsymbol{A}^{\mathsf{T}}\boldsymbol{A} \mathrm{x} = \mathrm{x}^{\mathsf{T}} \boldsymbol{V}\boldsymbol{\Lambda} \boldsymbol{V}^\mathsf{T} \mathrm{x} = \mathrm{z}^\mathsf{T} \boldsymbol{\Lambda} \mathrm{z}
+$$
+
+其中 $\mathrm{z}=\boldsymbol{V}^{\mathrm{T}}\mathrm{x}$, 并且满足
+
+$$
+\lVert \mathrm{z} \rVert^2 = \mathrm{z}^{\mathsf{T}}\mathrm{z} = \mathrm{x}^{\mathsf{T}} \boldsymbol{V}  \boldsymbol{V}^\mathsf{T} \mathrm{x} = \mathrm{x}^{\mathsf{T}}\mathrm{x} = \lVert \mathrm{x} \rVert^2
+$$
+
+所以
+$$
+\lVert \boldsymbol{A} \rVert_2^2 = \max_{||\mathrm{x}||_2 = 1} \mathrm{x}^{\mathsf{T}} \boldsymbol{A}^{\mathsf{T}}\boldsymbol{A} \mathrm{x} = \max_{||\mathrm{z}||_2 = 1} \mathrm{z}^\mathsf{T} \boldsymbol{\Lambda} \mathrm{z}
+$$
+
+而当 $||\mathrm{z}||_2 = 1$ 时
+$$
+\mathrm{z}^\mathsf{T} \boldsymbol{\Lambda} \mathrm{z} = \lambda_1z_1^2 + \cdots + \lambda_n z_n^2 \leq \lambda_{\max}(z_1^2 + \cdots + z_n^2) = \lambda_{\max}
+$$
+
+所以
 \begin{equation}
- \lVert \boldsymbol{A} \rVert_2 = \sigma_1
+ \lVert \boldsymbol{A} \rVert_2 = \max_{||\mathrm{z}||_2 = 1} \sqrt{\mathrm{z}^\mathsf{T} \boldsymbol{\Lambda} \mathrm{z}} = \sqrt{\lambda_{\max}} = \sigma_1
 \label{eq:eqm21} 
 \end{equation}
+其中, $\sigma_1$ 为矩阵 $\boldsymbol{A}$ 的最大奇异值. 此时, 可以看出 $\lVert \boldsymbol{A} \rVert_2$ 与 $\lVert \boldsymbol{A} \rVert_F$ 式 (\ref{eq:eqf}) 的不同.
 
 ### 其他矩阵范数
 
-TODO
+将不同的向量范数代入式 (\ref{eq:eq20}), 得到相应的矩阵范数.
 
-#### 矩阵 $1-$范数
+- 矩阵 $1-$范数<br>
+$$
+\displaystyle \Vert \boldsymbol{A} \Vert_1=\max_{\Vert\mathrm{x}\Vert_1=1}\Vert \boldsymbol{A} \mathrm{x}\Vert_1
+$$
+对任一 $\mathrm{x}$, $\Vert \mathrm{x} \Vert_1=\sum_{j=1}^n\vert x_j\vert=1$<br>
+$$
+\displaystyle
+\begin{aligned} \Vert \boldsymbol{A} \mathrm{x}\Vert_1 &=\sum_{i=1}^n\biggl\vert\sum_{j=1}^n a_{ij}x_j\biggr\vert \leq \sum_{i=1}^n\sum_{j=1}^n\vert a_{ij}\vert\cdot\vert x_j\vert \\\\[3pt] 
+&=\sum_{j=1}^n\left( \vert x_j\vert\sum_{i=1}^n\vert a_{ij}\vert\right)\le\left(\sum_{j=1}^n\vert x_j\vert\right)\left( \max_{1\le j\le n}\sum_{i=1}^n\vert a_{ij}\vert\right) \\\\[3pt] 
+&=\max_{1\le j\le n}\sum_{i =1}^n\vert a_{ij}\vert
+\end{aligned}
+$$
+即矩阵的 $1-$范数为: **最大列和**
 
-#### 矩阵 $\infty-$范数
-
+- 矩阵 $\infty-$范数<br>
+$$
+\displaystyle \Vert \boldsymbol{A} \Vert_{\infty}=\max_{\Vert\mathrm{x}\Vert_{\infty}=1}\Vert \boldsymbol{A} \mathrm{x}\Vert_{\infty}
+$$
+对任一 $\mathrm{x}$, $\Vert \mathrm{x} \Vert_{\infty}=\max_j \vert x_j \vert=1$<br>
+$$
+\displaystyle \Vert \boldsymbol{A} \mathrm{x}\Vert_{\infty}=\max_{1\le i\le n}\biggl\vert\sum_{j=1}^na_{ij}x_j\biggr\vert \le \max_{1\le i \le n}\sum_{j=1}^n\vert a_{ij}\vert\cdot\vert x_j\vert\le\max_{1\le i\le n} \sum_{j=1}^n\vert a_{ij}\vert
+$$
+即矩阵的无穷范数为: **最大行和**
 
 <hr>
 

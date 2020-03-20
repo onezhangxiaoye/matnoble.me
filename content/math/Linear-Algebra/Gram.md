@@ -21,7 +21,7 @@ series = ["mla"]
 
 $$
 \begin{aligned}
-G &= \, A^{\mathsf T}A \\\\[3pt]
+G &= \\, A^{\mathsf T}A \\\\[3pt]
 &= \begin{bmatrix} \mathbf{\alpha}_1^{\mathsf T} \\\\ \mathbf{\alpha}_2^{\mathsf T} \\\\ \vdots \\\\ \mathbf{\alpha}_n^{\mathsf T}  \end{bmatrix}  \begin{bmatrix} \mathbf{\alpha}_1 & \mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_n \end{bmatrix} \\\\[3pt]
 & = \begin{bmatrix} \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_1 &  \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_1^{\mathsf T}\mathbf{\alpha}_n \\\\ \mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_1 & \mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_2 & \cdots &\mathbf{\alpha}_2^{\mathsf T}\mathbf{\alpha}_n  \\\\ \vdots & \vdots & & \vdots \\\\ \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_1 & \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_2 & \cdots & \mathbf{\alpha}_n^{\mathsf T}\mathbf{\alpha}_n \end{bmatrix}
 \end{aligned}
@@ -29,12 +29,12 @@ $$
 
 > 2) 行向量 Gram 矩阵  
 >    $A$ 由行向量 $\mathbf{\beta}_i^{\mathsf T}$ 表示, 即
->    $$A=\begin{bmatrix}\mathbf{\beta}_1^{\mathsf T}  \\ \mathbf{\beta}_2^{\mathsf T} \\ \vdots \\ \mathbf{\beta}_m^{\mathsf T} \end{bmatrix}$$
+>    $$A=\begin{bmatrix}\mathbf{\beta}_1^{\mathsf T}  \\\\ \mathbf{\beta}_2^{\mathsf T} \\\\ \vdots \\\\ \mathbf{\beta}_m^{\mathsf T} \end{bmatrix}$$
 >    则
 
 $$
 \begin{aligned}
-G &= \, AA^{\mathsf T} \\\\[3pt]
+G &= \\, AA^{\mathsf T} \\\\[3pt]
 &= \begin{bmatrix}\mathbf{\beta}_1^{\mathsf T}  \\\\ \mathbf{\beta}_2^{\mathsf T} \\\\ \vdots \\\\ \mathbf{\beta}_m^{\mathsf T} \end{bmatrix} \begin{bmatrix} \mathbf{\beta}_1 & \mathbf{\beta}_2 & \cdots & \mathbf{\beta}_m \end{bmatrix} \\\\[3pt]
 & = \begin{bmatrix} \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_1 &  \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_2 & \cdots & \mathbf{\beta}_1^{\mathsf T}\mathbf{\beta}_m \\\\ \mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_1 & \mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_2 & \cdots &\mathbf{\beta}_2^{\mathsf T}\mathbf{\beta}_m  \\\\ \vdots & \vdots & & \vdots \\\\ \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_1 & \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_2 & \cdots & \mathbf{\beta}_m^{\mathsf T}\mathbf{\beta}_m \end{bmatrix}
 \end{aligned}
@@ -76,8 +76,6 @@ $$\begin{aligned} \mathrm{rank} (A^{\mathsf T}A) &= \mathrm{rank} (A) \\\\
 
 > (4) 对于实矩阵 $A$, 则 $A^{\mathsf T}A$ 是半正定矩阵 
 $$ \mathbf{x}^{\mathsf T}A^{\mathsf T}A\mathbf{x} = (A\mathbf{x})^{\mathsf T}A\mathbf{x} \geq 0 $$
-
-<br />
 
 > (5) 对于任意 $n$ 阶实对称半正定矩阵 $M$, 存在矩阵 $A$ 使得 $M=A^{\mathsf T}A$ 成立. 
 
