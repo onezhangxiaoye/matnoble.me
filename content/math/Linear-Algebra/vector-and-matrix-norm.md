@@ -34,7 +34,7 @@ series = ["mla"]
 
 其中 $p \in [1, +\infty)$. 
 
-范数在几何意义下, 可以看作是「距离」. 以 $2$ 维平面为例, 在式 (\ref{eq:eqp}) 定义的距离下, 分别取 $p = 0.25, 0.5, 1, 2, 4$, 画以原点为圆心的“单位圆” 
+范数在几何意义下, 可以看作是「距离」. 以 $2$ 维平面为例, 在式 (\ref{eq:eqp}) 定义的距离下, 分别取 $p = 0.25, 0.5, 1, 2, 4$, 画以原点为圆心的“单位圆” (unit ball)
 
 ```python
 # python3
@@ -56,12 +56,15 @@ plt.savefig('images/norm.svg', bbox_inches='tight')
 plt.show()
 ```
 
-{{< imgcap src="https://imgkr.cn-bj.ufileos.com/40ec9695-7444-48e1-b616-2b49771c4642.svg" title="p = 0.25, 0.5, 1, 2, 4" width="60%">}}
+{{< imgcap src="https://imgkr.cn-bj.ufileos.com/40ec9695-7444-48e1-b616-2b49771c4642.svg" title="$\lVert \mathrm{x} \rVert_p = 1$, p = 0.25, 0.5, 1, 2, 4" width="60%">}}
 
+<br>
 
-可见当 $p\geq 1$ 时, 图形都是凸集. 以式 (\ref{eq:eqp}) 为基础, 最常用的范数有三个
+不同的 $p$ 值, “单位球”的形状是不一样的. $p$ 值越大, 越往外扩. 当 $p\geq 1$ 时, 图形都是凸集. $p<1$ 则不是凸集, 此时不满足「三角不等式」[^1]
 
-### 常用向量范数
+#### 常用$p-$范数
+
+以式 (\ref{eq:eqp}) 为基础, 最常用的范数有三个
 
 {{< imgcap src="/images/norm.svg" title="Vector Norm" >}}
 
@@ -76,12 +79,56 @@ plt.show()
 \begin{equation}
 \lVert \mathrm{x} \rVert_2 = \sqrt{\sum_{i=1}^n |x_i|^2}
 \end{equation}
-这是最常见的欧几里德范数, 也可以写成: $\lVert \mathrm{x} \rVert_2 = \sqrt{\mathrm{x}^{\mathsf T}\mathrm{x}}$
+这是最常见的欧几里德范数, 也叫作 $L^2$ 范数. 写成矩阵的形式: $\lVert \mathrm{x} \rVert_2 = \sqrt{\mathrm{x}^{\mathsf T}\mathrm{x}}$
 - $\infty-$范数<br>
-令 $p = 2$ 并取极限
+令 $p = +\infty$ 并取极限
 \begin{equation}
 \lVert \mathrm{x} \rVert_{\infty} = \max |x_i|
 \end{equation}
+
+{{< notice note >}}
+取 $\mathrm{v} = [1, 2, 3]^\mathsf{T}$, 计算向量$p-$范数并填入下表
+
+| 名称              | 符号                                | 取值              | 近似值  |
+| :--:              | :--:                                | :--:              | :--:    |
+| $L^1$ norm        | $\lVert \mathrm{v} \rVert_1$        | $6$               | $6.000$ |
+| $L^2$ norm        | $\lVert \mathrm{v} \rVert_2$        | $\sqrt{14}$       | $3.742$ |
+| $L^3$ norm        | $\lVert \mathrm{v} \rVert_3$        | $6^{2/3}$         | $3.302$ |
+| $L^4$ norm        | $\lVert \mathrm{v} \rVert_4$        | $2^{1/4}\sqrt{7}$ | $3.146$ |
+| $L^{\infty}$ norm | $\lVert \mathrm{v} \rVert_{\infty}$ | $3$               | $3.000$ |
+
+可以看出, 向量 $p-$范数随着 $p$ 值的增加而减小
+{{< /notice >}}
+
+### $\boldsymbol{S}-$范数
+
+<div>
+\begin{equation}
+\lVert \mathrm{v} \rVert_{\boldsymbol{S}} = \sqrt{\mathrm{v}^\mathsf{T} \boldsymbol{S} \mathrm{v}}
+\end{equation}
+</div>
+
+$\boldsymbol{S}$ 是对称正定矩阵.
+
+考虑 $\mathrm{v} \in \mathbb{R}^2$ 并假设 <span>$\boldsymbol{S} = \bigl[\begin{smallmatrix} 1/4 & 0 \\\\ 0 & 1/9 \end{smallmatrix}\bigr]$</span>
+
+<div>
+$$
+\lVert \mathrm{v} \rVert_{\boldsymbol{S}} = [v_1, v_2] \begin{bmatrix} 1/4 & 0 \\ 0 & 1/9 \end{bmatrix} \begin{bmatrix} v_1 \\v_2 \end{bmatrix} = \frac{v_1^2}{4} + \frac{v_2^2}{9} = 1
+$$
+</div>
+
+{{< imgcap src="/images/norm_ellipse.svg" title="unit ellipsoid" width="40%" >}}
+
+### 最小逼近问题
+
+$$
+\min_x \lVert \boldsymbol{A}\mathrm{x} - \mathrm{b} \rVert_p
+$$
+
+不同的 $p$ 值, 对应不同的最小逼近问题. 当 $p=2$ 时, 是熟悉的[最小二乘问题](https://matnoble.me/math/linear-algebra/matrixleastsquares/#%E7%90%86%E8%A7%A3%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84).[^2]
+
+<hr />
 
 ## 矩阵范数
 
@@ -201,13 +248,43 @@ $$
 \label{eq:eq20} 
 \end{equation}
 
-当向量右端取向量 $2-$范数时, 可以定义矩阵 $2-$范数
+当式 (\ref{eq:eq20}) 右端取向量 $2-$范数时, 可以定义矩阵 $2-$范数
 
 \begin{equation}
  \lVert \boldsymbol{A} \rVert_2 = \max_{x\neq 0} \frac{\lVert \boldsymbol{A}\mathrm{x} \rVert_2}{\lVert \mathrm{x} \rVert_2}
 \label{eq:eqm2} 
 \end{equation}
 
-因为是由向量的欧氏距离所决定, 所以对应地称为矩阵的 $2-$范数. 其几何意义就是: 限制了原像的「伸缩」
+因为是由向量的欧氏距离所决定, 所以对应地称为矩阵的 $2-$范数. 其几何意义是: 限制了原像的「伸缩」
+
+\begin{equation}
+ \lVert \boldsymbol{A} \rVert_2 = \sigma_1
+\label{eq:eqm21} 
+\end{equation}
 
 ### 其他矩阵范数
+
+TODO
+
+#### 矩阵 $1-$范数
+
+#### 矩阵 $\infty-$范数
+
+
+<hr>
+
+参考:
+1. https://mathworld.wolfram.com/VectorNorm.html
+2. https://mathworld.wolfram.com/MatrixNorm.html
+3. https://en.wikipedia.org/wiki/Matrix_norm
+
+[^1]: 取 $\mathrm{u}=[0, 1]^\mathsf{T}, \mathrm{v}=[1, 0]^\mathsf{T}$, 则
+$$
+\begin{aligned}
+\lVert u + v \rVert_p & = (1^p + 1^p)^{1/p} = 2^{1/p}
+\\\\[3pt]
+\lVert u \rVert_p + \lVert v \rVert_p & = (1^p)^{1/p} + (1^p)^{1/p} = 2
+\end{aligned}
+$$
+当 $p<1$ 时, 不满足三角不等式.
+[^2]: 简述有限元中逼近向量用的也是 $L^2$ norm. <br> https://matnoble.me/math/fem/fem1/#%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95-1
