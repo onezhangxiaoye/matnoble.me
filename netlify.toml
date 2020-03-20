@@ -127,3 +127,9 @@
   to = "/tech/ubuntu/install-texlive/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/posts/linear-algebra-problem-set/"
+  to = "/math/linear-algebra/linear-algebra-problem-set/"
+  status = 301
+  force = true
