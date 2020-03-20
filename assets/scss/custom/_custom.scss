@@ -2,6 +2,7 @@
     font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif SC', serif;
 }
 
+// 弹性布局调整
 .brand {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -25,6 +26,9 @@
     .nav {
         margin: 2em 0;
     }
+    .menu {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
     .menu-item .icon {
         display: inline-block;
     }
@@ -40,6 +44,7 @@
 .footer {
     letter-spacing: -0.1em;
 }
+
 
 // 自定义引用边框
 .note-danger, .note-warning, .note-success, .note-info, .note-primary, .note-default {
