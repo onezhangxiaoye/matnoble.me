@@ -3,7 +3,7 @@
     "short_name": "matnoble",
     "icons":[
         {
-            "src": "./icons/android-chrome-512x512.png?v=YAXrPzByB6",
+            "src": "./icons/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
