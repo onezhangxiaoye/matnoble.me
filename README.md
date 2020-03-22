@@ -13,6 +13,9 @@
 - <a href="https://matnoble.me/categories/%E5%https://github.com/MatNoble/LaTeX-Document/blob/master/LICENSEBB%BA%E7%AB%99%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/"> 建站那些事</a>
   - <a href="https://matnoble.me/tech/hugo/shortcodes-practice-tutorial-for-hugo/"> Shortcodes 实践教程 </a>
   
+- <a href="https://matnoble.me/series/latex/">LaTeX 科技排版专题</a>
+  - <a href="https://matnoble.me/tech/latex/typeset-bbt/">科技文档排版漫谈</a>
+  
 - <a href="https://matnoble.me/series/mla/"> 线代拾遗 </a> 
   - <a href="https://matnoble.me/math/linear-algebra/diag/"> 矩阵对角化那些事 </a> 
   - <a href="https://matnoble.me/math/linear-algebra/rank-nullity/"> 秩-零化度定理(Rank-Nullity Theorem) </a> 
@@ -25,6 +28,11 @@
   - <a href="https://matnoble.me/math/linear-algebra/svd-mathematical-basis-b/"> 奇异值分解再探 </a>
   - <a href="https://matnoble.me/math/linear-algebra/svd-apply-to-linear-system/">SVD 于解线性方程组之应用</a>
   - <a href="https://matnoble.me/math/linear-algebra/solve-svd-by-hand/">「手撕」奇异值分解 SVD</a>
+  - <a href="https://matnoble.me/math/linear-algebra/vector-and-matrix-norm/">向量范数与矩阵范数</a>
+  - <a href="https://matnoble.me/math/fem/inequality/">Inequality</a>
+  
+- <a href="https://matnoble.me/tech/draw/">一图胜前言</a>
+  - <a href="https://matnoble.me/tech/draw/comparison-drawing-software/">绘图软件大比拼</a>
   
 - <a href="https://matnoble.me/tags/ubuntu-%E8%A3%85%E6%9C%BA%E4%B8%8E%E4%BC%98%E5%8C%96/">Ubuntu 优化</a>
   - <a href="https://matnoble.me/tech/ubuntu/configure-python-environment-in-ubuntu/">在 Ubuntu 中配置 Python 环境</a>
