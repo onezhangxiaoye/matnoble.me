@@ -44,4 +44,4 @@ katex = true
 
 ## 坐标轴及划分网格
 
-![](https://imgkr.cn-bj.ufileos.com/4838a41c-4998-4b3d-ae4e-f97c718e9f0e.png)
+{{< imgcap src="https://imgkr.cn-bj.ufileos.com/4838a41c-4998-4b3d-ae4e-f97c718e9f0e.png" title="网格剖分" >}}

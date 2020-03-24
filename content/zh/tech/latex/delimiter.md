@@ -62,7 +62,7 @@ $$
 \left. \frac{1}{x^2}\right|_0^1
 $$
 
-除了自动调整大小，amsmath 宏包推荐使用 `\big, \Big, \bigg, \Bigg` ，更精准地调整定界符的大小，以达到更美观的效果
+除了自动调整大小，amsmath 宏包推荐使用 `\big(1.5倍), \Big(2倍), \bigg(2.5倍), \Bigg(3倍)` ，更精准地调整定界符的大小，以达到更美观的效果
 
 ```tex
 \begin{align*}
