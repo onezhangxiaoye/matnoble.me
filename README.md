@@ -42,6 +42,8 @@
   - <a href="https://matnoble.me/tech/ubuntu/scientific-internet/">Chrome 插件实现科学上网</a>
   - <a href="https://matnoble.me/tech/ubuntu/ubuntu-ssr/">Ubuntu 上使用 ssr 实现科学上网</a>
   
+- <a href="https://matnoble.me/tech/programming/git/">个人 Git 使用笔记</a>
+  
 ## 关注我吧 公众号: 「数系家园」
 
 <p align="center">
