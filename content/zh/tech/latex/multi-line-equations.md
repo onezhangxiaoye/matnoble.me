@@ -345,7 +345,7 @@ l + m &= n
 
 <img src="https://imgkr.cn-bj.ufileos.com/7e8e342b-0097-451b-a826-4a163dd449c1.png" width="80%"/>
 
-[^1]: https://geelaw.blog/entries/la-composition-soignee-des-formules-mathematiques/#latex-align-e
+[^1]: https://geelaw.blog/entries/la-composition-soignee-des-formules-mathematiques/#mistakes-latex-align-env
 [^2]: a way to produce arbitrary delimiters that span entire math displays <br> http://mirror.lzu.edu.cn/CTAN/macros/latex/contrib/mathtools/empheq.pdf
 [^3]: `array` 环境经常出现在多维数组中 <br> https://mirror.bjtu.edu.cn/ctan/macros/latex/required/tools/array.pdf
 [^4]: 因为博客渲染公式的 Mathjax 不支持 `numcases` 环境，所以采用图片展现，也就造成前后问公式编号有些混乱
