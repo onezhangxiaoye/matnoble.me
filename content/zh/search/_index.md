@@ -29,6 +29,7 @@ related = false
 {{< friend name="mathor" url="https://www.wmathor.com/" logo="https://s2.ax1x.com/2020/01/08/l2xtUO.jpg" word="数学与科技" >}}
 {{< friend name="天涯共此时" url="https://ztygcs.github.io/" logo="https://guanqr.com/images/friends/ztygcs.png" word="科技与生活, 华科校友" >}}
 {{< friend name="热爱数学的 hoganbin" url="https://hoganbin.top/" logo="https://hoganbin.top/medias/logo.jpg" word="喜欢数学, 热爱编程. 八一本人" >}}
+{{< friend name="林深时见璐" url="https://linwhitehat.github.io/" logo="https://linwhitehat.github.io/icons/rabbit512.png" word="Wonderful U - AGA" >}}
 
 <br />
 
