@@ -1,8 +1,9 @@
 +++
 title = "Git 实用命令汇总(长期更新)"
+description = "本文并不是 git 教学。只是我现在使用的所有 git 命令，之后学习一点记录一点"
 categories = ["TECH","好工具高效率"]
 tags = ["Git"]
-keywords = ["git 安装与配置","Git 基础教程","Git 实用命令","单个文件的“增删改查”","多设备间管理代码库","在 Github 上删除已提交的文件夹"]
+keywords = ["git 安装与配置","Git 基础教程","Git 实用命令","单个文件的“增删改查”","多设备间管理代码库","在 Github 上删除已提交的文件夹","SSH GitHub"]
 date = "2019-03-14T00:00:00+00:00"
 toc = true
 +++
@@ -23,6 +24,24 @@ sudo apt install git
 git config --global user.name "Your Name"
 git config --global user.email "email@example.com"
 ```
+
+## 通过 SSH 连接 GitHub
+
+> 生成新的 SSH 密钥
+
+1. 打开 Terminal，输入
+```shell
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+此处，一路回车即可
+
+2. 继续输入
+```shell
+cat .ssh/id_rsa.pub
+```
+
+将输出的密钥复制到 GitHub 即可
 
 ## 单个文件的“增删改查”
 
@@ -108,3 +127,7 @@ git rm -r --cached 目录名
 git commit -m '描述'
 git push -u origin master
 ```
+
+参考：
+
+1. https://help.github.com/en/github/authenticating-to-github/about-ssh
