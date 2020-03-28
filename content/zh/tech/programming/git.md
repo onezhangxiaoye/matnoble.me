@@ -41,7 +41,20 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat .ssh/id_rsa.pub
 ```
 
-将输出的密钥复制到 GitHub 即可
+将输出的密钥复制到 GitHub
+
+3. 测试
+```shell
+ssh -T git@github.com
+```
+
+出现结果后，键入 `yes`，你将会看到
+```shell
+> Hi username! You've successfully authenticated, but GitHub does not
+> provide shell access.
+```
+
+这就表明成功了 🎉
 
 ## 单个文件的“增删改查”
 
