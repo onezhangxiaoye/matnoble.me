@@ -4,7 +4,7 @@ date = "2020-02-26T00:12:50+00:00"
 description = "本文介绍在 Windows 和 Ubuntu 系统上 TeXLive 的安装, 配置, 更新以及卸载方法"
 categories = ["TECH","好工具高效率"]
 tags = ["安装","latex"]
-keywords = ["安装","配置","更新","LaTeX","windows","ubuntu","install texlive","Windows Ubuntu 安装 + 配置 TeXLive 教程","教程","sudo does not find tlmgr","卸载","uninstall"]
+keywords = ["安装,配置,更新 TeX Live","Linux 安装字体","LaTeX","windows","ubuntu","install texlive","Windows Ubuntu 安装 + 配置 TeXLive 教程","教程","sudo does not find tlmgr","卸载","uninstall"]
 toc = true
 katex = true
 images = ["https://ttfou.com/images/2020/02/26/22ce206d0bdca3a088d01d12d5049fc3.jpg"]
@@ -115,7 +115,7 @@ export INFOPATH=/usr/local/texlive/2019/texmf-dist/doc/info
 
 2. 安装 `perl` 的 `tk` 组件(用于升级包)
 ```shell
-sudo apt-get install perl-tk
+sudo apt install perl-tk
 ```
 
 3. 字体设置(路径以实际为准)
@@ -124,6 +124,16 @@ sudo apt-get install perl-tk
 sudo cp /usr/local/texlive/2019/texmf-var/fonts/conf/texlive-fontconfig.conf /etc/fonts/conf.d/09-texlive.conf
 sudo fc-cache -fv
 ```
+
+> **Linux 安装字体**[^1]
+> 1. 在根目录建立 .fonts 文件夹
+> ```shell
+> mkdir .fonts
+> ```
+> 2. 将要安装的字体复制到 .fonts 文件夹，执行
+> ```shell
+> sudo fc-cache -fv
+> ```
 
 ### 更新
 
@@ -142,7 +152,7 @@ sudo tlmgr option repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/t
 
 ```shell
 sudo tlmgr update --list
-sudo tlmgr update --self --all
+% sudo tlmgr update --self --all 
 ```
 
 ### 编辑器选择
@@ -173,3 +183,5 @@ find -L /usr/local/bin/ -lname /usr/local/texlive/*/bin/* | sudo xargs rm
 下次再装 TeXLive 之时, 就是我换电脑之日 🦝
 
 <img src="https://ttfou.com/images/2020/02/27/024e38b99b47e9f56463cbfecd9d7c1e.gif" />
+
+[^1]: LaTeX 更换字体 <br> https://matnoble.me/tech/latex/latex-support-chinese/#xecjk-%E5%AE%9E%E7%8E%B0%E4%B8%AD%E8%8B%B1%E6%B7%B7%E6%8E%925
