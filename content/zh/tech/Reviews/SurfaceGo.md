@@ -1,15 +1,12 @@
 +++
-title = "微软surface go值不值得买?"
+title = "Surface go 最便宜的田字牌怎么样?"
 date = "2020-02-28T00:00:00+00:00"
 categories = ["TECH","好工具高效率"]
-tags = ["评测"]
+tags = ["值不值得买"]
 keywords = ["Surface Go","评测","好工具高效率","MatNoble"]
-katex = true
 +++
 
 本文是本人首发在知乎上, 搬运至此. 截止至博文修改时间, 购机近 10 个月, 结合使用感受, 对部分内容做了些许修改!
-
-<!--more-->
 
 ## 买 Surface go 还是 ipad 2018 ?
 
