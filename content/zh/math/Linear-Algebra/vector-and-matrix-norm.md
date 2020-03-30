@@ -356,7 +356,7 @@ $$
 &=\max_{1\le j\le n}\sum_{i =1}^n\vert a_{ij}\vert
 \end{aligned}
 $$
-即矩阵的 $1-$范数为: **最大列和**
+即矩阵的 $1-$范数为..最大列和..
 
 - 矩阵 $\infty-$范数<br>
 $$
@@ -366,7 +366,7 @@ $$
 $$
 \displaystyle \Vert \boldsymbol{A} \mathrm{x}\Vert_{\infty}=\max_{1\le i\le n}\biggl\vert\sum_{j=1}^na_{ij}x_j\biggr\vert \le \max_{1\le i \le n}\sum_{j=1}^n\vert a_{ij}\vert\cdot\vert x_j\vert\le\max_{1\le i\le n} \sum_{j=1}^n\vert a_{ij}\vert
 $$
-即矩阵的无穷范数为: **最大行和**
+即矩阵的无穷范数为..最大行和..
 
 <hr>
 
