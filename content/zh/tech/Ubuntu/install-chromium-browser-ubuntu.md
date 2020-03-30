@@ -2,7 +2,6 @@
 title = "Chromium 和 Chrome 的安装与卸载"
 date = "2020-03-08T00:09:10+00:00"
 description = "Install and uninstall Chromium on Ubuntu"
-categories = ["TECH","好工具高效率"]
 tags = ["安装","Ubuntu 装机与优化"]
 keywords = ["chromium-browser","google-chrome-stable","google-chrome","browser","安装","卸载","Chromium","ubuntu","install texlive","Chromium 和 Chrome 的安装与卸载","教程","Install and uninstall Chromium on Ubuntu","卸载","uninstall"]
 toc = true

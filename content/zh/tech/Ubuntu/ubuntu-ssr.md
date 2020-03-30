@@ -2,7 +2,6 @@
 title = "Ubuntu 上使用 ssr 实现科学上网 "
 date = "2020-02-26T00:21:00+00:00"
 description = "墙外很危险, 注意保护好自己"
-categories = ["TECH","小技巧"]
 tags = ["安装","科学上网","Ubuntu 装机与优化"]
 keywords = ["科学上网","ssr","Ubuntu","electron-ssr","外网"]
 images = ["https://ttfou.com/images/2020/02/26/aaf9ef21ab9b33b737d44d73c643be88.jpg"]

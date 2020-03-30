@@ -2,7 +2,6 @@
 title = "Chrome 插件实现科学上网"
 date = "2020-03-14T00:21:30+00:00"
 description = "Don't be Evil"
-categories = ["TECH","好工具高效率"]
 tags = ["科学上网","Chrome"]
 keywords = ["科学上网","Chrome 插件","好工具高效率","分享"]
 images = ["https://ttfou.com/images/2020/02/26/aaf9ef21ab9b33b737d44d73c643be88.jpg"]

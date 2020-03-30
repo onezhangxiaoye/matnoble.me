@@ -2,7 +2,6 @@
 title = "Windows + Ubuntu 安装配置更新卸载 TeXLive 指南"
 date = "2020-02-26T00:12:50+00:00"
 description = "本文介绍在 Windows 和 Ubuntu 系统上 TeXLive 的安装, 配置, 更新以及卸载方法"
-categories = ["TECH","好工具高效率"]
 tags = ["安装","latex"]
 keywords = ["安装,配置,更新 TeX Live","Linux 安装字体","LaTeX","windows","ubuntu","install texlive","Windows Ubuntu 安装 + 配置 TeXLive 教程","教程","sudo does not find tlmgr","卸载","uninstall"]
 toc = true
