@@ -317,7 +317,7 @@ $$
 \mathrm{x}^{\mathsf{T}} \boldsymbol{A}^{\mathsf{T}}\boldsymbol{A} \mathrm{x} = \mathrm{x}^{\mathsf{T}} \boldsymbol{V}\boldsymbol{\Lambda} \boldsymbol{V}^\mathsf{T} \mathrm{x} = \mathrm{z}^\mathsf{T} \boldsymbol{\Lambda} \mathrm{z}
 $$
 
-其中 $\mathrm{z}=\boldsymbol{V}^{\mathrm{T}}\mathrm{x}$, 并且满足
+其中 $\mathrm{z}=\boldsymbol{V}^{\mathsf{T}}\mathrm{x}$, 并且满足
 
 $$
 \lVert \mathrm{z} \rVert^2 = \mathrm{z}^{\mathsf{T}}\mathrm{z} = \mathrm{x}^{\mathsf{T}} \boldsymbol{V}  \boldsymbol{V}^\mathsf{T} \mathrm{x} = \mathrm{x}^{\mathsf{T}}\mathrm{x} = \lVert \mathrm{x} \rVert^2
