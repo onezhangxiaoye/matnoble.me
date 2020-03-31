@@ -2,7 +2,7 @@
 title = "Ubuntu 安装 Zsh ，配置最强终端"
 date = "2020-03-30T00:12:58+00:00"
 tags = ["Ubuntu 装机与优化"]
-keywords = ["Ubuntu","zsh","oh-my-zsh","linux","Z shell","zsh-autosuggestions","zsh-syntax-highlighting","alias 命令别名","source ~/.zshrc"]
+keywords = ["Ubuntu","zsh","oh-my-zsh","linux","Z shell","zsh-autosuggestions","zsh-syntax-highlighting","alias 命令别名","source ~/.zshrc","git-open"]
 +++
 
 {{< blockquote link="https://zh.wikipedia.org/wiki/Z_shell" >}}
@@ -54,17 +54,26 @@ ZSH_THEME="theme name"
 
 ### 配置插件
 
-1. 自动补全 zsh-autosuggestions
+在这里，我介绍我使用的 3 个插件，安装都很简单，打开 Terminal 依次输入 
+
+
+
+1. 自动补全 {{< mark text="zsh-autosuggestions" >}}
 
 ```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-2. 代码高亮 zsh-syntax-highlighting
+2. 代码高亮 {{< mark text="zsh-syntax-highlighting" >}}
 
 ```shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+
+3. 快速打开 GitHub 仓库 {{< mark text="git-open" >}}
+  ```shell
+  git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open`
+  ```
 
 最后需要配置 `plugins`
 
@@ -73,6 +82,7 @@ plugins=(
  git
  zsh-autosuggestions
  zsh-syntax-highlighting
+ git-open
 )
 ```
 
@@ -87,6 +97,7 @@ alias cls='clear'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
+alias go='git-open'
 
 alias update='sudo apt update'
 alias install='sudo apt install'
