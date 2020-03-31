@@ -1,5 +1,5 @@
 
-# <div align="center"><a title="matnoble.me" href="https://matnoble.me"><img align="center" width="75" height="75" src="https://ttfou.com/images/2020/02/19/57a3562785bea2ca64bed59cc5616a3b.png?sanitize=true"></a> MatNoble </div>
+# <div align="center"><a title="matnoble.me" href="https://matnoble.me"><img align="center" width="75" height="75" src="https://raw.githubusercontent.com/MatNoble/matnoble.me/master/static/icons/android-chrome-512x512.png?sanitize=true"></a> MatNoble </div>
 
 <p align="center">
 <a href="https://matnoble.me/about/"><img alt="Author" src="https://img.shields.io/badge/Author-MetNoble-blue?style=flat-square"/></a>
