@@ -56,7 +56,7 @@ ZSH_THEME="theme name"
 
 在这里，我介绍我使用的 3 个插件，安装都很简单，打开 Terminal 依次输入 
 
-
+<img src="https://imgkr.cn-bj.ufileos.com/8131805f-4f17-45da-9a04-0897dcc9ece7.gif" width="95%" />
 
 1. 自动补全 {{< mark text="zsh-autosuggestions" >}}
 
