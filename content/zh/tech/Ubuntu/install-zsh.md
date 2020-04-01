@@ -100,6 +100,7 @@ alias gp='git push'
 alias go='git-open'
 
 alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
 alias install='sudo apt install'
 
 
