@@ -9,6 +9,12 @@
   HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
+  from = "https://matnoble.netlify.app/*"
+  to = "https://matnoble.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://matnoble.netlify.com/*"
   to = "https://matnoble.me/:splat"
   status = 301
