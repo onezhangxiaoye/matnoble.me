@@ -9,6 +9,19 @@
 <a href="https://ipfs.io/"><img src="https://img.shields.io/badge/Host-IPFS-65c2cb?&logo=ipfs" alt="Host" /></a>
 <a href="https://app.netlify.com/sites/matnoble/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/d10378f2-cffe-40f3-9374-2dd0de14f971/deploy-status"/></a>
 </p>
+<p align="center">
+关键词： 生活、学习、数学、线性代数、有限元、计算机、Matlab、Python、LaTeX
+</p>
+
+你可以通过以下任一链接访问我的博客：
+
+1. https://matnoble.me/
+2. https://ipfs.io/ipns/matnoble.me/
+3. https://cloudflare-ipfs.com/ipns/matnoble.me/
+4. https://gateway.pinata.cloud/ipns/matnoble.me/
+5. 其他 [IPFS 网关](https://ipfs.github.io/public-gateway-checker/)……
+
+你也可以在计算机执行 `ipfs daemon` 命令，通过 http://127.0.0.1:8080/ipns/matnoble.me/ 访问我的博客。
 
 ## 文章精选
 
