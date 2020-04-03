@@ -5,8 +5,8 @@
 <a href="https://matnoble.me/about/"><img alt="Author" src="https://img.shields.io/badge/Author-MetNoble-blue?style=flat-square"/></a>
 <a href="https://gohugo.io/"><img alt="Generator" src="https://img.shields.io/badge/Generator-Hugo-ff4088?&logo=hugo"/></a>
 <a href="https://github.com/reuixiy/hugo-theme-meme"><img alt="Theme" src="https://img.shields.io/badge/Theme-MemE-2a6df4?&logo=meme"/></a>
-[![Build](https://img.shields.io/badge/Build-Netlify-00c7b7?&logo=netlify)](https://www.netlify.com/)
-[![Host](https://img.shields.io/badge/Host-IPFS-65c2cb?&logo=ipfs)](https://ipfs.io/)
+<a href="https://www.netlify.com/"><img alt="Build" src="https://img.shields.io/badge/Build-Netlify-00c7b7?&logo=netlify"/></a>
+<a href="https://ipfs.io/"><img src="https://img.shields.io/badge/Host-IPFS-65c2cb?&logo=ipfs" alt="Host" /></a>
 <a href="https://app.netlify.com/sites/matnoble/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/d10378f2-cffe-40f3-9374-2dd0de14f971/deploy-status"/></a>
 </p>
 
