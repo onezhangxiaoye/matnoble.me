@@ -7,6 +7,7 @@ keywords = ["安装,配置,更新 TeX Live","Linux 安装字体","LaTeX","window
 toc = true
 katex = true
 images = ["https://ttfou.com/images/2020/02/26/22ce206d0bdca3a088d01d12d5049fc3.jpg"]
+aliases = ["/posts/install-texlive"]
 +++
 
 ## 前言

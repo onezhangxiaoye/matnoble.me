@@ -7,6 +7,7 @@ keywords = ["高考","华中科技大学","HUST","华中科技大学数学与统
 toc = true
 description = "明德　厚学　求是　创新"
 images = ["https://imgkr.cn-bj.ufileos.com/1bc5d4b3-414f-49f9-84e9-254be8586dfa.png"]
+aliases = ["/posts/hust"]
 +++
 
 <img src="https://imgkr.cn-bj.ufileos.com/c7594e88-eedb-488c-9ae2-b84947452a92.png" title="华中科技大学词云" alt="华中科技大学词云" />

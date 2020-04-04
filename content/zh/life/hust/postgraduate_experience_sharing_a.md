@@ -7,6 +7,7 @@ categories = ["LIFE","华中大"]
 keywords = ["MatNoble","数系家园","考研初试","经验分享","华中科技大学","HUST"]
 toc = true
 katex = true
+aliases = ["/posts/postgraduate_experience_sharing_a"]
 +++
 
 牛顿开创了万有引力定律和力学三定律后, 说自己是站在了巨人的肩膀上. 我经历了一年的备考准备, 初试, 复试, 肯定不是巨人, 但应该比去年的自己“站”得高了一些. 我期望您读完我这篇经验贴后, 能够比去年同期的我, 起点更高一些！

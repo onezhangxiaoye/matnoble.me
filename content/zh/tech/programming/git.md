@@ -6,6 +6,7 @@ tags = ["Git"]
 keywords = ["git 安装与配置","Git 基础教程","Git 实用命令","单个文件的“增删改查”","多设备间管理代码库","在 Github 上删除已提交的文件夹","SSH GitHub"]
 date = "2019-03-14T00:00:00+00:00"
 toc = true
+aliases = ["/posts/git"]
 +++
 
 {{< imgcap src="https://imgkr.cn-bj.ufileos.com/e13f1349-c714-4eee-ba1d-a0f12bce7661.png" title="Git && GitHub" >}}

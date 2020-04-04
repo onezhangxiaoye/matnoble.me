@@ -8,6 +8,7 @@ keywords = ["线代拾遗","矩阵","线性代数","svd","奇异值分解","matr
 toc = true
 mathjax = true
 series = ["mla"]
+aliases = ["/posts/svd"]
 +++
 
 ## 知识回顾

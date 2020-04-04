@@ -8,6 +8,7 @@ keywords = ["线性方程组","奇异值分解","system of linear equations","SV
 toc = true
 mathjax = true
 series = ["mla"]
+aliases = ["/posts/svd-linear-system"]
 +++
 
 ## 释题

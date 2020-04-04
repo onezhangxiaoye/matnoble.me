@@ -8,6 +8,7 @@ keywords = ["有限元","FEM"]
 date = "2019-12-26T00:00:00+00:00"
 toc = true
 series = ["fem"]
+aliases = ["/posts/fem3"]
 +++
 
 <img src="https://imgkr.cn-bj.ufileos.com/62f007ea-3d01-45a5-8ec7-4bfe52d009ed.jpeg" title="简述有限元: 逼近函数 II"  alt="简述有限元逼近函数" />

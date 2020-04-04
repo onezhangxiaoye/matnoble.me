@@ -8,6 +8,7 @@ keywords = ["矩阵","线性代数","matrix","linear algebra","旋转与镜射",
 toc = true
 mathjax = true
 series = ["mla"]
+aliases = ["/posts/rotationandmirroring"]
 +++
 
 <!--more-->

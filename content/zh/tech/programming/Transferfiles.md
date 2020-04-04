@@ -5,6 +5,7 @@ description = "一行 Python 代码, <kbd>快速精确</kbd>传输文件"
 categories = ["TECH","喜欢编程"]
 tags = ["Python"]
 keywords = ["Python","http服务器","传输文件","好工具高效率","MatNoble"]
+aliases = ["/posts/transferfiles"]
 +++
 
 拥有 Linux 的你, 是否为`传递文件`而烦恼? 即使有微信, qq, 是否可以迅速找到文件位置? 

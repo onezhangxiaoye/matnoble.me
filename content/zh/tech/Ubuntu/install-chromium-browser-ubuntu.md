@@ -6,6 +6,7 @@ tags = ["安装","Ubuntu 装机与优化"]
 keywords = ["chromium-browser","google-chrome-stable","google-chrome","browser","安装","卸载","Chromium","ubuntu","install texlive","Chromium 和 Chrome 的安装与卸载","教程","Install and uninstall Chromium on Ubuntu","卸载","uninstall"]
 toc = true
 images = ["https://ttfou.com/images/2020/03/08/3558b8170bbc25adfdbd312c5a729944.png"]
+aliases = ["/posts/ubuntu/install-chromium-browser-ubuntu"]
 +++
 
 {{< imgcap src="https://ttfou.com/images/2020/03/08/3558b8170bbc25adfdbd312c5a729944.png" title="浏览器嘛, 用着舒服就行" >}}

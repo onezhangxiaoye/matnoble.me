@@ -7,6 +7,7 @@ keywords = ["不等式","inequality","Cauchy inequality","Young's inequality","C
 date = "2020-03-17T00:21:47+00:00"
 toc = true
 mathjax = true
+aliases = ["/posts/fem/inequality"]
 +++
 
 ## Cauchy inequality

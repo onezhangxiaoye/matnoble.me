@@ -9,6 +9,7 @@ toc = true
 katex = true
 gitinfo = true
 images = ["https://ttfou.com/images/2020/02/21/d424e596ff76c8bcb4806ad185552783.jpg"]
+aliases = ["/posts/shortcodes-practice-tutorial-for-hugo"]
 +++
 
 {{< imgcap src="https://ttfou.com/images/2020/02/21/d424e596ff76c8bcb4806ad185552783.jpg" title="动手玩创意" >}}

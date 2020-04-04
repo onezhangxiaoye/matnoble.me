@@ -8,6 +8,7 @@ date = "2019-12-12T00:00:00+00:00"
 toc = true
 mathjax = true
 series = ["fem"]
+aliases = ["/posts/fem1"]
 +++
 
 <img src="https://imgkr.cn-bj.ufileos.com/22c24e18-7683-4db2-9362-d4419452a8b3.png" title="简述有限元"  alt="简述有限元逼近向量" />

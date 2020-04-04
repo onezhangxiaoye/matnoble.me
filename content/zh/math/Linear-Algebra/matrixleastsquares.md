@@ -7,6 +7,7 @@ keywords = ["矩阵","线性代数","最小二乘法","matrix","linear algebra",
 toc = true
 mathjax = true
 series = ["mla"]
+aliases = ["/posts/matrixleastsquares"]
 +++
 
 在[简述有限元系列](https://matnoble.me/categories/%E7%AE%80%E8%BF%B0%E6%9C%89%E9%99%90%E5%85%83/)中用到过`最小二乘法`, 矩阵的四个基本空间可以帮助我们更好的理解`最小二乘法`.

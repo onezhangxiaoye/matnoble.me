@@ -6,6 +6,7 @@ categories = ["MATH","线代拾遗"]
 tags = ["资料分享","考研"]
 keywords = ["高等代数习题集及资料分享","线性方程组","奇异值分解","system of linear equations","线性代数","最小二乘法","matrix","linear algebra","leastsquares","MatNoble"]
 mathjax = true
+aliases = ["/posts/linear-algebra-problem-set"]
 +++
 
 研一时, 利用业余时间写了一份{{< mark text="高等代数习题集" >}}, 包含考研时做的一些经典例题及一些方法论. 提纲如下图所示, 共有 6 章, 可惜的是由于时间原因, 最后两章并没有完成. 目前只完成了前 4 章中的大部分, 如果需要的话, 可从下方下载 PDF 版! 

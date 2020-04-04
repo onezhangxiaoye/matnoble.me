@@ -6,6 +6,7 @@ categories = ["LIFE","华中大"]
 keywords = ["MatNoble","数系家园","考研复试","经验分享","华中科技大学","HUST"]
 toc = true
 katex = true
+aliases = ["/posts/postgraduate_experience_sharing"]
 +++
 
 <img src="https://imgkr.cn-bj.ufileos.com/a5e5afb8-433d-47dc-8346-aff06a54a01a.jpg" title="学校正门"  alt="双一流森林式校园华中科技大学校大门" width=95% />
