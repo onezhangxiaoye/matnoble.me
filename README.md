@@ -21,7 +21,7 @@
 4. https://gateway.pinata.cloud/ipns/matnoble.me/
 5. 其他 [IPFS 网关](https://ipfs.github.io/public-gateway-checker/)……
 
-你也可以在计算机执行 `ipfs daemon` 命令，通过 http://127.0.0.1:8080/ipns/matnoble.me/ 访问我的博客。
+你也可以在计算机执行 `ipfs daemon` 命令，通过 http://127.0.0.1:8080/ipns/matnoble.me/ 访问我的博客。*参考[这里](https://io-oi.me/tech/host-your-blog-on-ipfs/#%E5%8E%9F%E7%94%9F%E9%83%A8%E7%BD%B2)*
 
 ## 文章精选
 

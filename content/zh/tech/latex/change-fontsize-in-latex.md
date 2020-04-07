@@ -12,8 +12,6 @@ toc = true
 <img src="https://imgkr.cn-bj.ufileos.com/4e7ca500-bdca-42dc-9444-bffa8af84fc5.png" width="95%" />
 <div align="center"><a href="/series/latex">◎ 你过来啊 🤞</a></div>
 
-<!--more-->
-
 在 $\LaTeX$ 里改变字体大小分为两个层级, 一是整个文档统一调整, 一是设置文档中某个部分的字体大小. 
 
 - 全局调整:<br>
