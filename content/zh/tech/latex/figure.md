@@ -112,9 +112,98 @@ figure \ref{fig:logo} is my logo
 
 <img src="https://imgkr.cn-bj.ufileos.com/9255d2bb-ca05-4726-a390-77a107dc3e94.png" width="85%" />
 
-## 图片并排
+## 子图
 
-**TO DO**
+在文章中通常还需要添加..子图..，此时，可以使用 `subfigure` 环境来实现，首先在导言区加载 `\usepackage{subcaption}`
+
+### 子图并排
+
+两张图片并排是最常用的
+
+```tex
+\begin{figure}[htbp]
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        % 子图一
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图一}
+        \label{fig:sub-first2}
+    \end{subfigure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        % 子图二
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图二}
+        \label{fig:sub-second2}
+    \end{subfigure}
+    \caption{并列子图}
+    \label{fig:fig2}
+\end{figure}
+% 交叉引用
+图(\ref{fig:fig2})包括子图(\ref{fig:sub-first2})和子图(\ref{fig:sub-second2})
+```
+
+<img src="https://imgkr.cn-bj.ufileos.com/dc3fa528-070e-4bad-a14f-1b1f3e17257b.png" width="85%" />
+
+### 多行多列子图
+
+实现多行子图也不难，需要注意**在换行处添加一行空格**
+
+```tex
+\begin{figure}[htbp]
+    \begin{subfigure}{.3\textwidth}
+        \centering
+        % 子图一
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图一}
+        \label{fig:sub-first}
+    \end{subfigure} 
+    \begin{subfigure}{.3\textwidth}
+        \centering
+        % 子图二
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图二}
+        \label{fig:sub-second}
+    \end{subfigure}
+    \begin{subfigure}{.3\textwidth}
+        \centering
+        % 子图三
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图三}
+        \label{fig:sub-third}
+    \end{subfigure}
+    % 下方需空一行
+
+    % 上方需空一行
+    \begin{subfigure}{.3\textwidth}
+        \centering
+        % 子图四
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图四}
+        \label{fig:sub-fourth}
+    \end{subfigure}
+    \begin{subfigure}{.3\textwidth}
+        \centering
+        % 子图五
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图五}
+        \label{fig:sub-fifth}
+    \end{subfigure}
+    \begin{subfigure}{.3\textwidth}
+        \centering
+        % 子图六
+        \includegraphics[width=.8\linewidth]{logo.png}
+        \caption{子图六}
+        \label{fig:sub-sixth}
+    \end{subfigure}
+    \caption{多行多列子图}
+    \label{fig:fig}
+\end{figure}
+% 交叉引用
+图(\ref{fig:fig})包括子图(\ref{fig:sub-first})、图(\ref{fig:sub-second})、图 (\ref{fig:sub-third})、图(\ref{fig:sub-fourth})、图 (\ref{fig:sub-fifth})和图(\ref{fig:sub-sixth})
+```
+
+<img src="https://imgkr.cn-bj.ufileos.com/bb4971a5-0097-4425-8080-e33a28c4a39d.png" width="85%" />
 
 [^1]: 仔细观察下代码就可以发现，诸如`{figures/}{figure/}{pictures/}{picture/}{pic/}{pics/}{image/}{images/}` 这些目录都会被支持
 [^2]: 只保留其中一个参数，另一个则会等比例放大或缩小
