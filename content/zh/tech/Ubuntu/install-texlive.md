@@ -66,6 +66,13 @@ sudo apt install texlive-full
 
 ## Ubuntu 系统
 
+## 安装视频
+
+{{< youtube bMQMWpWJNj0 >}}
+
+
+*b 站仿佛要审核很久。。。*
+
 ### 安装
 
 1. 使用上面相同的链接, 到"距"你最近的仓库下载镜像 [$\TeX$ Live](http://mirror.ctan.org/systems/texlive/Images/).
