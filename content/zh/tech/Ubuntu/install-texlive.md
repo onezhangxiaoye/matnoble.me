@@ -22,7 +22,7 @@ sudo apt install texlive-full
 
 照着之前写的博客, `下载, 安装, 设置环境变量, 更新包`又来了一遍, 很顺利, 包括下载镜像文件, 30分钟内搞定.
 
-由于更新到了 2019, 所以 Ubuntu 版的安装指南更新了一下~
+由于更新到了 2020, 所以 Ubuntu 版的安装指南更新了一下~
 
 {{< imgcap src="https://imgkr.cn-bj.ufileos.com/464616d6-967b-4b3d-8890-f12b41df64fe.png" title="victory" >}}
 
@@ -60,7 +60,7 @@ sudo apt install texlive-full
 
 安装之后, 可以打开 `选项` 设置默认编辑器(我设置为xelatex), 编辑器字体推荐设置为等宽型字体.  
 
-接下来, 就可以快(折)乐(腾)的使用$ \LaTeX $了! 😝
+接下来, 就可以快(折)乐(腾)的使用 $\LaTeX$ 了! 😝
 
 *以上为 ＴeXLive 2018为例, 其他版本大同小异*
 
@@ -104,9 +104,9 @@ sudo umount /mnt
 编辑 `/.bashrc`，在最后添加(路径以实际为准) 
 
 ```bash
-export PATH=$PATH:/usr/local/texlive/2019/bin/x86_64-linux
-export MANPATH=/usr/local/texlive/2019/texmf-dist/doc/man
-export INFOPATH=/usr/local/texlive/2019/texmf-dist/doc/info
+export PATH=$PATH:/usr/local/texlive/2020/bin/x86_64-linux
+export MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man
+export INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info
 ```
 
 然后 `source /.bashrc` 即可.
@@ -121,7 +121,7 @@ sudo apt install perl-tk
 3. 字体设置(路径以实际为准)
 
 ```shell
-sudo cp /usr/local/texlive/2019/texmf-var/fonts/conf/texlive-fontconfig.conf /etc/fonts/conf.d/09-texlive.conf
+sudo cp /usr/local/texlive/2020/texmf-var/fonts/conf/texlive-fontconfig.conf /etc/fonts/conf.d/09-texlive.conf
 sudo fc-cache -fv
 ```
 
@@ -145,7 +145,7 @@ sudo tlmgr option repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/t
 
 {{< notice warning >}}
 若显示 `sudo does not find tlmgr`, 则需要在 Terminal: `sudo visudo` <br>
-将 `/usr/local/texlive/2019/bin/x86_64-linux:` 加入 `secure_path`
+将 `/usr/local/texlive/2020/bin/x86_64-linux:` 加入 `secure_path`
 {{< /notice >}}
 
 2. 包及包管理器更新
