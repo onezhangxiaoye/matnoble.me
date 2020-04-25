@@ -14,6 +14,8 @@ toc = true
 
 ## 最基础
 
+{{< douban >}}
+
 在 $\LaTeX$ 里添加图片使用 `graphicx` 宏包，在导言区导入
 
 ```tex

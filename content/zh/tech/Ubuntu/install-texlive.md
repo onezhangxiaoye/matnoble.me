@@ -152,10 +152,6 @@ find -L /usr/local/bin/ -lname /usr/local/texlive/*/bin/* | sudo xargs rm
 
 <hr />
 
-下次再装 TeXLive 之时, 就是我换电脑之日 🦝
-
-<img src="https://ttfou.com/images/2020/02/27/024e38b99b47e9f56463cbfecd9d7c1e.gif" />
-
 ## Windows 系统
 
 ### 安装
@@ -193,5 +189,7 @@ find -L /usr/local/bin/ -lname /usr/local/texlive/*/bin/* | sudo xargs rm
 接下来, 就可以快(折)乐(腾)的使用 $\LaTeX$ 了! 😝
 
 *以上为 ＴeXLive 2018为例, 其他版本大同小异*
+
+<img src="https://ttfou.com/images/2020/02/27/024e38b99b47e9f56463cbfecd9d7c1e.gif" />
 
 [^1]: LaTeX 更换字体 <br> https://matnoble.me/tech/latex/latex-support-chinese/#xecjk-%E5%AE%9E%E7%8E%B0%E4%B8%AD%E8%8B%B1%E6%B7%B7%E6%8E%925
