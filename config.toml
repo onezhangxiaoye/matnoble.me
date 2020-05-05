@@ -1083,6 +1083,8 @@ uglyURLs = false
     # `title` 的前缀
     badgeTitlePrefix = "Updated @ "
 
+    # 社交链接
+    enableSocials = true
 
     ######################################
     # 文章的 Git 版本信息
