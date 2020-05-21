@@ -2,7 +2,21 @@
     font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif SC', serif;
 }
 
+// 主页底部图标
+.home {
+    .mla {
+        color: 	hsl(136, 53%, 43%);
+    }
+    .latex {
+        color: hsl(5, 81%, 56%);
+    }
+    .series {
+        color: hsl(217, 89%, 61%);
+    }
+}
+
 // 弹性布局调整
+
 .brand {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -18,20 +32,11 @@
     padding: 10em 1em;
 }
 
-.menu-item .icon {
-    display: none;
-}
-
-[data-theme="dark"] {
-    .theme-icon-dark, #lang-switcher, .footer-icon {
-        opacity: 0.5;
+.menu-item {
+    .archives, .categories, .tags, .series, .about, .search {
+	display: none;
     }
 }
-
-#lang-switcher {
-    margin-left: 0.3em;
-}
-
 @media (max-width: $maxWidth) {
     .nav {
         margin: 2em 0;
@@ -39,36 +44,32 @@
     .menu {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    .menu-item .icon {
-        display: inline-block;
+    .menu-item {
+        .archives, .categories, .tags, .series, .about, .search {
+            display: inline-block;
+        }
     }
     .menu-item-name {
         font-size: 80%;
     }
-
-    .theme-icon-light {
-        display: inline;
-    }
-    [data-theme="dark"] {
-        .theme-icon-dark {
-            display: inline !important;
-        }
-    }
-    #lang-switcher {
-        margin: 0;
-    }
 }
-
 .nav-toggle {
     transform: translateY(0.4em);
 }
 
-.footer {
-    letter-spacing: -0.1em;
+
+// katex
+
+.katex {
+    font: normal 1em Amstelvar, KaTeX_Main, Times New Roman, serif !important;
+    .mathdefault {
+        font-family: Amstelvar, KaTeX_Math !important;
+        font-style: italic;
+    }
 }
 
-
 // 自定义引用边框
+
 .note-danger, .note-warning, .note-success, .note-info, .note-primary, .note-default {
     padding: 0.5em 1em;
     border-left: 3px solid;
@@ -163,7 +164,10 @@ span.label.danger {
         background: hsl(352, 35%, 35%);
     }
 }
+
+
 // 引用格式
+
 p#div-default {
     background: var(--color-div-default-bg);	   
     border-left-color: var(--color-div-default);	    
@@ -232,11 +236,20 @@ p#div-default {
 .post-body {
     h2 {
         border-bottom: 1px solid var(--color-contrast-lower);
+        transition: all .5s;
     }
     h3 {
         border-bottom: 1px dotted var(--color-contrast-lower);
+        transition: all .5s;
     }
-} 
+}
+
+// 相关文章
+
+.related-list {
+    padding-left: 2em;
+    list-style: circle;
+}
 
 // 颜色渐变
 //文件位置：\themes\meme\assets\scss\_custom\custom.scss
@@ -324,19 +337,6 @@ color: transparent;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
-}
-
-// 主页底部图标
-.home {
-    .mla {
-        color: 	hsl(136, 53%, 43%);
-    }
-    .latex {
-        color: hsl(5, 81%, 56%);
-    }
-    .series {
-        color: hsl(217, 89%, 61%);
-    }
 }
 
 // https://github.com/TypeNetwork/Amstelvar
