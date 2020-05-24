@@ -37,6 +37,17 @@
 	display: none;
     }
 }
+
+[data-theme="dark"] {
+    .theme-icon-dark, #lang-switcher, .footer-icon {
+        opacity: 0.5;
+    }
+}
+
+#lang-switcher {
+    margin-left: 0.3em;
+}
+
 @media (max-width: $maxWidth) {
     .nav {
         margin: 2em 0;
@@ -52,7 +63,22 @@
     .menu-item-name {
         font-size: 80%;
     }
+    :root {
+        .theme-icon-light {
+            display: inline;
+        }
+    }
+    [data-theme="dark"] {
+        .theme-icon-dark {
+            display: inline !important;
+        }
+    }
+    #lang-switcher {
+        margin: 0;
+    }
 }
+
+
 .nav-toggle {
     transform: translateY(0.4em);
 }
