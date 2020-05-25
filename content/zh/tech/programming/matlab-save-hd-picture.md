@@ -1,6 +1,5 @@
 +++
 title = "Matlab 保存高质量矢量图片"
-categories = ["TECH","喜欢编程"]
 tags = ["Matlab"]
 keywords = ["Matlab","喜欢编程","矢量图片","Matlab 保存高质量矢量图片","matlab-support-high-dpi-screens-on-linux"]
 date = "2020-03-05T00:21:32+00:00"
