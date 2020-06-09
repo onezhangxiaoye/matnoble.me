@@ -671,8 +671,6 @@ uglyURLs = false
     valineAppId = "6XSQubR7QUsrMqFc9qplzzAg-gzGzoHsz"
     valineAppKey = "zdYrMQSyRHwRokz9Lp8ft9lv"
     valinePlaceholder = "支持 Markdown 语言, 另外, 填写邮箱后, 会第一时间收到通知邮件呦 🍀"
-    valineNotify = false
-    valineVerify = true
     valinePath = ""
     valineAvatar = "monsterid"
     valineMeta = ["nick", "mail", "link"]
@@ -680,9 +678,13 @@ uglyURLs = false
     valineLang = "zh-cn"
     valineVisitor = false
     valineHighlight = true
-    avatarForce = false
+    valineAvatarForce = false
     valineRecordIP = false
     valineServerURLs = ""
+    valineEmojiCDN = ""
+    valineEmojiMaps = {}
+    valineEnableQQ = false
+    valineRequiredFields = []
     # 说明：https://valine.js.org/
 
     ## Utterances
