@@ -33,7 +33,7 @@
 }
 
 .menu-item {
-    .archives, .categories, .tags, .series, .about, .search {
+    .archives, .categories, .tags, .series, .about, .searchs {
 	display: none;
     }
 }
@@ -56,7 +56,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .menu-item {
-        .archives, .categories, .tags, .series, .about, .search {
+        .archives, .categories, .tags, .series, .about, .searchs {
             display: inline-block;
         }
     }

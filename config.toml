@@ -162,9 +162,7 @@ uglyURLs = false
 # RSS & Atom 文章数限制
 [services.rss]
     limit = -1
-
-
-
+    
 ##########################################
 # 菜单配置
 
@@ -236,7 +234,7 @@ uglyURLs = false
 	weight = 6
 	pre = "internal"
 	post = "sfriend"
-	identifier = "search"
+	identifier = "searchs"
     [[menu.main]]
         weight = 7
         identifier = "theme-switcher"
