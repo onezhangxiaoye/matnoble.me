@@ -47,12 +47,10 @@ export http_proxy="http://127.0.0.1:12333"
 
 后来, 薅 Google 羊毛, 利用 GCP 自建 ssr, 稳定性都不够好．改搭建 V2ray, 速度又得不到保障.
 
-绝望之际, 在 YouTube 上看到了 [阿狸云](http://a.foxss.me/), 提供免费节点, 适用之后, 感觉还可以, 于是去年双十一搞活动买了半年的. 
-
-如果你现在没有找到合适的节点, 可以试试这一个:
-
-[https://fox-c.top/auth/register?code=GfGC](https://fox-c.top/auth/register?code=GfGC)
+~~绝望之际, 在 YouTube 上看到了 [阿狸云](http://a.foxss.me/), 提供免费节点, 适用之后, 感觉还可以, 于是去年双十一搞活动买了半年的.~~
 
 如果不想花钱, 其实有很多电报群里有免费的公共节点, 不嫌麻烦或者对翻墙需求不大时, 可以去找一招.
+
+最新机场推荐: [科学上网终极版--机场推荐](https://matnoble.me/tech/tofreeworld/#%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90)
 
 {{< imgcap src="https://ttfou.com/images/2020/02/26/cdedf395c7831842ac59403aa0cc2f6f.jpg" title="科学上网 不作恶" >}}
