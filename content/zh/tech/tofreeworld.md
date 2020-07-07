@@ -80,6 +80,14 @@ We hold these truths to be self-evident, that all men are created equal, that th
 - Iphone
 
   大名鼎鼎的“小火箭”，可惜的是中国区没有该软件，需要自行搜寻美区 id 下载
+  
+--- 
+
+{{< notice tip >}}
+以上属于我对翻墙软件的部分了解，如发现有错误，请在评论区告诉我！
+
+另外，如果您有好用的机场或者稳定的科学上网方式，也欢迎在评论区分享出来！
+{{< /notice >}}
 
 
 [^1]: [Chrome 浏览器翻墙](https://matnoble.me/tech/ubuntu/scientific-internet/)只能临时迫不得已使用，既不稳定速度又慢
