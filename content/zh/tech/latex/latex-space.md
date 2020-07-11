@@ -29,7 +29,7 @@ tags = [""]
 
 ```tex
 \begin{cases}
--\nabla u = 1 \quad &x \in \Omega
+-\Delta u = 1 \quad &x \in \Omega
 \\[3pt]
 u = g &x \in \partial \Omega
 \end{cases}
@@ -37,7 +37,7 @@ u = g &x \in \partial \Omega
 
 $$
 \begin{cases}
--\nabla u = 1 \quad &x \in \Omega
+-\Delta u = 1 \quad &x \in \Omega
 \\\\[3pt]
 u = g &x \in \partial \Omega
 \end{cases}
