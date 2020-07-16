@@ -34,7 +34,7 @@ We hold these truths to be self-evident, that all men are created equal, that th
 
 ### Anylinks
 
-- 主页: [anylinks.me](anylinks.me)
+- 主页: [anylinks.me](https://anylinks.me)
 - 电报群: [t.me/Anylinks](https://t.me/Anylinks) (可及时获得最新主页地址)
 
 {{< imgcap src="https://imgkr.cn-bj.ufileos.com/27d26ebf-c773-46e3-8f57-b7b6bfd95fcd.png" title="目前 6 大套餐" >}}
