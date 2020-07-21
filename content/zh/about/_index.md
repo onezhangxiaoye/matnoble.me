@@ -28,6 +28,8 @@ related = false
 
 {{< imgcap src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" title="云 真好吃" >}}
 
+<figure><embed src="https://wakatime.com/share/@6296d1bf-3479-42d9-906e-5f4f4e7add02/f948685f-a51e-461e-9558-461e99e45ecc.svg"></embed></figure>
+
 ### 足迹
 
 <div style="position: relative; width: 100%; padding-bottom: 70%; padding-top: 5px; height: 0; overflow: hidden;">
