@@ -24,11 +24,9 @@ related = false
 
 ## About Me	
 
-我是生于『[电影奇迹年](https://www.douban.com/note/692120222/)』👴，就读于 HUST 的数学系读研究生，喜欢数学，乐于计算机编程序。不会吸烟，但偶尔会小酌一杯。喜欢旅行✈，却还没有去过太多地方，期待以后可以和我的她去更多好玩儿的地方。喜欢看[电影](/movie/)，未来想写些影评。最重要的是: 在能维持生计的同时，做自己喜欢做的事!
+我是生于『[电影奇迹年](https://www.douban.com/note/692120222/)』，就读于 HUST 的数学系读研究生，喜欢数学，乐于计算机编程序。不会吸烟，但偶尔会小酌一杯。喜欢旅行✈，却还没有去过太多地方，期待以后可以和我的她去更多好玩儿的地方。喜欢看[电影](/movie/)，未来想写些影评。最重要的是: 在能维持生计的同时，做自己喜欢做的事!
 
 {{< imgcap src="https://imgkr.cn-bj.ufileos.com/c40ac815-3d0b-4ce4-a648-cdc841020b0c.jpg" title="云 真好吃" >}}
-
-<figure><embed src="https://wakatime.com/share/@6296d1bf-3479-42d9-906e-5f4f4e7add02/f948685f-a51e-461e-9558-461e99e45ecc.svg"></embed></figure>
 
 ### 足迹
 
