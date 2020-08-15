@@ -55,4 +55,5 @@ Fast, ultra secure, and easy to use VPN service to protect your privacy online. 
 {{< imgcap src="https://ttfou.com/images/2020/03/14/c20a8283162dc082e91bda5a5a6639a0.png" title="mobile" >}}
 
 [^1]: http://tb.newday.me/doc
+
 [^2]: Google 咱管不了，但我们能保证自己不作恶。<br> https://en.wikipedia.org/wiki/Don%27t_be_evil
