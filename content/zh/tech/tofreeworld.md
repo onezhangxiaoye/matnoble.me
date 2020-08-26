@@ -7,7 +7,7 @@ keywords = ["科学上网","机场推荐","Chrome 插件","好工具高效率","
 toc = true
 +++
 
-{{< imgcap src="https://imgkr.cn-bj.ufileos.com/9017949d-da2b-4a12-a0a4-770ce34653fc.jpg" title="liberalism">}}
+{{< imgcap src="https://cdn.jsdelivr.net/gh/MatNoble/Images@master/uPic/Y4i6g9.jpg" title="liberalism">}}
 
 {{< blockquote title="United States Declaration of Independence" link="https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence" >}}
 We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness.
@@ -43,8 +43,6 @@ We hold these truths to be self-evident, that all men are created equal, that th
 ### ~~Anylinks~~
 
 ### ~~PieCloud~~
-
-
 
 ## 科学上网软件
 
