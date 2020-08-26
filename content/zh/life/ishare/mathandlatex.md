@@ -38,7 +38,7 @@ toc = true
 
 公众号内回复: `数学系考研资料` 获取下载链接🔗 
 
-![数系家园](https://imgkr2.cn-bj.ufileos.com/47b87ead-3552-4b49-97c1-cb17da4d8c07.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=kuNN0nqOgpqBfZx4KwnKtU7aaxk%253D&Expires=1598506201)
+![](https://cdn.jsdelivr.net/gh/MatNoble/Images@master/uPic/uXiJsM.jpg)
 
 ## $\LaTeX$ 学习资料
 
@@ -48,7 +48,7 @@ toc = true
 
 公众号内回复: `LaTeX 学习资料分享` 获取下载链接🔗 (建议直接复制粘贴)
 
-![数系家园](https://imgkr2.cn-bj.ufileos.com/47b87ead-3552-4b49-97c1-cb17da4d8c07.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=kuNN0nqOgpqBfZx4KwnKtU7aaxk%253D&Expires=1598506201)
+![数系家园](https://cdn.jsdelivr.net/gh/MatNoble/Images@master/uPic/uXiJsM.jpg)
 
 ## 声明
 
