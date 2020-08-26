@@ -38,7 +38,7 @@ We hold these truths to be self-evident, that all men are created equal, that th
 
 - 95折优惠码:HEROESNEVERDIE (月付/团队包/企业包不可用)
 
-- 我的邀请链接: [邀请码: 132597]([海豚湾](https://hitun.io//auth/register?affid=132597))
+- 我的邀请链接: [邀请码: 132597](https://hitun.io//auth/register?affid=132597)
   
   <img src="https://cdn.jsdelivr.net/gh/MatNoble/Images@master/uPic/er93dD.png" title="" alt="https://cdn.jsdelivr.net/gh/MatNoble/Images@master/uPic/er93dD.png" data-align="center">
 
