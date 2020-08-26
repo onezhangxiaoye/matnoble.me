@@ -5,9 +5,8 @@ tags = ["回忆过去"]
 categories = ["LIFE","Memory"]
 keywords = ["Memory","爱分享","my best memory","数系家园","数学系考研","latex"]
 toc = true
+mathjax = true
 +++
-
-
 
 ![](https://cdn.jsdelivr.net/gh/MatNoble/Images@master/uPic/DJw267.jpg)
 
